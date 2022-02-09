@@ -16,13 +16,13 @@ function Event() {
   <div class ={Eventcss.container}>
     <div class = {Eventcss.card}>
       <div class = {Eventcss.image}>
-        <Link to='/general'><img src = {general} alt='general' /></Link>
+        <Link to='/general/List'><img src = {general} alt='general' /></Link>
       </div>
      
     </div>
     <div class = {Eventcss.card}>
       <div class = {Eventcss.image}>
-       <Link to='/ece'>
+       <Link to='/ece/Listec'>
         <img href = "#" src = {ece} alt='ece' />
        </Link>
       </div>
@@ -35,7 +35,10 @@ function Event() {
     </div>
     <div class = {Eventcss.card}>
       <div class = {Eventcss.image}>
+      <Link to="/eee/Listee">
         <img href = "#" src = {eee} alt='eee' />
+      </Link>
+
       </div>
       <div class = {Eventcss.content}>
         <a class="view" href="http://127.0.0.1:5500/front/src/event/index.html">
@@ -46,7 +49,9 @@ function Event() {
     </div>  
     <div class = {Eventcss.card}>
       <div class = {Eventcss.image}>
+        <Link to="/cse/Listcs">
         <img href = "#" src ={cse} alt='cse' />
+        </Link>
       </div>
       <div class = {Eventcss.content}>
         <a class={Eventcss.content} href='./Event'>
