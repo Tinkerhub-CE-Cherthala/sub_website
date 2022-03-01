@@ -4,11 +4,16 @@ import eee from '../../images/eee.png';
 import cse from '../../images/computer.png';
 import Eventcss from './Event.module.css'
 import {Link} from 'react-router-dom';
+import Mainbg from '../MainFirst/Mainbg';
+import Contact from '../contacts/Contact';
 
 
 function Event() {
     return (
-        <div>
+        <div class={Eventcss.outer}>
+          <div class={Eventcss.main}>
+          <Mainbg />
+          </div>
             <div class={Eventcss.event}>
     <p>Events</p>
   </div>
@@ -61,7 +66,9 @@ function Event() {
       </div>
     </div>   
   </div>
+  <Contact />
 </div>
+      
         </div>    
     );
 }

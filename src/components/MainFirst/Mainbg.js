@@ -1,5 +1,5 @@
 import './Mainbg.css';
-import logo from './images/logo thick 1.png';
+import logo from '../../images/logo thick 1.png';
 
 
 
@@ -10,9 +10,9 @@ function Mainbg() {
         header.classList.toggle('sticky',window.scrollY > 0);
     });
     
-    const navigation= document.querySelector('nav');
     
     window.onload= function(){
+        const navigation= document.querySelector('nav');
     document.querySelector('.toggle').onclick = function(){
         this.classList.toggle('active');
         navigation.classList.toggle('active');

@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b3803e20bb.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <section class="contact">
+import React from 'react';
+import './Contact.css';
+
+function map(){
+    return(
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.265952039256!2d76.36178251431056!3d9.743525080072184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0879620b16c7e1%3A0x8858edaeedfc5220!2sCollege%20of%20Engineering%20Cherthala!5e0!3m2!1sen!2sin!4v1640874561700!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    )
+}
+
+export default function Contact() {
+    return (
+        <section class="contact">
         <div class="content">
             <h2>Contact Us</h2>
         </div>
@@ -38,8 +35,8 @@
                     <div class="icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="marker">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.265952039256!2d76.36178251431056!3d9.743525080072184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0879620b16c7e1%3A0x8858edaeedfc5220!2sCollege%20of%20Engineering%20Cherthala!5e0!3m2!1sen!2sin!4v1640874561700!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="marker" src={map()}>
+                       
                     </div>
                 </div>
                 <div class="smedia">
@@ -69,15 +66,15 @@
                 <h2>Send Message</h2>
                 <form action="" method="post">
                     <div class="inputbox">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="" required="required" />
                         <span>Full Name</span>
                     </div>
                     <div class="inputbox">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="" required="required" />
                         <span>Phone Number</span>
                     </div>
                     <div class="inputbox">
-                        <input type="email" name="" required="required">
+                        <input type="email" name="" required="required" />
                         <span>Email</span>
                     </div>
                     <div class="inputbox">
@@ -89,6 +86,7 @@
                     </div>
                 </form> 
             </div>
+            </div>
     </section>
-</body>
-</html>
+    )
+}
