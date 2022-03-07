@@ -28,7 +28,7 @@ function Event() {
     <div class = {Eventcss.card}>
       <div class = {Eventcss.image}>
        <Link to='/ece/Listec'>
-        <img href = "#" src = {ece} alt='ece' />
+        <img href = "#" src = {ece} alt='ece'  />
        </Link>
       </div>
       <div class = {Eventcss.content}>
@@ -66,9 +66,8 @@ function Event() {
       </div>
     </div>   
   </div>
-  <Contact />
 </div>
-      
+      <Contact/>
         </div>    
     );
 }

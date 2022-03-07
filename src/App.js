@@ -10,6 +10,7 @@ import Form from './components/general/Form';
 import Formee from './components/eee/Formee';
 import Formec from './components/ece/Formec';
 import Formcs from './components/cse/Formcs';
+import Mainbg from "./components/MainFirst/Mainbg";
 
 
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/" element={<Event />} exact/>
+      <Route path="/" element={<Event/>} exact/>
       <Route path="/general/List" element={<List />} />
       <Route path="/eee/Listee" element={<Listee />} />
       <Route path="/ece/Listec" element={<Listec />} />

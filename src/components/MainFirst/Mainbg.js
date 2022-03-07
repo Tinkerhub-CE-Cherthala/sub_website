@@ -1,5 +1,6 @@
 import './Mainbg.css';
 import logo from '../../images/logo thick 1.png';
+import Event from '../Events/Event';
 
 
 
@@ -22,6 +23,10 @@ function Mainbg() {
 
 
     return (
+
+        <div>
+
+        
         <header>
         <div class="main-bg"></div>
         <div class="logo">
@@ -33,7 +38,7 @@ function Mainbg() {
         </div>
         <a class="zealous" href="./Mainbg.js">Zealous</a>
         <div class="toggle"></div>
-        <nav>
+        <nav className='navbar'>
             <ul>
                 <li><a href="./Event">Events</a></li>
                 <li><a href="./Event">About</a></li>
@@ -41,6 +46,7 @@ function Mainbg() {
             </ul>
         </nav>
     </header>
+    </div>
     );
 }
 export default Mainbg;

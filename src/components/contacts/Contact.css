@@ -1,23 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .contact
 {
     position: relative;
-    min-height: 100vh;
     padding: 50px 100px;
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    
+    height: 150vh;
+    
 }
 .content
 {
-    max-width: 800px;
+    /* max-width: 800px; */
     text-align: center;
+    
 }
 .content h2
 {
@@ -28,18 +26,20 @@
 }
 .container
 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
     font-family: Montserrat;
+    margin-top: 10%;
+    
 }
 .contactinfo
 {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    
 }
 .contactinfo .box
 {
@@ -107,6 +107,7 @@
     padding: 40px;
     background: white;
     border-style: inset;
+    margin-left: -55%;
 }
 h2
 {
@@ -185,7 +186,7 @@ button[type="submit"]:hover
     {
         margin-bottom: 40px;
     }
-    .container.contactinfo
+    .container .contactinfo
     {
         width: 100%;
     }
