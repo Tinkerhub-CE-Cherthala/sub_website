@@ -30,6 +30,7 @@ header .main-bg{
     object-fit: cover;
     transition: 1s;
     background-color: black;
+
 }
 header .logo{
     display: grid;
@@ -102,7 +103,7 @@ header.sticky .zealous{
 nav{
     position: relative;
     display: flex;
-    z-index: 1;
+    z-index: 100;
 }
 nav ul{
     position: relative;
@@ -110,6 +111,12 @@ nav ul{
     transition: 0.25%;
     transform: translateX(100px);
     opacity: 0;
+}
+#navbar{
+    z-index: 1000;
+    width: 100%;
+    background-color: black;
+    position: absolute;
 }
 header.sticky nav ul{
     transform: translateX(0px);
