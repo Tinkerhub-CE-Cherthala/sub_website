@@ -9,11 +9,15 @@ function map(){
 
 export default function Contact() {
     return (
+        <div>
+
         <section class="contact">
+        
         <div class="content">
             <h2>Contact Us</h2>
         </div>
         <div class="container">
+            
             <div class="contactinfo">
                 <div class="phonere" onclick="window.open('tel:+917306795119');">
                      <div class="box">
@@ -88,5 +92,7 @@ export default function Contact() {
             </div>
             </div>
     </section>
+  
+    </div>
     )
 }

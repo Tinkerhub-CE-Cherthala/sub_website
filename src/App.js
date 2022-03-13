@@ -10,14 +10,17 @@ import Form from './components/general/Form';
 import Formee from './components/eee/Formee';
 import Formec from './components/ece/Formec';
 import Formcs from './components/cse/Formcs';
-
+import Main from "./Main";
+import Index from "./components/Index";
+import Days from "./components/Schedule/Days";
 
 
 function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/" element={<Event />} exact/>
+      <Route path="/" element={<Main />} exact/>
+      <Route path="/main" element={<Index />} />
       <Route path="/general/List" element={<List />} />
       <Route path="/eee/Listee" element={<Listee />} />
       <Route path="/ece/Listec" element={<Listec />} />
@@ -26,7 +29,8 @@ function App() {
       <Route path="/eee/Listee/Formee" element={<Formee />} />
       <Route path="/ece/Listec/Formec" element={<Formec />} />
       <Route path="/cse/Listcs/Formcs" element={<Formcs />} />
-
+      <Route path="/Events/Event" element={<Event />} />
+      <Route path="/Days" element={<Days />} />
     </Routes>
   </Router>
     
