@@ -63,7 +63,7 @@ function Event() {
     </div>   
   </div>
 </div>
-      
+      <Contact/>
         </div>    
     );
 }

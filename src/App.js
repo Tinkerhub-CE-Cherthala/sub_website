@@ -19,8 +19,11 @@ function App() {
   return (
     <Router>
     <Routes>
+
       <Route path="/" element={<Main />} exact/>
       <Route path="/main" element={<Index />} />
+
+      
       <Route path="/general/List" element={<List />} />
       <Route path="/eee/Listee" element={<Listee />} />
       <Route path="/ece/Listec" element={<Listec />} />
