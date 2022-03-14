@@ -4,7 +4,6 @@ import eee from '../../images/eee.png';
 import cse from '../../images/computer.png';
 import Eventcss from './Event.module.css'
 import {Link} from 'react-router-dom';
-import Contact from '../contacts/Contact.js'
 
 
 
@@ -64,6 +63,7 @@ function Event() {
     </div>   
   </div>
 </div>
+      
         </div>    
     );
 }
