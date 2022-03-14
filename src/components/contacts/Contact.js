@@ -9,18 +9,37 @@ function map(){
 
 export default function Contact() {
     return (
+<<<<<<< HEAD
         <section class={Contactcss.contact}>
+=======
+        
+        <div>
+
+        <section class={Contactcss.contact}>
+        
+>>>>>>> master
         <div class={Contactcss.content}>
             <h2>Contact Us</h2>
         </div>
         <div class={Contactcss.container}>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> master
             <div class={Contactcss.contactinfo}>
                 <div class={Contactcss.phonere} onclick="window.open('tel:+917306795119');">
                      <div class={Contactcss.box}>
                          <div class={Contactcss.icon}><i class="fas fa-phone"></i></div>
+<<<<<<< HEAD
                      </div>
                      <div class={Contactcss.text}>
                         <a href="tel:+917306795119" class={Contactcss.contactdata}>+91 7306795119</a>
+=======
+
+                     </div>
+                     <div class={Contactcss.text}>
+                        <a href="tel:+917306795119" class={Contactcss.contact}>+91 7306795119</a>
+>>>>>>> master
                      </div>
                 </div>
                 <div class={Contactcss.mailre} onclick="window.open('mailto:jayakrishnans2041@gmail.com');">
@@ -46,7 +65,11 @@ export default function Contact() {
                         </div>
                     </div>
                     <div class={Contactcss.smedia}>
+<<<<<<< HEAD
                         <div class="instagram">
+=======
+                        <div class={Contactcss.instagram}>
+>>>>>>> master
                             <a href="https://www.instagram.com/zealouscec/?hl=en" class={Contactcss.iconlink}><i class="fab fa-instagram" id="insta"></i></a>
                         </div>
                     </div>
@@ -57,7 +80,11 @@ export default function Contact() {
                     </div>    
                     <div class={Contactcss.smedia}>
                         <div class={Contactcss.twitter}>
+<<<<<<< HEAD
                             <a href="https://twitter.com/zealouscec" class="icon-link"><i class="fab fa-twitter"></i></a>
+=======
+                            <a href="https://twitter.com/zealouscec" class={Contactcss.iconlink}><i class="fab fa-twitter"></i></a>
+>>>>>>> master
                         </div>
                     </div>        
                 </div>
@@ -88,5 +115,7 @@ export default function Contact() {
             </div>
             </div>
     </section>
+  
+    </div>
     )
 }
