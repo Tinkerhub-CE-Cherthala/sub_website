@@ -6,6 +6,7 @@ import Eventcss from './Event.module.css'
 import {Link} from 'react-router-dom';
 import Mainbg from '../MainFirst/Mainbg';
 import Contact from '../contacts/Contact';
+import About from '../About/About';
 
 
 function Event() {
@@ -68,6 +69,7 @@ function Event() {
   </div>
 </div>
       <Contact/>
+      <About/>
         </div>    
     );
 }
