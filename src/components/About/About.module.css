@@ -6,10 +6,11 @@
     /* font-family: "Times New Roman", Times, serif; */
     font-weight: bold;
      text-align: justify;
+     font-size: large;
    
    
    }
-   h2{
+   .heading{
    
     padding: 15px;
     color:white;
@@ -17,6 +18,8 @@
     /* font-family: "Times New Roman", Times, serif; */
     font-size: 40px;
     font-weight: bold;
+    font-size: xx-large;
+    
    
    }
    .cardm {
@@ -26,9 +29,16 @@
      width: 90%;
      padding: 15px 25px;
      border-radius: 50px;
-   
      background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+     text-align: center;
+     overflow: hidden;
      
+   }
+   .full{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 5%;
    }
    
    
@@ -40,6 +50,10 @@
      box-sizing: border-box;
      font-family: 'Poppins',sans-serif;
    }
+   .row{
+     display: flex;
+   }
+   
    
    ::selection{
      background:	#FF676D;
@@ -47,9 +61,17 @@
    }
    .container{
     
-     overflow: hidden;
+     overflow-x: scroll;
      padding: 10px 20px;
+     -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+     
+  
    }
+   .container::-webkit-scrollbar {
+    display: none;
+  }
+  
    .container .maincard{
      display: flex;
      justify-content: space-evenly;
@@ -165,16 +187,42 @@
      display: none;
    }
    @media (max-width: 768px) {
+     .cards{
+       display: flex;
+     }
+     .card{
+       display: flex;
+     }
      .main-card .cards .card{
        margin: 20px 0 10px 0;
        width: calc(100% / 2 - 10px);
      }
+     .row{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .card{
+       margin-top: 20%;
+     }
+
    }
    @media (max-width: 600px) {
      .maincard .cards .card{
        /* margin: 20px 0 10px 0; */
        width: 100%;
      }
+     .row{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .card{
+      width:75%;
+      
+    }
    }
    
    /* End Scroller*/
