@@ -9,31 +9,21 @@ function map(){
 
 export default function Contact() {
     return (
-<<<<<<< HEAD
+        
+        <div>
+
         <section class={Contactcss.contact}>
+        
         <div class={Contactcss.content}>
             <h2>Contact Us</h2>
         </div>
         <div class={Contactcss.container}>
+            
             <div class={Contactcss.contactinfo}>
                 <div class={Contactcss.phonere} onclick="window.open('tel:+917306795119');">
                      <div class={Contactcss.box}>
                          <div class={Contactcss.icon}><i class="fas fa-phone"></i></div>
-=======
-        <div>
 
-        <section class="contact">
-        
-        <div class="content">
-            <h2>Contact Us</h2>
-        </div>
-        <div class="container">
-            
-            <div class="contactinfo">
-                <div class="phonere" onclick="window.open('tel:+917306795119');">
-                     <div class="box">
-                         <div class="icon"><i class="fas fa-phone"></i></div>
->>>>>>> e6ccb9f0743341b755d4551f6f5c887bba51323a
                      </div>
                      <div class={Contactcss.text}>
                         <a href="tel:+917306795119" class={Contactcss.contact}>+91 7306795119</a>
@@ -44,7 +34,7 @@ export default function Contact() {
                         <div class={Contactcss.icon}><i class="fas fa-envelope"></i></div>
                     </div>
                     <div class={Contactcss.text}>
-                        <a href="mailto:jayakrishnans2041@gmail.com" class={Contactcss.mail-data}>jayakrishnans2041@gmail.com</a>
+                        <a href="mailto:jayakrishnans2041@gmail.com" class={Contactcss.maildata}>jayakrishnans2041@gmail.com</a>
                     </div>
                 </div>
                 <div class={Contactcss.box}>
@@ -58,22 +48,22 @@ export default function Contact() {
                 <div class={Contactcss.smedia}>
                     <div class={Contactcss.smedia}>
                         <div class={Contactcss.facebook}>
-                            <a href="https://www.facebook.com/ceczealous/" class={Contactcss.icon-link}><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/ceczealous/" class={Contactcss.iconlink}><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class={Contactcss.smedia}>
                         <div class={Contactcss.instagram}>
-                            <a href="https://www.instagram.com/zealouscec/?hl=en" class={Contactcss.icon-link}><i class="fab fa-instagram" id="insta"></i></a>
+                            <a href="https://www.instagram.com/zealouscec/?hl=en" class={Contactcss.iconlink}><i class="fab fa-instagram" id="insta"></i></a>
                         </div>
                     </div>
                     <div class={Contactcss.smedia}>
                         <div class={Contactcss.youtube}>
-                            <a href="https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA" class={Contactcss.icon-link}><i class="fab fa-youtube" id="yout"></i></a>
+                            <a href="https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA" class={Contactcss.iconlink}><i class="fab fa-youtube" id="yout"></i></a>
                         </div>
                     </div>    
                     <div class={Contactcss.smedia}>
                         <div class={Contactcss.twitter}>
-                            <a href="https://twitter.com/zealouscec" class={Contactcss.icon-link}><i class="fab fa-twitter"></i></a>
+                            <a href="https://twitter.com/zealouscec" class={Contactcss.iconlink}><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>        
                 </div>
