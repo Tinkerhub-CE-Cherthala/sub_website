@@ -64,6 +64,10 @@ function Event() {
     </div>   
   </div>
 </div>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> refs/remotes/origin/master
         </div>    
     );
 }
