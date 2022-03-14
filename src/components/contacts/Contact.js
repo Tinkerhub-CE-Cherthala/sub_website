@@ -9,6 +9,7 @@ function map(){
 
 export default function Contact() {
     return (
+<<<<<<< HEAD
         <section class={Contactcss.contact}>
         <div class={Contactcss.content}>
             <h2>Contact Us</h2>
@@ -18,6 +19,21 @@ export default function Contact() {
                 <div class={Contactcss.phonere} onclick="window.open('tel:+917306795119');">
                      <div class={Contactcss.box}>
                          <div class={Contactcss.icon}><i class="fas fa-phone"></i></div>
+=======
+        <div>
+
+        <section class="contact">
+        
+        <div class="content">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            
+            <div class="contactinfo">
+                <div class="phonere" onclick="window.open('tel:+917306795119');">
+                     <div class="box">
+                         <div class="icon"><i class="fas fa-phone"></i></div>
+>>>>>>> e6ccb9f0743341b755d4551f6f5c887bba51323a
                      </div>
                      <div class={Contactcss.text}>
                         <a href="tel:+917306795119" class={Contactcss.contact}>+91 7306795119</a>
@@ -88,5 +104,7 @@ export default function Contact() {
             </div>
             </div>
     </section>
+  
+    </div>
     )
 }

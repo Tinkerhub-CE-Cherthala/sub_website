@@ -1,21 +1,21 @@
 
-
+:root{
+  --orange: #ff4500;
+  --black: #000000;
+}
 
 * { 
-    margin : 0;
-    padding: 0;
-    box-sizing : border-box;
+    margin : 0%;
+    padding: 0%;
+    /* box-sizing : border-box; */
   }
 
   .outer{
-    background-color: #ffffff;
+    background-color: var(--black);
+    width: 100vw;
   }
 
-  .main{
-    min-height: 1000px;
-    margin-bottom: 100px;
-    background-color: black;
-  }
+  
   .section2{
     display : flex;
     align-items : center;
@@ -33,7 +33,7 @@
     font-size: 7vmax;
   }
   .event p{
-    color:black;
+    color:var(--orange);
 
   }
   

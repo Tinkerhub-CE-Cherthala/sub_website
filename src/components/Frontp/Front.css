@@ -1,121 +1,59 @@
-
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-/* body{
+body{
     min-height: 1000px;
-} */
+}
 header{
-    margin: 0%;
-    padding: 0%;
-    z-index: 100;
     position:fixed ;
-    width: 100%;
-    height: 100vh;
-    background: white;
+    width: 100vw;
+    background: url(../../images/bg.jpg);
     display: flex;
-    justify-content: flex-end;
+    
     align-items: center;
     transition: 1s;
-}
-header.sticky{
     height: 80px;
 }
+/* header.sticky{
+} */
 header .main-bg{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     object-fit: cover;
     transition: 1s;
-    background-color: black;
-}
-header .logo{
-    display: grid;
-    grid-template-rows: 50% 50%;
-    margin: 0%;
-}
-header.sticky .logo{
-    position: absolute;
-    left: 5%;
-}
-header .logo .logo1{
-    position:fixed;
-    top: 35%;
-    left: 50%;
-    opacity: 1;
-    transform: translate(-50%,-50%);
-    transition: 1s;
-    width: 25%;
 }
 
-header.sticky .logo1{
-    opacity: 0;
-    display: none;
-}
-header .logo2{
-    position:fixed;
-    top: 70%;
-    left: 50%;
-    transition: 1s;
-    transform: translate(-50%,-50%);
-    z-index: 1;
-}
-header.sticky .logo2{
-    opacity: 0;
-    display: none;
-    z-index: -2;
-}
-header .logo2 a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-size: 7vw;
-    font-weight: 500;
-}
-header .logo2 p{
-    font-size: 1vw;
-    color: white;
-    font-family: 'Montserrat';
-    text-align: center;
-    justify-content: center;
-    padding: 0%;
-}
+
 header .zealous{
     position: absolute;
-    transform: translateX(100px);
+    transform: translateX(0px);
     font-size: 10vw;
-    z-index: 1;
-    opacity: 0;
+    z-index: 100;
     color: white;
     text-decoration: none;
     font-family: 'Poppins';
-}
-header.sticky .zealous{
-    position: absolute;
     font-size: 2em;
     left: 7%;
-    transform: translateX(0px);
     opacity: 1;
 }
+
 nav{
     position: relative;
     display: flex;
-    z-index: 1;
+    z-index: 100;
 }
 nav ul{
     position: relative;
     display: flex;
-    transition: 0.25%;
-    transform: translateX(100px);
-    opacity: 0;
-}
-header.sticky nav ul{
+    /* transition: 0.25%; */
     transform: translateX(0px);
     opacity: 1;
     right: 7%;
 }
+
 nav ul li{
     list-style: none;
 }
@@ -135,13 +73,14 @@ nav ul li a:hover{
     header{
         padding: 0px;
     }
-    header.sticky .zealous{
+    header .zealous{
         left: 40px;
     }
-    header.logo .logo1{
+    header .logo .logo1{
         width: 40%;
+        top: 50%;
     }
-    header.sticky .main-bg{
+    header .main-bg{
         opacity: 1;
         background-color: black;
     }    
@@ -163,7 +102,7 @@ nav ul li a:hover{
         flex-direction: column;
     }
     
-    header.sticky nav ul{
+    header nav ul{
         opacity: 1;
         visibility: visible;
 
@@ -171,7 +110,7 @@ nav ul li a:hover{
     nav ul li a{
         font-size: 2em;
     }
-    header.sticky .toggle{
+    header .toggle{
         position: fixed;
         right: 20px;
         top: 20px;
@@ -183,7 +122,7 @@ nav ul li a:hover{
         cursor: pointer;
         background-size: 30px;
     }
-    header.sticky .toggle.active{
+    header .toggle.active{
         background: url('../../images/close.png');
         background-repeat: no-repeat;
         background-position: center;
