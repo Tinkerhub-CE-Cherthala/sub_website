@@ -1,8 +1,18 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import Aboutcss from './About.module.css'
+import Carousel from 'react-elastic-carousel';
+
 
 
 function About() {
+  const ref = useRef(null);
+  
+const scroll = () => {
+  ref.scrollX += 20;
+};
+
+
+
   return (
     <div className={Aboutcss.full}>
     <div className={Aboutcss.cardm}>
@@ -10,9 +20,15 @@ function About() {
         <p className={Aboutcss.para}>Back from 2014,the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres.ZEALOUS,the so called technical event,makes it almost like a modern-day Athens,the place of Athena herself.</p>
         <h2 ><u>Our Sponsors</u></h2> 
         <div className={Aboutcss.container}>
-    <input type="radio" name="dot" id="one"/>
-    <input type="radio" name="dot" id="two"/>
+    <input type="radio" name="dot" id="one" onClick={() => scroll(-20)}/>
+    <input type="radio" name="dot" id="two" onClick={() => scroll(20)}/>
+
     <div className={Aboutcss.maincard}>
+
+
+
+    <Carousel className={Aboutcss.crl}>
+    
       <div className={Aboutcss.cards}>
         <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
@@ -113,6 +129,9 @@ function About() {
          </div>
         </div>
       </div>
+
+      </Carousel>
+      
     </div>
     <div class={Aboutcss.button}>
       <label for="one" class="active one"></label>
