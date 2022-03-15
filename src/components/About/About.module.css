@@ -52,6 +52,7 @@
      font-family: 'Poppins',sans-serif;
    }
    .row{
+     
      display: flex;
    }
    
@@ -61,15 +62,32 @@
      color: #fff;
    }
    .container{
-  
+    overflow: scroll;
      padding: 10px 20px;
      -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
+
      
-  
+
+   }
+   .cards{
+    display: flex;
+   }
+   .cards:hover{
+    animation-play-state:paused ;
    }
    .container::-webkit-scrollbar {
     display: none;
+  }
+
+  @keyframes scroll{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(calc(-250px * 9));
+    }
+
   }
   
    .container .maincard{
@@ -82,11 +100,18 @@
      margin-left: -100%;
    }
    .container .maincard .cards{
-     width: calc(100% / 2 - 10px);
+     /* width: calc(100% / 2 - 10px); */
+     width: 100%;
      display: flex;
-     flex-wrap: wrap;
      margin: 0 20px;
      justify-content: space-between;
+     
+   }
+   .card{
+     margin-left: 1%;
+   }
+   .cards:hover{
+    animation-play-state: paused;
    }
    .maincard .cards .card{
      width: calc(100% / 3 - 10px);
@@ -95,6 +120,7 @@
      padding: 30px;
      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
      transition: all 0.4s ease;
+     animation: scroll 40s linear infinite;
    }
    .maincard .cards .card:hover{
      transform: translateY(-15px);

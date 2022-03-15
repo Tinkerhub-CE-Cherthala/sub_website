@@ -5,11 +5,7 @@ import Carousel from 'react-elastic-carousel';
 
 
 function About() {
-  const ref = useRef(null);
   
-const scroll = () => {
-  ref.scrollX += 20;
-};
 
 
 
@@ -20,16 +16,13 @@ const scroll = () => {
         <p className={Aboutcss.para}>Back from 2014,the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres.ZEALOUS,the so called technical event,makes it almost like a modern-day Athens,the place of Athena herself.</p>
         <h2 ><u>Our Sponsors</u></h2> 
         <div className={Aboutcss.container}>
-    <input type="radio" name="dot" id="one" onClick={() => scroll(-20)}/>
-    <input type="radio" name="dot" id="two" onClick={() => scroll(20)}/>
+    {/* <input type="radio" name="dot" id="one" onClick={() => scroll(-20)}/>
+    <input type="radio" name="dot" id="two" onClick={() => scroll(20)}/> */}
 
     <div className={Aboutcss.maincard}>
-
-
-
-    <Carousel className={Aboutcss.crl}>
     
       <div className={Aboutcss.cards}>
+
         <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
            <div className={Aboutcss.img}>
@@ -43,6 +36,39 @@ const scroll = () => {
              <a href="#"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
            
+           </div>
+         </div>
+        </div>
+        
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             
+           </div>
+         </div>
+        </div>
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             
            </div>
          </div>
         </div>
@@ -78,8 +104,25 @@ const scroll = () => {
            </div>
          </div>
         </div>
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/hp.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>HP</div>
+             <div class={Aboutcss.job}>American multinational information technology company</div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+            
+           </div>
+         </div>
+        </div>
       </div>
-      <div class={Aboutcss.cards}>
+
+      {/* <div class={Aboutcss.cards}>
         <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
@@ -128,15 +171,14 @@ const scroll = () => {
            </div>
          </div>
         </div>
-      </div>
+      </div> */}
+      
 
-      </Carousel>
+  
+      
       
     </div>
-    <div class={Aboutcss.button}>
-      <label for="one" class="active one"></label>
-      <label for="two" class="two"></label>
-    </div>
+   
   </div>
 
   
