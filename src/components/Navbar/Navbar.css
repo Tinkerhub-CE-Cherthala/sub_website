@@ -8,12 +8,12 @@
     top: 0;
     width: 100%;
     height: 80px;
-    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    background: linear-gradient(45deg, var(--orange), #992900);
 }
 
 .zealous{
     position: absolute;
-    color: blanchedalmond;
+    color: var(--black);
     z-index: 102;
     transform: translateX(45%);
     top: 30%;
@@ -22,7 +22,7 @@
 
 .list {
     list-style-type: none;
-    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    background: linear-gradient(45deg, var(--orange), #992900);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
     margin-right: 20px;
     font-size: 20px;
     text-transform: uppercase;
-    color: #f1f1f1;
+    color: var(--black);
     cursor: pointer;
     text-decoration: none;
 }

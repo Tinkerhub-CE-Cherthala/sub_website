@@ -4,6 +4,7 @@ import Event from './Events/Event'
 import Schedule from './Schedule/Schedule'
 import Navbar from './Navbar/Navbar'
 import About from './About/About'
+import Footer from './footer/Footer'
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
         <Schedule />
         <About/>
         <Event />
+        <Footer />
       </div>  
     </StrictMode>
   )

@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../Navbar/Navbar';
-import './Day.css'
+import './Day.css';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 export default function Days() {
 
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[]);
     
     function day2(){
         var x = document.getElementById('day1');
@@ -35,7 +40,6 @@ export default function Days() {
   return (
     <>
         <Navbar />  
-        <div class="con">
         <nav class="page" id='pag'>
             <div class="switch">
                 <button class="button toggle" onClick={day1}>Day 1</button>
@@ -43,67 +47,66 @@ export default function Days() {
                 <div id="btn"></div>
             </div>
             <ul class="table" id="day1" >
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event0</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
             </ul>
             <ul class="table" id="day2" >
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event0</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event2</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event3</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
-                <li class="prog1">
+                <li class="prog1" data-aos="fade-up">
                     <p class="name">event1</p>
                     <p class="time">time</p>
                 </li>
             </ul>
         </nav>
-        </div>
     </>
   )
 }
