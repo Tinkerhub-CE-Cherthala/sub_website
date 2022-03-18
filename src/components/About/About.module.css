@@ -84,17 +84,23 @@
     0%{
       transform: translateX(0);
     }
-    100%{
-      transform: translateX(calc(-250px * 9));
+     100%{
+       transform: translateX(calc(-250px * 7)); 
     }
+    200%{
+      transform: translateX(0);
+    }  
+    
 
   }
   
+  
    .container .maincard{
      display: flex;
-     justify-content: space-evenly;
-     width: 200%;
+    justify-content: space-between;
+     width: 100%;
      transition: 1s;
+     flex-wrap: wrap;
    }
    #two:checked ~ .maincard{
      margin-left: -100%;
@@ -110,20 +116,24 @@
    .card{
      margin-left: 1%;
    }
-   .cards:hover{
-    animation-play-state: paused;
-   }
+   
    .maincard .cards .card{
-     width: calc(100% / 3 - 10px);
+     /* width: calc(100% / 3 - 10px);  */
+     width: 300px;
+     
      background: #fff;
      border-radius: 50px;
      padding: 30px;
      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
      transition: all 0.4s ease;
-     animation: scroll 40s linear infinite;
+     /* animation: scroll 40s linear infinite; */
+     
    }
+   
+   
    .maincard .cards .card:hover{
      transform: translateY(-15px);
+
    }
    .cards .card .content{
      width: 100%;

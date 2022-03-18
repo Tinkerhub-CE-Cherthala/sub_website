@@ -1,6 +1,7 @@
 import React,{useRef} from 'react'
 import Aboutcss from './About.module.css'
 import Carousel from 'react-elastic-carousel';
+import Marquee from "react-fast-marquee"
 
 
 
@@ -22,8 +23,9 @@ function About() {
     <div className={Aboutcss.maincard}>
     
       <div className={Aboutcss.cards}>
+        <Marquee speed={100} pauseOnHover={true} gradient={false}>
 
-        <div className={Aboutcss.card}>
+        {/* <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
            <div className={Aboutcss.img}>
              <img src="images/apple.png" alt=""/>
@@ -36,6 +38,23 @@ function About() {
              <a href="#"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
            
+           </div>
+         </div>
+        </div> */}
+        
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             
            </div>
          </div>
         </div>
@@ -56,23 +75,7 @@ function About() {
            </div>
          </div>
         </div>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/intel.png" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Intel Corp</div>
-             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             
-           </div>
-         </div>
-        </div>
-        <div class={Aboutcss.card}>
+        {/* <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
              <img src="images/dell.jpeg" alt=""/>
@@ -87,8 +90,9 @@ function About() {
              
            </div>
          </div>
-        </div>
-        <div class={Aboutcss.card}>
+        </div> */}
+
+        {/* <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
              <img src="images/hp.png" alt=""/>
@@ -103,8 +107,8 @@ function About() {
             
            </div>
          </div>
-        </div>
-        <div class={Aboutcss.card}>
+        </div> */}
+        {/* <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
              <img src="images/hp.png" alt=""/>
@@ -115,11 +119,13 @@ function About() {
            </div>
            <div class={Aboutcss.mediaicons}>
              <a href="#"><i class="fab fa-facebook-f"></i></a>
+        
              <a href="#"><i class="fab fa-twitter"></i></a>
             
            </div>
          </div>
-        </div>
+        </div> */}
+        </Marquee>
       </div>
 
       {/* <div class={Aboutcss.cards}>
