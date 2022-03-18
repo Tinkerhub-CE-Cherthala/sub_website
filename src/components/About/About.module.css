@@ -247,7 +247,8 @@
    @media (max-width: 600px) {
      .maincard .cards .card{
        /* margin: 20px 0 10px 0; */
-       width: 100%;
+       width: 50%;
+
      }
      .row{
        display: flex;

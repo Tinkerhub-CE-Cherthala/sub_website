@@ -23,7 +23,8 @@ function About() {
     <div className={Aboutcss.maincard}>
     
       <div className={Aboutcss.cards}>
-        <Marquee speed={100} pauseOnHover={true} gradient={false}>
+        <Marquee
+        speed={100} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
 
         {/* <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
@@ -58,7 +59,7 @@ function About() {
            </div>
          </div>
         </div>
-        
+
         <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
@@ -71,118 +72,47 @@ function About() {
            <div class={Aboutcss.mediaicons}>
              <a href="#"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
-             
            </div>
          </div>
         </div>
-        {/* <div class={Aboutcss.card}>
+        <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
-             <img src="images/dell.jpeg" alt=""/>
+             <img src="images/intel.png" alt=""/>
            </div>
            <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Dell</div>
-             <div class={Aboutcss.job}>Dell computers & technology solutions.</div>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
              <a href="#"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
-             
            </div>
          </div>
-        </div> */}
-
-        {/* <div class={Aboutcss.card}>
+        </div>
+        <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
-             <img src="images/hp.png" alt=""/>
+             <img src="images/intel.png" alt=""/>
            </div>
            <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>HP</div>
-             <div class={Aboutcss.job}>American multinational information technology company</div>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
              <a href="#"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
-            
            </div>
          </div>
-        </div> */}
-        {/* <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/hp.png" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>HP</div>
-             <div class={Aboutcss.job}>American multinational information technology company</div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
         
-             <a href="#"><i class="fab fa-twitter"></i></a>
-            
-           </div>
-         </div>
-        </div> */}
         </Marquee>
       </div>
-
-      {/* <div class={Aboutcss.cards}>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src='img' alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>MI</div>
-             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics</div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             
-           </div>
-         </div>
-        </div>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/intel.png" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Intel Corp</div>
-             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             
-           </div>
-         </div>
-        </div>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/sony.png" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Sony Group Corporation</div>
-             <div class={Aboutcss.job}>Japanese multinational conglomerate corporation</div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             
-           </div>
-         </div>
-        </div>
-      </div> */}
       
 
   
       
-      
+
     </div>
    
   </div>
