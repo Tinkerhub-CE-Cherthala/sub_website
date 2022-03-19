@@ -1,5 +1,5 @@
 :root{
-    --orange: #ff4500;
+    --orange: #fa9200;
     --black: #000000;
 }
 *{
@@ -8,7 +8,7 @@
     color: var(--orange);
 }
 .cont{
-    
+    height: 20vh;
     margin: 0 auto;
     width: 90vw;
     background-color: var(--black);
@@ -27,7 +27,11 @@
     outline: none;
     text-decoration: none;
 }
-
+.click:hover{
+    background-color: var(--orange);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
 
 
 /* .page.newpage{

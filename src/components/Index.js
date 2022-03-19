@@ -7,10 +7,16 @@ import About from './About/About'
 import Footer from './footer/Footer'
 
 export default function Index() {
+  function abc(){
+    document.disnav.style.display='none';
+  }
   return (
     <StrictMode>
       <div className='main'>
-        <Navbar />
+        <div className='disnav' onScroll={abc}>
+          <Navbar />
+        </div>
+
         <Event />
         <Schedule />
         <About/>

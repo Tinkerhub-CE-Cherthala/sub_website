@@ -1,14 +1,13 @@
 
 import './Schedule.css';
-import React,{useEffect, useState} from 'react';
-import react from 'react';
+import React,{useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 function Schedule() {
     useEffect(()=>{
-        Aos.init({duration: 2000});
+        Aos.init({duration: 1000});
     },[]);
    
         return (

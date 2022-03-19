@@ -1,10 +1,10 @@
 :root{
-    --orange: #ff4500;
+    --orange: #fa9200;
     --black : #000000;
 }
 .navnav {
     position: fixed;
-    z-index: 100;
+    z-index: 90;
     top: 0;
     width: 100%;
     height: 80px;
@@ -14,7 +14,7 @@
 .zealous{
     position: absolute;
     color: var(--black);
-    z-index: 102;
+    z-index: 92;
     transform: translateX(45%);
     top: 30%;
     font-size: 30px;

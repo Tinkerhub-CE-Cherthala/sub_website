@@ -27,16 +27,16 @@ function Event() {
     <div class = {Eventcss.card} data-aos="fade-up">
       <div class = {Eventcss.image}>
        
-        <img href = "#" src = {ece} alt='ece'  />
+        <img src = {ece} alt='ece'  />
        
       </div>
       <div class = {Eventcss.content}>
-      <Link to='/general/List'>
-        <a class={Eventcss.view} href="http://127.0.0.1:5500/front/src/event/index.html">
-          <span>view</span>
-          <span>view</span>
+      <Link to='/general/List' className={Eventcss.linkview}>
+        <a class={Eventcss.view}>
+          view
         </a>
       </Link>    
+      <p className={Eventcss.subdetail}>Workshop</p>
       </div>
     </div>
     <div class = {Eventcss.card} data-aos="fade-up">
@@ -46,12 +46,12 @@ function Event() {
        
       </div>
       <div class = {Eventcss.content}>
-      <Link to='/general/List'>
-        <a class={Eventcss.view} href="http://127.0.0.1:5500/front/src/event/index.html">
-          <span>view</span>
-          <span>view</span>
+      <Link to='/general/List' className={Eventcss.linkview}>
+        <a class={Eventcss.view}>
+          view
         </a>
       </Link>    
+      <p className={Eventcss.subdetail}>Workshop</p>   
       </div>
     </div>
     <div class = {Eventcss.card} data-aos="fade-up">
@@ -61,12 +61,12 @@ function Event() {
        
       </div>
       <div class = {Eventcss.content}>
-      <Link to='/general/List'>
-        <a class={Eventcss.view} href="http://127.0.0.1:5500/front/src/event/index.html">
-          <span>view</span>
-          <span>view</span>
+      <Link to='/general/List' className={Eventcss.linkview}>
+        <a class={Eventcss.view}>
+          view
         </a>
       </Link>    
+      <p className={Eventcss.subdetail}>Workshop</p>   
       </div>
     </div>
     

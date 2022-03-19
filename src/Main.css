@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+
 :root{
-    --orange: #ff4500;
+    --orange: #fa9200;
     --black: #000000;
 }
 *{
@@ -7,15 +10,31 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+.project{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    width: 100vw;
+}
+
 .sec{
+    scroll-snap-align: start;
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.sec1{
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
 #sec1{
-    background: url('./images/bg.jpg');
+    background: url('./images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+    /* background-color: black; */
 }
 .scroll{
     height: 20vh;
@@ -25,7 +44,6 @@
     left: 32.5%;
     bottom: 20px;
     border-radius: 30px;
-    cursor: pointer;
 
 }
 .scroll::before,
@@ -57,11 +75,13 @@
 }
 .title{
     font-size: 5em;
-    color: white;
+    color: var(--orange);
+    font-family:'Roboto';
 }
 .caption{
     font-size: 2em;
-    color: white;
+    color: var(--orange);
+    font-family: 'Montserrat';
 }
 @keyframes scroll{
     0%{
