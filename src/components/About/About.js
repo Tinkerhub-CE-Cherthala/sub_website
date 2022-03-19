@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import Aboutcss from './About.module.css'
+import Carousel from 'react-elastic-carousel';
+import Marquee from "react-fast-marquee"
+
 
 
 function About() {
+  
+
+
+
   return (
     <div className={Aboutcss.full}>
     <div className={Aboutcss.cardm}>
@@ -10,11 +17,16 @@ function About() {
         <p className={Aboutcss.para}>Back from 2014,the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres.ZEALOUS,the so called technical event,makes it almost like a modern-day Athens,the place of Athena herself.</p>
         <h2 ><u>Our Sponsors</u></h2> 
         <div className={Aboutcss.container}>
-    <input type="radio" name="dot" id="one"/>
-    <input type="radio" name="dot" id="two"/>
+    {/* <input type="radio" name="dot" id="one" onClick={() => scroll(-20)}/>
+    <input type="radio" name="dot" id="two" onClick={() => scroll(20)}/> */}
+
     <div className={Aboutcss.maincard}>
+    
       <div className={Aboutcss.cards}>
-        <div className={Aboutcss.card}>
+        <Marquee
+        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
+
+        {/* <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
            <div className={Aboutcss.img}>
              <img src="images/apple.png" alt=""/>
@@ -29,57 +41,8 @@ function About() {
            
            </div>
          </div>
-        </div>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/dell.jpeg" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Dell</div>
-             <div class={Aboutcss.job}>Dell computers & technology solutions.</div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             
-           </div>
-         </div>
-        </div>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/hp.png" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>HP</div>
-             <div class={Aboutcss.job}>American multinational information technology company</div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-            
-           </div>
-         </div>
-        </div>
-      </div>
-      <div class={Aboutcss.cards}>
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src='img' alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>MI</div>
-             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics</div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             
-           </div>
-         </div>
-        </div>
+        </div> */}
+        
         <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
@@ -96,28 +59,62 @@ function About() {
            </div>
          </div>
         </div>
+
         <div class={Aboutcss.card}>
          <div class={Aboutcss.content}>
            <div class={Aboutcss.img}>
-             <img src="images/sony.png" alt=""/>
+             <img src="images/intel.png" alt=""/>
            </div>
            <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Sony Group Corporation</div>
-             <div class={Aboutcss.job}>Japanese multinational conglomerate corporation</div>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
              <a href="#"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
-             
            </div>
          </div>
         </div>
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+           </div>
+         </div>
+        </div>
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+           </div>
+         </div>
+        </div>
+        
+        </Marquee>
       </div>
+      
+
+  
+      
+
     </div>
-    <div class={Aboutcss.button}>
-      <label for="one" class="active one"></label>
-      <label for="two" class="two"></label>
-    </div>
+   
   </div>
 
   
