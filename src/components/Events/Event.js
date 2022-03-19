@@ -5,7 +5,6 @@ import cse from '../../images/computer.png';
 import Eventcss from './Event.module.css'
 import {Link} from 'react-router-dom';
 import {useEffect} from 'react';
-
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
