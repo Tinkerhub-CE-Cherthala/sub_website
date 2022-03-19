@@ -24,7 +24,7 @@ function About() {
     
       <div className={Aboutcss.cards}>
         <Marquee
-        speed={100} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
+        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
 
         {/* <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
