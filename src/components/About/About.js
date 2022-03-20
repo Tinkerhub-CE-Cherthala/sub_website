@@ -66,7 +66,7 @@ function About() {
              <img src="images/intel.png" alt=""/>
            </div>
            <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.name}>Dell</div>
              <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
@@ -123,6 +123,8 @@ function About() {
   <h2><u>Our Committee</u></h2> 
   <div class={Aboutcss.container}>
   <div class={Aboutcss.row}>
+  <Marquee
+        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
@@ -184,6 +186,7 @@ function About() {
         </ul>
       </div>
     </div>
+    </Marquee>
   </div>
 </div>
     </div>

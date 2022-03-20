@@ -10,7 +10,7 @@ import Form from './components/general/Form';
 import Formee from './components/eee/Formee';
 import Formec from './components/ece/Formec';
 import Formcs from './components/cse/Formcs';
-import Main from "./Main";
+// import Main from "./Main";
 import Index from "./components/Index";
 import Days from "./components/Schedule/Days";
 
@@ -20,8 +20,7 @@ function App() {
     <Router>
     <Routes>
 
-      <Route path="/" element={<Main />} exact/>
-      <Route path="/main" element={<Index />} />
+      <Route path="/" element={<Index />} exact/>
 
       
       <Route path="/general/List" element={<List />} />

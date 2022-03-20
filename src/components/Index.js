@@ -5,6 +5,7 @@ import Schedule from './Schedule/Schedule'
 import Navbar from './Navbar/Navbar'
 import About from './About/About'
 import Footer from './footer/Footer'
+import Front from './Frontp/Front'
 
 export default function Index() {
   function abc(){
@@ -12,15 +13,17 @@ export default function Index() {
   }
   return (
     <StrictMode>
-      <div className='main'>
-        <div className='disnav' onScroll={abc}>
-          <Navbar />
-        </div>
+        
+        <Navbar />
+        
+        <div className='head'>
+        <Front />
 
+        </div>
+      <div className='main'>
         <Event />
         <Schedule />
         <About/>
-        <Event />
         <Footer />
       </div>  
     </StrictMode>

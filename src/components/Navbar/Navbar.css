@@ -6,7 +6,7 @@
     position: fixed;
     z-index: 90;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background: linear-gradient(45deg, var(--orange), #992900);
 }

@@ -1,30 +1,30 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Front.css';
+import logo from '../../images/logo thick 1.png'
 
 export default function Front() {
-
-    window.onload= function(){
-        const navigation= document.querySelector('nav');
-        document.getElementsByClassName('toggle').onClick = function(){
-        
-        this.classList.toggle('active');
-        navigation.classList.toggle('active');
-    }}
- return (
+  return (
     <>
-        <header>
-            <div class="main-bg"></div>
-            <a class="zealous" href="#">Zealous</a>
-            <div class="toggle"></div>
-            <nav>
-                <ul>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    
+    <div className='project' id='main'>
+    <section class="sec" id="sec1">
+        <div class="contain">
+            <div className='logocont'>
+              <img src={logo} className='logo' alt='logo' />
+              <p className='title'>ZEALOUS 3.0</p>
+              <p className='caption'>Explore the New Horizon</p>
+            </div>
+        
+            <div class="scroll">
+              <div className="boxx1"></div>
+              <div className="boxx2"></div>
+            </div>
+            
+        </div>
+    </section>
 
+    </div>
     </>
   )
 }

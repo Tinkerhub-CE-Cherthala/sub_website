@@ -10,6 +10,7 @@
   box-sizing : border-box;
 }
 
+
 .section2{
   display : flex;
   /* align-items : center; */
@@ -45,7 +46,7 @@
   max-width : 170px; /*adjust per image */
   height : 200px;  
   background-color : var(--orange);
-  margin : 5px 15px;
+  margin : 25px 15px;
   padding : 30px 15px;
   
   display : flex;

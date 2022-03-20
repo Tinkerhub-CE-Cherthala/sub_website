@@ -386,7 +386,7 @@
    
    
    .ourteam {
-     padding: 30px 0 40px;
+     padding: 30px 0px 40px 0px;
      margin-bottom: 30px;
      background-color: #f7f5ec;
      text-align: center;
@@ -488,3 +488,12 @@
      background-color: #f7f5ec;
    }
    
+   @media screen and (max-width: 600px) {
+    .marquee {
+      display: hidden;
+    }
+    .ourteam{
+      width: calc(100% / 2 - 10px);
+      /* display: flex; */
+    }
+   }

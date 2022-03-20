@@ -1,132 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+
+:root{
+    --orange: #fa9200;
+    --black: #000000;
+}
 *{
-    margin: 0%;
     padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
 }
-body{
-    min-height: 1000px;
-}
-header{
-    position:fixed ;
+
+/* .project{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
     width: 100vw;
-    background: url(../../images/bg.jpg);
-    display: flex;
-    
-    align-items: center;
-    transition: 1s;
-    height: 80px;
-}
-/* header.sticky{
 } */
-header .main-bg{
-    position: absolute;
+
+.sec{
+    /* scroll-snap-align: start; */
+    min-height: 100vh;
     width: 100vw;
-    height: 100%;
-    object-fit: cover;
-    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
-header .zealous{
+.sec1{
+    min-height: 100vh;
+    /* scroll-snap-align: start; */
+}
+#sec1{
+    background: url('../../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+}
+.scroll{
+    height: 20vh;
+    width: 35vw;
+    /* border-bottom: 3px solid var(--orange); */
     position: absolute;
-    transform: translateX(0px);
-    font-size: 10vw;
-    z-index: 100;
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-size: 2em;
-    left: 7%;
-    opacity: 1;
-}
+    left: 32.5%;
+    /* bottom: 5%; */
+    border-radius: 30px;
+    /* transform: rotate(45deg); */
 
-nav{
-    position: relative;
-    display: flex;
-    z-index: 100;
 }
-nav ul{
-    position: relative;
-    display: flex;
-    /* transition: 0.25%; */
-    transform: translateX(0px);
-    opacity: 1;
-    right: 7%;
-}
-
-nav ul li{
-    list-style: none;
-}
-nav ul li a{
-    color: white;
+.boxx1,
+.boxx2{
+    content: '';
+    position: absolute;
     display: inline-block;
-    padding: 20px 15px;
-    font-size: 1.2em;
-    text-decoration: none;
+    top: 10%;
+    left: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px solid var(--orange);
+    height: 80px;
+    width: 80px;
+    transform: translate(-50%,-100%) rotate(45deg);
+    animation: scroll 1s ease-in-out infinite;
+    /* transform: rotate(45deg); */
+    border-top: transparent;
+    border-left: transparent;
+}
+
+.boxx2{
+    top: 20%;
+    animation-delay: 0.3s;
+}
+
+.logocont{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+}
+.title{
+    font-size: 5em;
+    color: var(--orange);
+    font-family:'Roboto';
+}
+.caption{
+    font-size: 2em;
+    color: var(--orange);
     font-family: 'Montserrat';
 }
-nav ul li a:hover{
-    color: #fa9200;
-}
-
-@media (max-width: 600px) {
-    header{
-        padding: 0px;
-    }
-    header .zealous{
-        left: 40px;
-    }
-    header .logo .logo1{
-        width: 40%;
-        top: 50%;
-    }
-    header .main-bg{
-        opacity: 1;
-        background-color: black;
-    }    
-    nav ul{
-        display: none;
+@keyframes scroll{
+    0%{
         opacity: 0;
-        visibility: hidden;
     }
-    nav.active ul{
-        position: fixed;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        height: calc(100% - 80px);
-        background: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    header nav ul{
+    30%{
         opacity: 1;
-        visibility: visible;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top:90%
+    }
 
-    }
-    nav ul li a{
-        font-size: 2em;
-    }
-    header .toggle{
-        position: fixed;
-        right: 20px;
-        top: 20px;
-        width: 40px;
-        height: 30px;
-        background: url('../../images/menu.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        cursor: pointer;
-        background-size: 30px;
-    }
-    header .toggle.active{
-        background: url('../../images/close.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        cursor: pointer;
-        background-size: 30px;
-    }
 }
