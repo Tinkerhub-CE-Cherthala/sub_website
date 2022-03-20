@@ -1,7 +1,11 @@
+:root{
+  --orange: #fa9200;
+  --black: #000000;
+}
 .para{
 
     padding: 15px;
-    color:white;
+    color:var(--orange);
      font-family: 'Montserrat';
     /* font-family: "Times New Roman", Times, serif; */
     font-weight: bold;
@@ -13,7 +17,7 @@
    .heading{
    
     padding: 15px;
-    color:white;
+    color:var(--orange);
     font-family:'Roboto', sans-serif;
     /* font-family: "Times New Roman", Times, serif; */
     font-size: 40px;
@@ -31,7 +35,7 @@
      width: 90%;
      padding: 15px 25px;
      border-radius: 50px;
-     background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+     background-image: linear-gradient(315deg, #000000 100%, #414141 0%);
      text-align: center;
      overflow: hidden;
      
@@ -371,7 +375,7 @@
    }
    
    .flipcardback {
-     background-color: #2980b9;
+     background-color: var(--orange);
      color: white;
      transform: rotateY(180deg);
    }
@@ -409,7 +413,7 @@
      width: 100%;
      height: 0;
      border-radius: 50%;
-     background-color: #1369ce;
+     background-color: var(--orange);
      position: absolute;
      bottom: 135%;
      right: 0;
@@ -428,7 +432,7 @@
      width: 100%;
      height: 100%;
      border-radius: 50%;
-     background-color: #1369ce;
+     background-color: var(--orange);
      position: absolute;
      top: 0;
      left: 0;
@@ -459,7 +463,7 @@
      width: 100%;
      padding: 0;
      margin: 0;
-     background-color: #1369ce;
+     background-color: var(--orange);
      position: absolute;
      bottom: -100px;
      left: 0;
