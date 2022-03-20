@@ -8,9 +8,6 @@ import Footer from './footer/Footer'
 import Front from './Frontp/Front'
 
 export default function Index() {
-  function abc(){
-    document.disnav.style.display='none';
-  }
   return (
     <StrictMode>
         

@@ -1,6 +1,6 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import Aboutcss from './About.module.css'
-import Carousel from 'react-elastic-carousel';
+// import Carousel from 'react-elastic-carousel';
 import Marquee from "react-fast-marquee"
 
 
@@ -13,7 +13,7 @@ function About() {
   return (
     <div className={Aboutcss.full}>
     <div className={Aboutcss.cardm}>
-        <h2 className={Aboutcss.heading}><u>About</u></h2>
+        <h2 className={Aboutcss.heading}>About</h2>
         <p className={Aboutcss.para}>Back from 2014,the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres.ZEALOUS,the so called technical event,makes it almost like a modern-day Athens,the place of Athena herself.</p>
         <h2 ><u>Our Sponsors</u></h2> 
         <div className={Aboutcss.container}>
@@ -135,8 +135,8 @@ function About() {
           <h4 class={Aboutcss.title}>Member</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"></a></li>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
         
         </ul>
       </div>
@@ -151,8 +151,8 @@ function About() {
           <h4 class={Aboutcss.title}>Web Developer</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"></a></li>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
         </ul>
       </div>
     </div>
@@ -166,8 +166,8 @@ function About() {
           <h4 class={Aboutcss.title}>Web Developer</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"></a></li>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
         </ul>
       </div>
     </div>
@@ -181,8 +181,8 @@ function About() {
           <h4 class={Aboutcss.title}>Web Developer</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"></a></li>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
         </ul>
       </div>
     </div>

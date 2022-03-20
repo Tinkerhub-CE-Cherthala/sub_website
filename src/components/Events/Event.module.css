@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
   font-size: 7em;
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--orange);
 }
 
@@ -124,6 +124,7 @@
   font-size: 20px;
   border: 2px solid var(--black);
   color: var(--black);
+  cursor: pointer;
 }
 .linkview:hover{
   color: var(--orange);
@@ -131,7 +132,7 @@
 }
 .view:hover{
   background-color: var(--black);
-
+  color: var(--orange);
 }
 /* .view::before{
   content: '';

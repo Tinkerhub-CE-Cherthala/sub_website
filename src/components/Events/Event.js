@@ -31,9 +31,9 @@ function Event() {
       </div>
       <div class = {Eventcss.content}>
       <Link to='/general/List' className={Eventcss.linkview}>
-        <a class={Eventcss.view}>
+        <div class={Eventcss.view}>
           view
-        </a>
+        </div>
       </Link>    
       <p className={Eventcss.subdetail}>Workshop</p>
       </div>
@@ -41,14 +41,14 @@ function Event() {
     <div class = {Eventcss.card} data-aos="fade-up">
       <div class = {Eventcss.image}>
        
-        <img href = "#" src = {ece} alt='ece'  />
+        <img src = {ece} alt='ece'  />
        
       </div>
       <div class = {Eventcss.content}>
       <Link to='/general/List' className={Eventcss.linkview}>
-        <a class={Eventcss.view}>
+        <div class={Eventcss.view}>
           view
-        </a>
+        </div>
       </Link>    
       <p className={Eventcss.subdetail}>Workshop</p>   
       </div>
@@ -56,14 +56,14 @@ function Event() {
     <div class = {Eventcss.card} data-aos="fade-up">
       <div class = {Eventcss.image}>
        
-        <img href = "#" src = {ece} alt='ece'  />
+        <img src = {ece} alt='ece'  />
        
       </div>
       <div class = {Eventcss.content}>
       <Link to='/general/List' className={Eventcss.linkview}>
-        <a class={Eventcss.view}>
+        <div class={Eventcss.view}>
           view
-        </a>
+        </div>
       </Link>    
       <p className={Eventcss.subdetail}>Workshop</p>   
       </div>

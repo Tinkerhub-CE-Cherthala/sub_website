@@ -24,10 +24,10 @@ useEffect(() => {
         <h1 className="zealous">Zealous</h1>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
-      <Link to='/' style={{textDecoration : 'none'}}>    
       <li className="items">Home</li>
-      </Link>
+        
       <li className="items">Events</li>
+    
       <li className="items">About</li>
     </ul>
       )}
