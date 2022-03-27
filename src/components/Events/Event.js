@@ -16,7 +16,7 @@ function Event() {
     },[]);
 
     return (
-        <div class={Eventcss.outer}>
+        <div class={Eventcss.outer} id='second'>
             <div class={Eventcss.event}>
     <p>Events</p>
   </div>

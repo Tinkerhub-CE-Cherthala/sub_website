@@ -13,6 +13,7 @@ import Formcs from './components/cse/Formcs';
 // import Main from "./Main";
 import Index from "./components/Index";
 import Days from "./components/Schedule/Days";
+import Front from "./components/Frontp/Front";
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
       <Route path="/cse/Listcs/Formcs" element={<Formcs />} />
       <Route path="/Events/Event" element={<Event />} />
       <Route path="/Days" element={<Days />} />
+
+      <Route path="#main" element={<Front />} />
     </Routes>
   </Router>
     

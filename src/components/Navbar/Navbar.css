@@ -25,17 +25,22 @@
     background: linear-gradient(45deg, var(--orange), #992900);
     height: 100%;
     display: flex;
+    color: var(--black);
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.items {
+#items {
     margin-right: 20px;
     font-size: 20px;
     text-transform: uppercase;
-    color: var(--black);
     cursor: pointer;
     text-decoration: none;
+}
+
+.navcolor{
+    color: var(--black);
+
 }
 
 .btnnav {

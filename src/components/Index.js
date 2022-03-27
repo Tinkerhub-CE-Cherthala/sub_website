@@ -6,10 +6,13 @@ import Navbar from './Navbar/Navbar'
 import About from './About/About'
 import Footer from './footer/Footer'
 import Front from './Frontp/Front'
+import Preconnect from './Preconnect/Preconnect'
 
 export default function Index() {
   return (
     <StrictMode>
+
+        {/* <Preconnect /> */}
         
         <Navbar />
         
@@ -20,7 +23,7 @@ export default function Index() {
       <div className='main'>
         <Event />
         <Schedule />
-        <About/>
+        <About />
         <Footer />
       </div>  
     </StrictMode>

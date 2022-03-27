@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { HashLink as Link } from 'react-router-hash-link';
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -24,12 +24,25 @@ useEffect(() => {
         <h1 className="zealous">Zealous</h1>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
-      <li className="items">Home</li>
+      <Link to="#main" id='items'>
+      <li className='navcolor'>
+        Home  
+      </li>
+      </Link> 
         
-      <li className="items">Events</li>
+      <Link to="#second" id='items'>
+      <li className='navcolor'>
+         Events
+      </li>
+      </Link>
     
-      <li className="items">About</li>
+      <Link to="#third" id='items'>
+      <li className='navcolor'>
+        About
+      </li>
+      </Link>
     </ul>
+       
       )}
 
       <div onClick={toggleNav} className="btnnav"></div>
