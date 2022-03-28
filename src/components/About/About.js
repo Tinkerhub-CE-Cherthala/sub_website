@@ -1,7 +1,8 @@
 import React from 'react'
 import Aboutcss from './About.module.css'
 // import Carousel from 'react-elastic-carousel';
-import Marquee from "react-fast-marquee"
+// import Marquee from "react-fast-marquee"
+import Slider from "react-slick"
 
 
 
@@ -23,8 +24,8 @@ function About() {
     <div className={Aboutcss.maincard}>
     
       <div className={Aboutcss.cards}>
-        <Marquee
-        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
+        {/* <Marquee
+        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}> */}
 
         {/* <div className={Aboutcss.card}>
          <div className={Aboutcss.content}>
@@ -105,8 +106,40 @@ function About() {
            </div>
          </div>
         </div>
+
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+           </div>
+         </div>
+        </div>
+
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+           </div>
+         </div>
+        </div>
         
-        </Marquee>
+        {/* </Marquee> */}
       </div>
       
 
@@ -123,8 +156,8 @@ function About() {
   <h2><u>Our Committee</u></h2> 
   <div class={Aboutcss.container}>
   <div class={Aboutcss.row}>
-  <Marquee
-        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}>
+  {/* <Marquee
+        speed={80} pauseOnHover={true} gradient={false} className={Aboutcss.marquee}> */}
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
@@ -186,7 +219,7 @@ function About() {
         </ul>
       </div>
     </div>
-    </Marquee>
+    {/* </Marquee> */}
   </div>
 </div>
     </div>
