@@ -24,19 +24,19 @@ useEffect(() => {
         <h1 className="zealous">Zealous</h1>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
-      <Link to="#main" id='items'>
+      <Link to="/#main" id='items'>
       <li className='navcolor'>
         Home  
       </li>
       </Link> 
         
-      <Link to="#second" id='items'>
+      <Link to="/#second" id='items'>
       <li className='navcolor'>
          Events
       </li>
       </Link>
     
-      <Link to="#third" id='items'>
+      <Link to="/#third" id='items'>
       <li className='navcolor'>
         About
       </li>
