@@ -270,7 +270,11 @@
        justify-content: center;
        align-items: center;
      }
-     .card{
+     .container .row{
+      display: flex;
+      flex-direction: row;
+     } 
+         .card{
        margin-top: 20%;
      }
      .container .maincard .cards .card{
@@ -345,20 +349,17 @@
       height: auto;
 
      }
-     .row{
-       
-     }
-     .ourteam{
-       /* min-width: 70%; */
-       
-     }
+    .row{
+      margin-left: 145%;
+      min-width: 100%;
+    }
      
     .container .row{
-      
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
-      padding: 5% 5%;
+      padding: 2% 2%;
     }
     
     
