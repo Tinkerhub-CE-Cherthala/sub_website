@@ -345,13 +345,7 @@
       height: auto;
 
      }
-     .row{
-       
-     }
-     .ourteam{
-       /* min-width: 70%; */
-       
-     }
+    
      
     .container .row{
       
@@ -525,8 +519,5 @@
    
    @media screen and (max-width: 600px) {
     
-    .ourteam{
-      /* width: calc(100% / 2 - 10px); */
-      /* display: flex; */
-    }
+    
    }
