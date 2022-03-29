@@ -1,4 +1,4 @@
-import React, { StrictMode } from 'react'
+import React, { StrictMode,useEffect,useState} from 'react'
 import './Index.css'
 import Event from './Events/Event'
 import Schedule from './Schedule/Schedule'
@@ -7,13 +7,36 @@ import About from './About/About'
 import Footer from './footer/Footer'
 import Front from './Frontp/Front'
 import Preconnect from './Preconnect/Preconnect'
+import { Triangle } from 'react-loader-spinner'
+
+
 
 export default function Index() {
-  return (
-    <StrictMode>
+  const [loading,setLoading] = useState(true);
 
-        {/* <Preconnect /> */}
-        
+  useEffect(() => {
+    setLoading(true);
+      setTimeout(()=>{
+        setLoading(false)
+      },5000)
+
+  }, [])
+  
+
+
+  return (
+    
+  <div>
+
+         {/* <Preconnect />  */}
+      { loading ? <div className='loader'> <Triangle height="100"
+    width="100"
+    color='#fa9200'
+    ariaLabel='loading'/> </div> : 
+      
+      
+        <StrictMode>
+
         <Navbar />
         
         <div className='head'>
@@ -26,6 +49,11 @@ export default function Index() {
         <About />
         <Footer />
       </div>  
-    </StrictMode>
+        </StrictMode>
+        
+}
+        </div>
+  
   )
+    
 }
