@@ -6,7 +6,7 @@ import Navbar from './Navbar/Navbar'
 import About from './About/About'
 import Footer from './footer/Footer'
 import Front from './Frontp/Front'
-import Preconnect from './Preconnect/Preconnect'
+// import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
 
 
