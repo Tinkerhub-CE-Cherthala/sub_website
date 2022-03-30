@@ -3,6 +3,7 @@
   --black: #000000;
 }
 .para{
+ 
 
     padding: 15px;
     color:var(--orange);
@@ -270,7 +271,11 @@
        justify-content: center;
        align-items: center;
      }
-     .card{
+     .container .row{
+      display: flex;
+      flex-direction: row;
+     } 
+         .card{
        margin-top: 20%;
      }
      .container .maincard .cards .card{
@@ -345,14 +350,13 @@
       height: auto;
 
      }
-    
      
     .container .row{
-      
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
-      padding: 5% 5%;
+      padding: 2% 2%;
     }
     
     
