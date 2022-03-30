@@ -1,7 +1,5 @@
-import general from '../../images/general.png';
+
 import ece from '../../images/ece.png';
-import eee from '../../images/eee.png';
-import cse from '../../images/computer.png';
 import Eventcss from './Event.module.css'
 import {Link} from 'react-router-dom';
 import {useEffect} from 'react';

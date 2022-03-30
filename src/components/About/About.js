@@ -2,7 +2,7 @@ import React from 'react'
 import Aboutcss from './About.module.css'
 // import Carousel from 'react-elastic-carousel';
 // import Marquee from "react-fast-marquee"
-import Slider from "react-slick"
+// import Slider from "react-slick"
 
 
 
@@ -54,8 +54,8 @@ function About() {
              <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-twitter"></i></a>
              
            </div>
          </div>
@@ -71,8 +71,8 @@ function About() {
              <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-twitter"></i></a>
            </div>
          </div>
         </div>
@@ -86,8 +86,8 @@ function About() {
              <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-twitter"></i></a>
            </div>
          </div>
         </div>
@@ -101,24 +101,8 @@ function About() {
              <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-           </div>
-         </div>
-        </div>
-
-        <div class={Aboutcss.card}>
-         <div class={Aboutcss.content}>
-           <div class={Aboutcss.img}>
-             <img src="images/intel.png" alt=""/>
-           </div>
-           <div class={Aboutcss.details}>
-             <div class={Aboutcss.name}>Intel Corp</div>
-             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
-           </div>
-           <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-twitter"></i></a>
            </div>
          </div>
         </div>
@@ -133,8 +117,24 @@ function About() {
              <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
            </div>
            <div class={Aboutcss.mediaicons}>
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-twitter"></i></a>
+           </div>
+         </div>
+        </div>
+
+        <div class={Aboutcss.card}>
+         <div class={Aboutcss.content}>
+           <div class={Aboutcss.img}>
+             <img src="images/intel.png" alt=""/>
+           </div>
+           <div class={Aboutcss.details}>
+             <div class={Aboutcss.name}>Intel Corp</div>
+             <div class={Aboutcss.job}>Chinese designer and manufacturer of consumer electronics </div>
+           </div>
+           <div class={Aboutcss.mediaicons}>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/ajith.shine"><i class="fab fa-twitter"></i></a>
            </div>
          </div>
         </div>
@@ -161,7 +161,7 @@ function About() {
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=1027"/>
+          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=1027" alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Anjana</h3>
@@ -177,7 +177,7 @@ function About() {
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=839"/>
+          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=839" alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Ajith</h3>
@@ -192,7 +192,7 @@ function About() {
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=856"/>
+          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=856" alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Akhil</h3>
@@ -207,7 +207,39 @@ function About() {
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=836"/>
+          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=836" alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Amal</h3>
+          <h4 class={Aboutcss.title}>Web Developer</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=836" alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Amal</h3>
+          <h4 class={Aboutcss.title}>Web Developer</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src="https://picsum.photos/130/130?image=836" alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Amal</h3>

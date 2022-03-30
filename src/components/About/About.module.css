@@ -3,6 +3,7 @@
   --black: #000000;
 }
 .para{
+ 
 
     padding: 15px;
     color:var(--orange);
@@ -349,10 +350,6 @@
       height: auto;
 
      }
-    .row{
-      margin-left: 145%;
-      min-width: 100%;
-    }
      
     .container .row{
       display: flex;
@@ -526,8 +523,5 @@
    
    @media screen and (max-width: 600px) {
     
-    .ourteam{
-      /* width: calc(100% / 2 - 10px); */
-      /* display: flex; */
-    }
+    
    }
