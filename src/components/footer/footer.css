@@ -1,9 +1,11 @@
 .social
 {
     display: flex;
-    background-color: black;
+    background-color: #141414;
     justify-content: center;
     height: 5em;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 .smedia
 {
