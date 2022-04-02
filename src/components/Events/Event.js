@@ -1,5 +1,6 @@
-
-import ece from '../../images/ece.png';
+import ece from '../../images/ece.png'
+import workshop from '../../images/wrench.png';
+import competition from '../../images/competition.png';
 import Eventcss from './Event.module.css'
 import {Link} from 'react-router-dom';
 import {useEffect} from 'react';
@@ -24,7 +25,7 @@ function Event() {
     <div class = {Eventcss.card} data-aos="fade-up">
       <div class = {Eventcss.image}>
        
-        <img src = {ece} alt='ece'  />
+        <img src = {workshop} alt='workshop'  />
        
       </div>
       <div class = {Eventcss.content}>
@@ -39,7 +40,7 @@ function Event() {
     <div class = {Eventcss.card} data-aos="fade-up">
       <div class = {Eventcss.image}>
        
-        <img src = {ece} alt='ece'  />
+        <img src = {competition} alt='competition'  />
        
       </div>
       <div class = {Eventcss.content}>
@@ -48,7 +49,7 @@ function Event() {
           view
         </div>
       </Link>    
-      <p className={Eventcss.subdetail}>Workshop</p>   
+      <p className={Eventcss.subdetail}>Competition</p>   
       </div>
     </div>
     <div class = {Eventcss.card} data-aos="fade-up">

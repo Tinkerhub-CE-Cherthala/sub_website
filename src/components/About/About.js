@@ -15,7 +15,7 @@ function About() {
     <div className={Aboutcss.full} id='third'>
     <div className={Aboutcss.cardm}>
         <h2 className={Aboutcss.heading}>About</h2>
-        <p className={Aboutcss.para}>Back from 2014,the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres.ZEALOUS,the so called technical event,makes it almost like a modern-day Athens,the place of Athena herself.</p>
+        <p className={Aboutcss.para}>Back from 2014, the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres. ZEALOUS, the so called technical event, makes it almost like a modern-day Athens, the place of Athena herself.</p>
         <h2 ><u>Our Sponsors</u></h2> 
         <div className={Aboutcss.container}>
     {/* <input type="radio" name="dot" id="one" onClick={() => scroll(-20)}/>

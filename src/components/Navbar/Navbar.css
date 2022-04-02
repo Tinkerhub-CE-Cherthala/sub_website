@@ -63,6 +63,9 @@
         /* height: auto; */
         min-height: 100vh;
     }
+    .navcolor{
+        font-size: 40px;
+    }
     .items:nth-child(1){
         
         margin-top: 50px;
@@ -75,5 +78,7 @@
     }
     .btnnav {
         display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }    
 }
