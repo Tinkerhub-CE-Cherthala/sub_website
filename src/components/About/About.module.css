@@ -347,6 +347,7 @@
       height: auto;
 
      }
+
      
     .container .row{
       display: flex;
@@ -354,8 +355,11 @@
       align-items: center;
       justify-content: center;
       padding: 2% 2%;
+      width: 100%;
+      margin-left: 240%;
+      
     }
-    
+   
     
      
     
@@ -518,7 +522,36 @@
      background-color: #f7f5ec;
    }
    
-   @media screen and (max-width: 600px) {
+   
+
+   @media screen and (max-width: 500px) {
+    .card{
+      min-width: 80%;
+    }
     
-    
+    .container .row{
+      
+      margin-left: 240%;
+      
+    }
    }
+   @media screen and (max-width: 600px) {
+    .container{
+      width: 75%;
+      margin-left: 12.5%;
+    }
+    .container .maincard .cards .card{
+      margin: 4%;
+ 
+      }
+    .container .row{
+      
+      margin-left: 240%;
+      
+    }
+    .card{
+      min-width: 90%;
+    }
+   }
+
+  
