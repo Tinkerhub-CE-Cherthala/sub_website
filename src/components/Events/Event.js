@@ -15,7 +15,7 @@ function Event() {
     },[]);
 
     return (
-        <div class={Eventcss.outer} id='second'>
+        <div class={Eventcss.outer} id='events'>
             <div class={Eventcss.event}>
     <p>Events</p>
   </div>
@@ -29,7 +29,7 @@ function Event() {
        
       </div>
       <div class = {Eventcss.content}>
-      <Link to='/general/List' className={Eventcss.linkview}>
+      <Link to='/workshops' className={Eventcss.linkview}>
         <div class={Eventcss.view}>
           view
         </div>

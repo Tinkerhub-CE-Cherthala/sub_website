@@ -13,7 +13,7 @@ function Schedule() {
         return (
             <>
         <div class="cont">
-        <Link to='/Days' style={{textDecoration : 'none'}}>    
+        <Link to='/schedule' style={{textDecoration : 'none'}}>    
             <button class="click" data-aos="fade-up">Schedule</button>
         </Link>    
     </div>

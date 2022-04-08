@@ -6,7 +6,7 @@ export default function Front() {
   return (
     <>
     
-    <div className='project' id='main'>
+    <div className='project' id='home'>
     <section class="sec" id="sec1">
         <div class="contain">
             <div className='logocont'>
