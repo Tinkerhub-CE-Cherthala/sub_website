@@ -60,7 +60,7 @@ function Particlesbg() {
           move: {
             direction: "none",
             enable: true,
-            outMode: "bounce",
+            outMode: "out",
             random: false,
             speed: 1,
             straight: false,
@@ -83,7 +83,7 @@ function Particlesbg() {
             value: 8,
           },
         },
-        detectRetina: false,
+        detectRetina: true,
       }}
     />
   );
