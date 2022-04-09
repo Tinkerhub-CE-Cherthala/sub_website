@@ -22,3 +22,10 @@
     align-items: center;
     display: flex; */
 }
+.bg{
+    
+    z-index: -1;
+    filter: blur(8px);
+    z-index: -1;
+
+}
