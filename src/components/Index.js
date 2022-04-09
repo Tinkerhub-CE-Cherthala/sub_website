@@ -8,7 +8,7 @@ import Footer from './footer/Footer'
 import Front from './Frontp/Front'
 // import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
-import videobg from '../video/bgvideo.mp4'
+import Particlesbg from './Background/Particlesbg'
 
 
 
@@ -32,15 +32,16 @@ export default function Index() {
       
       { loading ? <div className='loader'> <Triangle height="100"
         
-    width="100"
-    color='#fa9200'
-    ariaLabel='loading'/> </div> : 
-    
-    
-    <StrictMode>
-          <video className='bg' src={videobg} autoPlay loop  type='video/mp4'/>
-          
+        width="100"
+        color='#fa9200'
+        ariaLabel='loading'/> </div> : 
+        
+        
+        <StrictMode>
+        
+
         <Navbar />
+      <Particlesbg/>
         
         <div className='head'>
         <Front />
@@ -58,5 +59,5 @@ export default function Index() {
         </div>
   
   )
-    
+  
 }

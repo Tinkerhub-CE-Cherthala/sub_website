@@ -1,21 +1,20 @@
 
 :root{
   --orange: #fa9200;
-  --black: #000000;
+  --black: #141414;
 }
 
-* { 
+/* * { 
   margin : 0;
   padding: 0;
   box-sizing : border-box;
-}
+} */
 
 
 .section2{
   display : flex;
   /* align-items : center; */
   justify-content : center;  
-  background-color: var(--black);
   min-height : 800px;
 
 }
@@ -72,7 +71,7 @@
   top : -40%;
   left: 0px;
   /* box-shadow : 0 5px 20px rgba(0,0,0,0.2); */
-  z-index : 1;
+  /* z-index : 1; */
 }
 
 .container .card .image img {

@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 // import header from './images/header-img.png'
 // import img1 from './images/img1.jpg'
 import Listt from './List.module.css';
@@ -31,7 +31,7 @@ function List(){
                 <h3>EVENT1</h3>
                     <div class={Listt.info}>
                         
-                    <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/prisonbreak' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
