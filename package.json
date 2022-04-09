@@ -19,6 +19,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.0",
     "react-slick": "^0.28.1",
+    "react-tsparticles": "^1.43.1",
     "read-scripts": "^1.1.0",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
@@ -50,6 +51,7 @@
   "devDependencies": {
     "css-loader": "^6.5.1",
     "nan": "^2.15.0",
+    "tsparticles": "^1.43.1",
     "webpack": "^5.70.0"
   }
 }
