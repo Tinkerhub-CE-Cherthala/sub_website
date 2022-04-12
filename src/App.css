@@ -1,14 +1,13 @@
 *{
   margin: 0%;
   padding: 0%;
+  
 }
 .background{
   
    /* background: -webkit-linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%); */
-    background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
-  z-index: -1000;
+    
 }
 .App {
   text-align: center;
