@@ -8,7 +8,7 @@ import Footer from './footer/Footer'
 import Front from './Frontp/Front'
 // import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
-import Particlesbg from './Background/Particlesbg'
+// import Particlesbg from './Background/Particlesbg'
 
 
 

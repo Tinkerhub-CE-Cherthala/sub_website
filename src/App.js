@@ -18,7 +18,8 @@ function App() {
     <Router>
     <Routes>
 
-      <Route path="/" element={<Index />} exact/>
+      <Route path="/" element={<Index />} exact/>\
+      <Route path="/error" element={<Listee/>} />
 
       
       <Route path="/workshops" element={<List />} />
