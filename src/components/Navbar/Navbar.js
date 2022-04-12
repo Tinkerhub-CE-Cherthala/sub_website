@@ -4,23 +4,42 @@ import { HashLink as Link } from 'react-router-hash-link';
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const [navbar,setNavbar] = useState(false);
+
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
-useEffect(() => {
 
+  const changeBackground = ()=>{
+    if(window.scrollY>100){
+      setNavbar(true);
+    }
+    else{
+      setNavbar(false);
+    }
+  }  
+useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
     }
-
     window.addEventListener('resize', changeWidth)
-
+  }, 
+  
+  [])
+  useEffect(() => {
+    window.addEventListener('scroll',changeBackground);  
+    return () => {
+      window.removeEventListener('scroll',changeBackground);
+    }
   }, [])
   
 
 
+  
+
+
   return (
-    <nav className='navnav'>
+    <nav className={navbar ? 'navnav' : 'navnot' }>
         <h1 className="zealous">Zealous</h1>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">

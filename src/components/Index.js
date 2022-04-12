@@ -39,13 +39,13 @@ export default function Index() {
         
         <StrictMode>
         
+<div className='bg-m'>
 
         <Navbar />
-      <Particlesbg/>
+      
         
         <div className='head'>
         <Front />
-
         </div>
       <div className='main'>
         <Event />
@@ -53,6 +53,7 @@ export default function Index() {
         <About />
         <Footer />
       </div>  
+</div>
         </StrictMode>
         
 }

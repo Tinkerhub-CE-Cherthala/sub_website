@@ -16,6 +16,12 @@
     overflow-y: scroll;
     width: 100vw;
 } */
+.project{
+    
+    height: 168vh;
+
+  
+}
 
 .sec{
     /* scroll-snap-align: start; */
@@ -45,11 +51,6 @@
     border-radius: 30px;
     /* transform: rotate(45deg); */
 
-}
-
-
-.contain{
-    z-index: -100;
 }
 
 .logocont{
