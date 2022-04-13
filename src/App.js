@@ -13,10 +13,13 @@ import Tabs from "./components/general/workshops/PrisonBreak/Tab";
 
 function App() {
   return (
+    <div className="background">
+
     <Router>
     <Routes>
 
-      <Route path="/" element={<Index />} exact/>
+      <Route path="/" element={<Index />} exact/>\
+      <Route path="/error" element={<Listee/>} />
 
       
       <Route path="/workshops" element={<List />} />
@@ -25,6 +28,7 @@ function App() {
 
     </Routes>
   </Router>
+    </div>
     
     
     

@@ -11,7 +11,7 @@
     height: 20vh;
     margin: 0 auto;
     width: 90vw;
-    background-color: var(--black);
+    z-index: 900;
 }
 .click{
     display: flex;
@@ -26,6 +26,9 @@
     margin-top: 10px;
     outline: none;
     text-decoration: none;
+    z-index: 900;
+    
+    
 }
 .click:hover{
     background-color: var(--orange);

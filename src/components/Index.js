@@ -8,6 +8,7 @@ import Footer from './footer/Footer'
 import Front from './Frontp/Front'
 // import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
+// import Particlesbg from './Background/Particlesbg'
 
 
 
@@ -27,21 +28,24 @@ export default function Index() {
   return (
     
   <div>
-
-         {/* <Preconnect />  */}
+    
+      
       { loading ? <div className='loader'> <Triangle height="100"
-    width="100"
-    color='#fa9200'
-    ariaLabel='loading'/> </div> : 
-      
-      
+        
+        width="100"
+        color='#fa9200'
+        ariaLabel='loading'/> </div> : 
+        
+        
         <StrictMode>
+        
+<div className='bg-m'>
 
         <Navbar />
+      
         
         <div className='head'>
         <Front />
-
         </div>
       <div className='main'>
         <Event />
@@ -49,11 +53,12 @@ export default function Index() {
         <About />
         <Footer />
       </div>  
+</div>
         </StrictMode>
         
 }
         </div>
   
   )
-    
+  
 }

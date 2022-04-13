@@ -2,15 +2,15 @@
     --orange: #fa9200;
     --black: #141414;
 }
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     color: var(--orange);
-}
+} */
 
 
 .page{
-    background-color: var(--black);
+    /* background-color: var(--black); */
     width: 100vw;
     height: 800vh;
     /* min-height: 100vh; */
@@ -38,7 +38,7 @@
     transform: translateX(50%);
 }
 .toggle{
-    background: transparent;
+    /* background: transparent; */
     outline: none;
     position: relative;
     padding: 10px 20px;
