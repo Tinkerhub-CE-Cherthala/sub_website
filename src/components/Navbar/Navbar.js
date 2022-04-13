@@ -4,20 +4,20 @@ import { HashLink as Link } from 'react-router-hash-link';
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-  const [navbar,setNavbar] = useState(false);
+  // const [navbar,setNavbar] = useState(false);
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
 
-  const changeBackground = ()=>{
-    if(window.scrollY>100){
-      setNavbar(true);
-    }
-    else{
-      setNavbar(false);
-    }
-  }  
+  // const changeBackground = ()=>{
+  //   if(window.scrollY>100){
+  //     setNavbar(true);
+  //   }
+  //   else{
+  //     setNavbar(false);
+  //   }
+  // }  
 useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -26,12 +26,12 @@ useEffect(() => {
   }, 
   
   [])
-  useEffect(() => {
-    window.addEventListener('scroll',changeBackground);  
-    return () => {
-      window.removeEventListener('scroll',changeBackground);
-    }
-  }, [])
+  // useEffect(() => {
+  //   window.addEventListener('scroll',changeBackground);  
+  //   return () => {
+  //     window.removeEventListener('scroll',changeBackground);
+  //   }
+  // }, [])
   
 
 
@@ -39,7 +39,7 @@ useEffect(() => {
 
 
   return (
-    <nav className={navbar ? 'navnav' : 'navnot' }>
+    <nav className='navnav'>
         <h1 className="zealous">Zealous</h1>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
