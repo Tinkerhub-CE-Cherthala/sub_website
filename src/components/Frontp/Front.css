@@ -36,10 +36,11 @@
     /* scroll-snap-align: start; */
 }
 #sec1{
-    /* background: url('../../images/bg.png'); */
+     background: url('../../images/bg.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: black; */
+    z-index: 1000;
 }
 .scroll{
     height: 20vh;
