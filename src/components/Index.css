@@ -3,14 +3,17 @@
 .main{
     margin-top: 1100px;
     width: 100vw;
-    background-color: #141414;
+    
+    
+    
 }
 .head{
-    z-index: 200;
+    
     position: absolute;
     height: 500px;   
     top: 0;
     width: 100vw;
+    
 }
 .loader{
     position: fixed; 
@@ -19,6 +22,5 @@
     transform: translate(-50%, -50%);
     /* text-align: center;
     justify-content: center;
-    align-items: center;
-     */
+    align-items: center;/*
 }
