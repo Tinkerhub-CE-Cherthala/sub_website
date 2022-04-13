@@ -13,14 +13,13 @@
 
 } */
 .navnav {
+    
     position: fixed;
-    z-index: 999;
+    z-index: 0;
     top: 0;
     width: 100vw;
     height: 80px;
-    background: linear-gradient(45deg, var(--orange), #992900); 
-    color: var(--black);
-    transition: all 0.3s ease-in;
+    background: linear-gradient(45deg, var(--orange), #992900);
 }
 
 .zealous{
