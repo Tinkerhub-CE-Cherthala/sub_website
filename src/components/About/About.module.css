@@ -40,7 +40,6 @@
      background-image: linear-gradient(315deg, #202930 100%, #414141 0%);
      text-align: center;
      overflow: hidden;
-     z-index: -1;
      
    }
    .full{
