@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 :root{
   --orange: #fa9200;
   --black: #141414;
@@ -9,7 +10,9 @@
   padding: 0;
   box-sizing : border-box;
 } */
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 
 .section2{
   display : flex;
@@ -28,6 +31,10 @@
   text-decoration: none;
   color: var(--orange);
 }
+.event p{
+  font-family: 'Roboto', sans-serif;
+
+}
 
 .container {
   position : relative;
@@ -38,7 +45,7 @@
   justify-content : center;
   flex-wrap:wrap;
   padding : 10px;  
-  z-index: -1;
+  z-index: 0;
 }
 
 .container .card {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 :root{
     --orange: #fa9200;
     --black: #141414;
@@ -7,6 +10,7 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      font-family: 'Montserrat', sans-serif;
     }
     
     body {
@@ -19,6 +23,7 @@
       display: flex;
       justify-content: center;
       margin-bottom: 40px;
+      font-family: 'Roboto', sans-serif;
     }
     .regbutton{
       background-color: var(--orange);
@@ -123,7 +128,7 @@
       height: 100%;
       /* margin-bottom: 40px; */
       color: var(--orange);
-
+      text-transform: none;
     }
     .activecontent {
       display: block;
@@ -167,8 +172,9 @@
       border-radius: 30px;
       margin-bottom: 40px;
     }
-  
+    
     .highspace{
+      text-transform: none;
       margin-bottom: 3px;
     }
     .eventhead{

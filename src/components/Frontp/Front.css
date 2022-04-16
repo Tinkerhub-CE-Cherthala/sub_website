@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 :root{
     --orange: #fa9200;
@@ -9,6 +9,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 /* .project{
@@ -19,6 +20,7 @@
 .project{
     
     height: 168vh;
+    z-index: 1000;
 
   
 }
@@ -40,7 +42,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: black; */
-    z-index: 1000;
 }
 .scroll{
     height: 20vh;
@@ -52,6 +53,30 @@
     border-radius: 30px;
     /* transform: rotate(45deg); */
 
+}
+
+.boxx1,
+.boxx2{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 10%;
+    left: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px solid var(--orange);
+    height: 80px;
+    width: 80px;
+    transform: translate(-50%,-100%) rotate(45deg);
+    animation: scroll 1s ease-in-out infinite;
+    /* transform: rotate(45deg); */
+    border-top: transparent;
+    border-left: transparent;
+}
+
+.boxx2{
+    top: 20%;
+    animation-delay: 0.3s;
 }
 
 .logocont{
@@ -66,7 +91,7 @@
 .title{
     font-size: 5em;
     color: var(--orange);
-    font-family:'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 .caption{
     font-size: 2em;

@@ -2,7 +2,8 @@ import ece from '../../images/ece.png'
 import workshop from '../../images/wrench.png';
 import competition from '../../images/competition.png';
 import Eventcss from './Event.module.css'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import {useEffect} from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
@@ -44,7 +45,7 @@ function Event() {
        
       </div>
       <div class = {Eventcss.content}>
-      <Link to='/general/List' className={Eventcss.linkview}>
+      <Link to='/competitions' className={Eventcss.linkview}>
         <div class={Eventcss.view}>
           view
         </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 :root{
     --orange: #fa9200;
     --black: #141414;
@@ -7,7 +9,10 @@
     padding: 0%;
     color: var(--orange);
 } */
+*{
+    font-family: 'Montserrat', sans-serif;
 
+}
 
 .page{
     /* background-color: var(--black); */
@@ -53,6 +58,7 @@
     border-radius: 30px;
     border: none;
     outline: none;
+    font-size: 1.7em;
 }
 .button::after{
     outline: none;
@@ -102,9 +108,11 @@
     margin-left: 40%;
     display: flex;
     align-items: center;
+    font-size: 1.5em;
 }
 .time{
-    margin-left: 70%;
+    margin-left: 66%;
     display: flex;
     align-items: center;
+    font-size: 1.5em;
 }

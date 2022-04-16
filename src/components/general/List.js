@@ -1,7 +1,5 @@
 import React,{useEffect} from "react";
 import {Link} from 'react-router-dom'
-// import header from './images/header-img.png'
-// import img1 from './images/img1.jpg'
 import Listt from './List.module.css';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
@@ -28,7 +26,7 @@ function List(){
             <div class={Listt.boxcontainer}>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>EVENT1</h3>
+                <h3>Prison Break</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/prisonbreak' class={Listt.btn}>DETAILS </Link>
