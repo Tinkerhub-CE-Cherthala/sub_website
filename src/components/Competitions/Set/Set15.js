@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set2() {
+function Set15() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>QUIZ – O – PHILE </p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,8 +43,7 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
-          </p>
+          Electronics based Technical Quiz.            </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -68,13 +67,23 @@ function Set2() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Only individuals will be allowed to compete.</li>
-            <li className={tab.p}>Audience shall not give hints or clues to the competitors.</li>
-            <li className={tab.p}>The decision of judges will be final and will not be subjected to any change.</li>
-            <li className={tab.p}>Participants shall not use mobile phones or any other electronic equipment. </li>
-            <li className={tab.p}>Participants should complete the task in the given time.</li>
-            <li className={tab.p}>All contestants are required to present a student identification card.</li>
-            <li className={tab.p}>The participants will be observed throughout the contest and any problems or violations of the rules in case will be reported.</li>
+            <li className={tab.p}>There will be three rounds: Preliminary, Secondary & Final Round.</li>
+            <li className={tab.p}>First two rounds will be of question and answer type.</li>
+            <li className={tab.p}>Final Round will be of decoding the images given.</li>
+            <li className={tab.p}>First Two Rounds comprises of 10 questions each. </li>
+            <li className={tab.p}>Final Round contains 5 questions.</li>
+            <li className={tab.p}>Enter the venue at least 15 minutes before the scheduled time in order to
+reduce the last minute rush. </li>
+            <li className={tab.p}>Uses of Mobile phones & other electronic gadgets such as smart watches,
+calculators etc. are not allowed inside the venue. Any infringements of these
+instructions shall entail the cancellation of participation of that individual.</li>
+            <li className={tab.p}>Wearing of mask/face cover is mandatory for all candidates. Candidates
+without mask/face cover will not be allowed entry into the event.</li>
+            <li className={tab.p}>Candidates may carry his/her own hand sanitizer (small size) in transparent
+bottle.</li>
+            <li className={tab.p}>Candidates to follow COVID 19 norms of ‘social distancing’ in and around
+the premises of the venue. </li>
+            <li className={tab.p}>Medium of Language is English. </li>
 
           </ul>
           
@@ -105,4 +114,4 @@ function Set2() {
   );
 }
 
-export default Set2;
+export default Set15;

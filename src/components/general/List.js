@@ -26,7 +26,7 @@ function List(){
             <div class={Listt.boxcontainer}>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>Prison Break</h3>
+                <h3>Event1</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/prisonbreak' class={Listt.btn}>DETAILS </Link>

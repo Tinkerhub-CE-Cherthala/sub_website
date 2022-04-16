@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set2() {
+function Set11() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>Short circuit Z3.0</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,8 +43,12 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
-          </p>
+          Mindspark event is based on circuit debugging. Main aim is to correct the fault
+circuit by analysing the given output. A fault circuit and the exact output of the
+specific circuit is given. We are providing same circuit for all participants at a
+time. Also provide a time limit for the completion and based on that allotted time,
+we’ll choose the winners. This is a wonderful opportunity for the participants to
+increase their knowledge in circuits and it implementation.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -69,13 +73,21 @@ function Set2() {
           </p>
           <ul>
             <li className={tab.p}>Only individuals will be allowed to compete.</li>
-            <li className={tab.p}>Audience shall not give hints or clues to the competitors.</li>
-            <li className={tab.p}>The decision of judges will be final and will not be subjected to any change.</li>
-            <li className={tab.p}>Participants shall not use mobile phones or any other electronic equipment. </li>
-            <li className={tab.p}>Participants should complete the task in the given time.</li>
-            <li className={tab.p}>All contestants are required to present a student identification card.</li>
-            <li className={tab.p}>The participants will be observed throughout the contest and any problems or violations of the rules in case will be reported.</li>
-
+            <li className={tab.p}>Components , paper , and pen are provided.</li>
+            <li className={tab.p}>Every participant should have their college ID card or atleast one proof of identity.</li>
+            <li className={tab.p}> Spot Registration is possible.</li>
+            <li className={tab.p}> Those who generate the desired circuit with minimum time will be the winners.</li>
+            <li className={tab.p}>Prize money is awarded to students only if they generate 100% of the desired output.</li>
+            <li className={tab.p}> Participants must be present for the event at the specified time. Absent or late
+ participants will be disqualified. No money will be returned for any reason.</li>
+            <li className={tab.p}> Any kind of cheating will be discouraged. Any participants found doing so will
+ lead to direct elimination.</li>
+            <li className={tab.p}>Any misbehaviour from the participant with other participant or with organizer
+ won’t be encouraged. It’ll lead to direct disqualification.</li>
+            <li className={tab.p}> In case of any disputes, final wording will remain with the organizers. Decision
+ of the judge is final.</li>
+            <li className={tab.p}>Use of mobile phones are not allowed during competition. </li>
+            <li className={tab.p}>All the rights are reserved with Event Organizer Committee.</li>
           </ul>
           
         </div>
@@ -105,4 +117,4 @@ function Set2() {
   );
 }
 
-export default Set2;
+export default Set11;

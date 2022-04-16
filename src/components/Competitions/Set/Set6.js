@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set2() {
+function Set6() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>Credorian</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,7 +43,9 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
+          Zealous 2022 presents you with the opportunity to go all-guns-blazing with your coding repertoire. If you have what it takes to be called a Credorian, come be a part of this amazing event, one which will bring out the hacker in you, in ways that you have not even imagined.
+          <br />
+          Credorian is an event to test your knowledge on reading and understanding a perplexed piece of code. 
           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
@@ -68,13 +70,15 @@ function Set2() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Only individuals will be allowed to compete.</li>
-            <li className={tab.p}>Audience shall not give hints or clues to the competitors.</li>
-            <li className={tab.p}>The decision of judges will be final and will not be subjected to any change.</li>
-            <li className={tab.p}>Participants shall not use mobile phones or any other electronic equipment. </li>
-            <li className={tab.p}>Participants should complete the task in the given time.</li>
-            <li className={tab.p}>All contestants are required to present a student identification card.</li>
-            <li className={tab.p}>The participants will be observed throughout the contest and any problems or violations of the rules in case will be reported.</li>
+            <li className={tab.p}>Teams will be a maximum of 5 people</li>
+            <li className={tab.p}>Teams should be made up exclusively of students or anyone who are not organizers, volunteers, judges, sponsors, or in any other privileged position at the event.</li>
+            <li className={tab.p}>All team members should be present at the event. </li>
+            <li className={tab.p}>All work on a project should be done during the hackathon. </li>
+            <li className={tab.p}>Teams can work on ideas that have already been done. Hacks do not have to be “innovative”. If somebody wants to work on a common idea they should be allowed to do so and should be judged on the quality of their hack.</li>
+            <li className={tab.p}>Teams can work on an idea that they have worked on before (as long as they do not re-use code).</li>
+            <li className={tab.p}>The entire idea need not be fully implemented however, the submission should be functional so that it can be reviewed by the judges.</li>
+            <li className={tab.p}>Teams can be disqualified from the competition at the organizers’ discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour.</li>
+            
 
           </ul>
           
@@ -105,4 +109,4 @@ function Set2() {
   );
 }
 
-export default Set2;
+export default Set6;

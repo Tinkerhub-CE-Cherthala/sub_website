@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set2() {
+function Set4() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>Short circuit Z3.0</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,8 +43,7 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
-          </p>
+          Successfully design circuit with provided components.           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -69,12 +68,16 @@ function Set2() {
           </p>
           <ul>
             <li className={tab.p}>Only individuals will be allowed to compete.</li>
-            <li className={tab.p}>Audience shall not give hints or clues to the competitors.</li>
-            <li className={tab.p}>The decision of judges will be final and will not be subjected to any change.</li>
-            <li className={tab.p}>Participants shall not use mobile phones or any other electronic equipment. </li>
-            <li className={tab.p}>Participants should complete the task in the given time.</li>
-            <li className={tab.p}>All contestants are required to present a student identification card.</li>
-            <li className={tab.p}>The participants will be observed throughout the contest and any problems or violations of the rules in case will be reported.</li>
+            <li className={tab.p}>Unethical behaviour could lead to disqualification. Faculty-coordinators have all the rights to take final decisions for any matter during the event.</li>
+            <li className={tab.p}>The decision of the judges will be final and abiding. Argument with judges in any form will  lead to the disqualification.</li>
+            <li className={tab.p}>Only provided tools can be used. </li>
+            <li className={tab.p}>Safety precautions must be taken.</li>
+            <li className={tab.p}>Components/tools should not be damaged.</li>
+            <li className={tab.p}>Should complete within time limit.</li>
+            <li className={tab.p}>Circuit design and provided components will be decided by coordinators.</li>
+            <li className={tab.p}>The one who successfully completes the circuit first will be the winner.</li>
+            <li className={tab.p}>Certificates of Participation will be given to all participants.</li>
+            <li className={tab.p}>Final decision will be taken by the judging panel. </li>
 
           </ul>
           
@@ -105,4 +108,4 @@ function Set2() {
   );
 }
 
-export default Set2;
+export default Set4;

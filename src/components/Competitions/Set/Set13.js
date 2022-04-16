@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Navbar from "../../../Navbar/Navbar";
-import tab from './Tab.module.css';
+import Navbar from "../../Navbar/Navbar";
+import tab from './Set.module.css';
 
-function Tabs() {
+function Set13() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Tabs() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>name1</p>
+      <p className={tab.eventname}>RAINBOW</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,20 +43,24 @@ function Tabs() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          To solve a series of puzzles that goes through a prison break storyline and the winners will be the first team cracking the puzzles in order to break the prison. Challenging clues will be provided. 
-          </p>
+          RAINBOWisaminieventwhichbasicallyfocusedonthebasicfundamentalconceptoffindingthevalueofa
+resistorusingcolourcodemethod.
+Theeventistofindthecolourcodeofresistorsandfindtheirvaluesthathavebeenpresentedtothe
+participantswithcertaintimelimit.
+Theonewhofindsthevalueearlierofwithinthetimelimitwillbethewinner.
+Theeventisscheduledfor2timesaday.Anyonecanparticipateinanysessionalsoallofthem.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Date</p>
+              <p className={tab.highlightheading}>Time,Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time</p>
-              <p>3:00 pm</p>
+              <p className={tab.highlightheading}>Entry fee</p>
+              <p>50</p>
             </div>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Entry fee</p>
-              <p>400</p>
+              <p className={tab.highlightheading}>Prize pool</p>
+              <p>1K</p>
             </div>
           </div>
         </div>
@@ -68,13 +72,18 @@ function Tabs() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>The team should not consist of more than 4 members. Students from different institutes can form a team.</li>
-            <li className={tab.p}>Solve within the time limit given to each puzzle or else will be disqualified.</li>
-            <li className={tab.p}>Never use mobile phones for solving except in any case if needed.</li>
-            <li className={tab.p}>Unethical behaviour could lead to disqualification. Faculty-coordinators have all the rights to take final decisions for any matter during the event. </li>
-            <li className={tab.p}>The decision of the judges will be final and abiding. Argument with judges in any form will lead to the disqualification of the team.</li>
-            <li className={tab.p}>Each member of the team must contain the identity card.</li>
-            <li className={tab.p}>Certificates of Participation will be given to all the teams that will participate in the event, but not to the teams which get disqualified due to disobeying any of the competition rules.</li>
+            <li className={tab.p}>Only individuals will be allowed to compete.</li>
+            <li className={tab.p}>Resistors, papers, pen will be provided to individuals at the venue.</li>
+            <li className={tab.p}>Only registered participants are allowed to participate.</li>
+            <li className={tab.p}>Spot registration is possible. </li>
+            <li className={tab.p}>Partcipants who finds the value of all provided resistors using colour code method before or within
+the specified time will be the winner.</li>
+            <li className={tab.p}>If one or more participants become the winners, prize money will be shared among them.</li>
+            <li className={tab.p}>Absent or late participants will be disqualified without returning the registration fee.</li>
+            <li className={tab.p}>Use of mobile phones, calculators, digital watch or any other kind of electronic devices are strictly prohibited.</li>
+            <li className={tab.p}>Any kind of cheating will be discouraged. participant to participant misbehaviour will lead to direct disqualification.</li>
+            <li className={tab.p}>All the rights are reserved within the event organisers committee, incase of any disputes, the decision of judge will be final.</li>
+            <li className={tab.p}>Event is scheduled as 4 sessions, each participant can participate in all 4 sessions with separate registrtations. repetitions of participation is also encouraged with individual registrations. </li>
 
           </ul>
           
@@ -105,4 +114,4 @@ function Tabs() {
   );
 }
 
-export default Tabs;
+export default Set13;

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set2() {
+function Set9() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>Crypto-Busters </p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,8 +43,7 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
-          </p>
+          This challenge is for a team of exactly 2 members. A description about a text encryption algorithm will be given to both members and a message will be given to either one member. The member who got the message need to figure out the algorithm from the description and write the code to encrypt the given message. Encrypt the message using that program and handover the encrypted message to the second member. At the same time the second member need to figure out the decryption algorithm and write the program to decrypt the message which is encrypted by the first member.          </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -68,14 +67,16 @@ function Set2() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Only individuals will be allowed to compete.</li>
-            <li className={tab.p}>Audience shall not give hints or clues to the competitors.</li>
-            <li className={tab.p}>The decision of judges will be final and will not be subjected to any change.</li>
-            <li className={tab.p}>Participants shall not use mobile phones or any other electronic equipment. </li>
-            <li className={tab.p}>Participants should complete the task in the given time.</li>
-            <li className={tab.p}>All contestants are required to present a student identification card.</li>
-            <li className={tab.p}>The participants will be observed throughout the contest and any problems or violations of the rules in case will be reported.</li>
-
+            <li className={tab.p}>A team event in which participants needs to figure out an algorithm hidden in the given description.</li>
+            <li className={tab.p}>The team must consists of exactly 2 members.</li>
+            <li className={tab.p}>First member need to figure out the encryption algorithm and the second member need to figure out the decryption algorithm from the given description.</li>
+            <li className={tab.p}>The first member need to encrypt a given message to cipher text and the second member need to decrypt the cipher text. </li>
+            <li className={tab.p}>10 minutes will be given for general instructions.</li>
+            <li className={tab.p}>The team members will not be allowed to see or talk to each other at time of event.</li>
+            <li className={tab.p}>The team members who try to communicate with each other will be disqualified from the event.</li>
+            <li className={tab.p}>The participants who encrypts and decrypts the message with in the specified time will be the winners.</li>
+            <li className={tab.p}>If there is more than one team the team who took least time will be considered as winners.</li>
+            <li className={tab.p}>The winning team will get a prize money of 8000 rs. And certificate of encouragement.</li>
           </ul>
           
         </div>
@@ -105,4 +106,4 @@ function Set2() {
   );
 }
 
-export default Set2;
+export default Set9;

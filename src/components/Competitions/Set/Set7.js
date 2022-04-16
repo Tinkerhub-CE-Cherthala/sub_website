@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set2() {
+function Set7() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>PERSONA</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,8 +43,10 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
-          </p>
+          Zealous 2022 presents PERSONA, an  intercollege project presentation contest that encourages students to
+showcase their development and innovative skills. It provides a platform to present their ready
+projects and explore more ideas.
+            </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -59,6 +61,23 @@ function Set2() {
               <p>1K</p>
             </div>
           </div>
+          <p className={tab.rules}>
+              Round 1
+          </p>
+          <li className={tab.p}>Registration and Submission of your Abstract .</li>
+          <ul>
+              <li className={tab.p}>The participants need to submit their Abstract of the project at  the time of registration. </li>
+              <li className={tab.p}>The abstract should contain, idea, requirements, functionality and details about the expected output.</li>
+              <li className={tab.p}>These abstracts will be judged and the best ideas will be selected for the Second round.</li>
+          </ul>
+          <p className={tab.rules}>
+              Round 2
+          </p>
+          <li className={tab.p}>Final Registration and Presentation of  PPT for selected participants.</li>
+          <ul>
+              <li className={tab.p}>The second round will be conducted only for the selected participants.The selected participants should submit their PPT  before 9 Am on the day of  event.</li>
+          </ul>
+          <li className={tab.p}>The  selected participants have to remmit the registration fee  during  the time of  final registration.</li>
         </div>
 
         <div
@@ -68,13 +87,19 @@ function Set2() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Only individuals will be allowed to compete.</li>
-            <li className={tab.p}>Audience shall not give hints or clues to the competitors.</li>
-            <li className={tab.p}>The decision of judges will be final and will not be subjected to any change.</li>
-            <li className={tab.p}>Participants shall not use mobile phones or any other electronic equipment. </li>
-            <li className={tab.p}>Participants should complete the task in the given time.</li>
-            <li className={tab.p}>All contestants are required to present a student identification card.</li>
-            <li className={tab.p}>The participants will be observed throughout the contest and any problems or violations of the rules in case will be reported.</li>
+            <li className={tab.p}>The competition is open for students from any branches.</li>
+            <li className={tab.p}>Can participate individually or in a group of up to 4 people.</li>
+            <li className={tab.p}> All team members should be present at the time of event.</li>
+            <li className={tab.p}>The project must be socially relevant.  </li>
+            <li className={tab.p}>The entire project need not be fully implemented; however, there must be a clear idea
+about the project and its implementation(The detailed idea and design of the project
+need to be presented)</li>
+            <li className={tab.p}>Teams should be made up exclusively of students or anyone who are not organizers,
+volunteers, judges, sponsors, or in any other privileged position at the event.</li>
+            <li className={tab.p}>Presentations are limited to 15 minutes maximum and competitors exceeding the time
+limit are disqualified.</li>
+            <li className={tab.p}>The decision of the adjudicating panel is final.</li>
+            
 
           </ul>
           
@@ -105,4 +130,4 @@ function Set2() {
   );
 }
 
-export default Set2;
+export default Set7;

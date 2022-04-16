@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Navbar from "../../../Navbar/Navbar";
-import tab from './Tab.module.css';
+import Navbar from "../../Navbar/Navbar";
+import tab from './Set.module.css';
 
-function Tabs() {
+function Set10() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Tabs() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>name1</p>
+      <p className={tab.eventname}>ZEA-MAD</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,20 +43,24 @@ function Tabs() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          To solve a series of puzzles that goes through a prison break storyline and the winners will be the first team cracking the puzzles in order to break the prison. Challenging clues will be provided. 
-          </p>
+          Zealous 2022 presents ZEA-MAD (Mobile Application Development Contest) is a
+student contest focused on developing mobile applications. This contest was created to
+provide college students with additional competitive activities in the scope of
+computer science. By competing, students would focus on developing their technical
+and social (team) skills, since the prizes are arranged in a way to encourages
+teamwork.          </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Date</p>
+              <p className={tab.highlightheading}>Time,Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time</p>
-              <p>3:00 pm</p>
+              <p className={tab.highlightheading}>Entry fee</p>
+              <p>50</p>
             </div>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Entry fee</p>
-              <p>400</p>
+              <p className={tab.highlightheading}>Prize pool</p>
+              <p>1K</p>
             </div>
           </div>
         </div>
@@ -68,13 +72,18 @@ function Tabs() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>The team should not consist of more than 4 members. Students from different institutes can form a team.</li>
-            <li className={tab.p}>Solve within the time limit given to each puzzle or else will be disqualified.</li>
-            <li className={tab.p}>Never use mobile phones for solving except in any case if needed.</li>
-            <li className={tab.p}>Unethical behaviour could lead to disqualification. Faculty-coordinators have all the rights to take final decisions for any matter during the event. </li>
-            <li className={tab.p}>The decision of the judges will be final and abiding. Argument with judges in any form will lead to the disqualification of the team.</li>
-            <li className={tab.p}>Each member of the team must contain the identity card.</li>
-            <li className={tab.p}>Certificates of Participation will be given to all the teams that will participate in the event, but not to the teams which get disqualified due to disobeying any of the competition rules.</li>
+            <li className={tab.p}>The competition is open for everyone who is learning android technologies or anyone who is going to start.</li>
+            <li className={tab.p}>Can participate in a group of up to three people.</li>
+            <li className={tab.p}>Teams should be made up exclusively of students or anyone who are not
+organizers, volunteers, judges, sponsors, or in any other privileged position at the
+event.</li>
+            <li className={tab.p}>All team members should be present at the event. </li>
+            <li className={tab.p}>The entire app need not be fully implemented however, the submission should be
+functional so that it can be reviewed by the judges.</li>
+            <li className={tab.p}>Teams can be disqualified from the competition at the organizers’ discretion.
+Reasons might include but are not limited to breaking the Competition Rules,
+breaking the Code of Conduct, or other unsporting behavior.</li>
+            
 
           </ul>
           
@@ -105,4 +114,4 @@ function Tabs() {
   );
 }
 
-export default Tabs;
+export default Set10;
