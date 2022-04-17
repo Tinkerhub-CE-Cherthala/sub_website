@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../../../Navbar/Navbar";
+import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
 function Set5() {

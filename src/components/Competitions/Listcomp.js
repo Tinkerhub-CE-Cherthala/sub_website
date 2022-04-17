@@ -37,7 +37,7 @@ function Listcomp(){
                     <h3>Mind Zone Invaders Z3.0</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/MindZoneInvaders' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ function Listcomp(){
                     <h3>Turn a' round Z3.0</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/TurnARound' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ function Listcomp(){
                     <h3>Short circuit Z3.0</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/ShortCircuit' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
@@ -61,34 +61,90 @@ function Listcomp(){
                     <h3>Prison Break</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/PrisonBreak' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT6</h3>
+                    <h3>Credorian</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/Credorian' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT7</h3>
+                    <h3>PERSONA</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/PERSONA' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT8</h3>
+                    <h3>DIG-THE-BUG</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/DIG-THE-BUG' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
                 
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>Crypto-Busters</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/Crypto-Busters' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>ZEA-MAD</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/ZEA-MAD' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>Mindspark</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/Mindspark' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>OHM DECODER</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/OHM-DECODER' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>RAINBOW</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/RAINBOW' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>TECH TODAY</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/TECH-TODAY' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>QUIZ – O – PHILE</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/QUIZ–O–PHILE' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
 
             </div>
 

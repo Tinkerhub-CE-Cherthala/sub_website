@@ -14,7 +14,7 @@ function Set11() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Short circuit Z3.0</p>
+      <p className={tab.eventname}>Mindspark</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
