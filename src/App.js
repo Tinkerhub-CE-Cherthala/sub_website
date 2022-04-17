@@ -8,10 +8,6 @@ import Listee from './components/eee/Listee';
 import Index from "./components/Index";
 import Days from "./components/Schedule/Days";
 
-<<<<<<< HEAD
-=======
-// import Tabs from "./components/general/workshops/PrisonBreak/Tab";
->>>>>>> refs/remotes/origin/master
 import Listcomp from "./components/Competitions/Listcomp";
 
 import Set1 from "./components/Competitions/Set/Set1";
@@ -45,11 +41,7 @@ function App() {
       <Route path="/workshops" element={<List />} />
       <Route path="/competitions" element={<Listcomp />} />
       <Route path="/schedule" element={<Days />} />
-<<<<<<< HEAD
       
-=======
-      {/* <Route path="/prisonbreak" element={<Tabs />} /> */}
->>>>>>> refs/remotes/origin/master
       <Route path="/racezilla" element={<Set1 />} />
       <Route path="/TurnARound" element={<Set2 />} />
       <Route path="/MindZoneInvaders" element={<Set3 />} />
