@@ -230,6 +230,7 @@
      display: none;
    }
    @media (max-width: 768px) {
+   
      
     .card{
       min-width: 49%;
@@ -258,10 +259,7 @@
        justify-content: center;
        align-items: center;
      }
-     .container .row{
-      display: flex;
-      flex-direction: row;
-     } 
+     
          .card{
        margin-top: 20%;
      }
@@ -284,6 +282,15 @@
       .card .content .name{
         font-size: 19px;
         font-weight: 500;
+      }
+      .container .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 2% 2%;
+        
+        
       }
 
    }
@@ -346,15 +353,37 @@
       justify-content: center;
       padding: 2% 2%;
       width: 100%;
-      margin-left: 240%;
+      margin-left: 624%;
       
     }
    
     
-     
-    
-    
    }
+
+   
+
+  
+
+   
+   @media (max-width:600px) and (min-width:576px) {
+    .container .row{
+     
+      /* width: 950px; */
+       margin-left: 288.3%; 
+      
+    }
+}
+
+@media (max-width:767px) and (min-width:601px) {
+  .container .row{
+   
+    /* width: 950px; */
+     margin-left: 288%;
+     width: 100%;
+    
+  }
+}
+
    
    /* End Scroller*/
    
@@ -517,18 +546,7 @@
    
    
 
-   @media screen and (max-width: 500px) {
-    .card{
-      min-width: 80%;
-    }
-    
-    .container .row{
-      
-      margin-left: 240%;
-      
-    }
-   }
-   @media screen and (max-width: 600px) {
+   /* @media screen and (max-width: 550px) {
     .container{
       width: 75%;
       margin-left: 12.5%;
@@ -539,12 +557,12 @@
       }
     .container .row{
       
-      margin-left: 240%;
+      margin-left: 625%;
       
     }
     .card{
       min-width: 90%;
     }
-   }
+   } */
 
   
