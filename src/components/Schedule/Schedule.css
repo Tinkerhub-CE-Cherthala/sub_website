@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
     --orange: #fa9200;
     --black: #141414;
@@ -27,7 +28,7 @@
     outline: none;
     text-decoration: none;
     z-index: -100;
-    
+    font-family: 'Roboto', sans-serif;
     
 }
 .click:hover{

@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 :root{
   --orange: #fa9200;
   --black: #000000;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
 }
 .para{
  
 
     padding: 15px;
-    color:var(--orange);
+    color:aliceblue;
     text-transform: none;
      font-family: 'Montserrat';
     /* font-family: "Times New Roman", Times, serif; */
@@ -23,8 +28,6 @@
     font-family:'Roboto', sans-serif;
     /* font-family: "Times New Roman", Times, serif; */
     font-size: 7em;
-    font-weight: bold;
-    font-size: xx-large;
     
    
    }
@@ -37,10 +40,9 @@
      width: 90%;
      padding: 15px 25px;
      border-radius: 50px;
-     background-image: linear-gradient(315deg, #202930 100%, #414141 0%);
+     background-color: #202930;
      text-align: center;
      overflow: hidden;
-    
      
    }
    .full{
@@ -88,20 +90,7 @@
     display: none;
   }
 
-   /* @keyframes scroll{
-    0%{
-      transform: translateX(0);
-    }
-     100%{
-       transform: translateX(calc(-250px * 7)); 
-    }
-    200%{
-      transform: translateX(0);
-    }   
-    
-
-  }
-   */
+  
   
    .container .maincard{
      display: flex;
@@ -419,11 +408,14 @@
    
    /*Team*/
    
+   .commite{
+     font-size: 4em;
+   }
    
    .ourteam {
      padding: 30px 0px 40px 0px;
      margin-bottom: 30px;
-     background-color: #FFF;
+     background-color: #111419;
      text-align: center;
      overflow: hidden;
      position: relative;
@@ -486,7 +478,7 @@
    .ourteam .title {
      display: block;
      font-size: 15px;
-     color: #4e5052;
+     color: wheat;
      text-transform: capitalize;
    }
    
