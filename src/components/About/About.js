@@ -18,6 +18,7 @@ import web from '../../images/web.jpg'
 import tech1 from '../../images/Tech1.jpg'
 import tech2 from '../../images/tech2.jpg'
 import tech3 from '../../images/tech3.jpg'
+import Phone from '../Icons/Phone';
 
 
 function About() {
@@ -51,7 +52,7 @@ function About() {
           <h4 class={Aboutcss.title}>Staff coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"> <div></div></a></li>
           <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
         
         </ul>

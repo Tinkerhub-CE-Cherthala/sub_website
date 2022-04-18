@@ -1,4 +1,8 @@
 import React from 'react'
+import Facebook from '../Icons/Facebook';
+import Instagram from '../Icons/Instagram';
+import Twitter from '../Icons/Twitter';
+import Youtube from '../Icons/Youtube';
 import './footer.css';
 
 export default function Footer() {
@@ -6,22 +10,22 @@ export default function Footer() {
     <div class="social">
         <div class="smedia">
             <div class="facebook">
-                <a href="https://www.facebook.com/ceczealous/" class="icon-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/ceczealous/" class="icon-link"><Facebook/></a>
             </div>
         </div>
         <div class="smedia">
             <div class="instagram">
-                <a href="https://www.instagram.com/zealouscec/?hl=en" class="icon-link"><i class="fab fa-instagram" id="insta"></i></a>
+                <a href="https://www.instagram.com/zealouscec/?hl=en" class="icon-link"><Instagram/></a>
             </div>
         </div>
         <div class="smedia">
             <div class="youtube">
-                <a href="https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA" class="icon-link" ><i class="fab fa-youtube" id="yout"></i></a>
+                <a href="https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA" class="icon-link" ><Youtube/></a>
             </div>
         </div>    
         <div class="smedia">
             <div class="twitter">
-                <a href="https://twitter.com/zealouscec" class="icon-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/zealouscec" class="icon-link"><Twitter/></a>
             </div>
         </div>        
     </div>
