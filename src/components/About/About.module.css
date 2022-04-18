@@ -526,7 +526,7 @@
    }
    
    .ourteam:hover .social {
-     bottom: 0;
+     bottom: -10px;
    }
    
    .ourteam .social li {
@@ -545,6 +545,14 @@
    .ourteam .social li a:hover {
      color: #1369ce;
      background-color: #f7f5ec;
+   }
+
+   .iconph{
+     font-size: 10px;
+     color: white;
+   }
+   .iconph:hover{
+     background-color: white;
    }
    
    
