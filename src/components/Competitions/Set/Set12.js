@@ -43,13 +43,7 @@ function Set12() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          Effective resistance is used to determine the resistance
-between two points in an electric circuit. We are providing the value of effective resistance
-to all participants . Based on that each participants can firstly draw the circuit and then they
-can implement it on breadboard. Resistors , paper , pen and multimeter are provided. We
-will provide a time limit for the completion and based on that allotted time, we’ll choose
-the winners. This is a wonderful opportunity for the participants to increase there
-knowledge in electronics.          </p>
+          A Circuit Completion Competition where the participants will be provided with the value of effective resistance & is to be completed within the given time duration.        </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -57,11 +51,11 @@ knowledge in electronics.          </p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>30</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>5K</p>
             </div>
           </div>
         </div>
@@ -99,16 +93,16 @@ the judge is final.</li>
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Anandu C S</li>
               <li className={tab.highspace}>Event head</li>
               <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}><a href="tel:+919446290210" aria-hidden="true">+91 9446290210</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Aishwarya S Kumar</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>aiswaryaskumaraishu@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+917034511934" aria-hidden="true">+91 7034511934</a></li>
             </ul>
           </div>
           

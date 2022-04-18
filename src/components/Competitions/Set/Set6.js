@@ -43,9 +43,8 @@ function Set6() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          Zealous 2022 presents you with the opportunity to go all-guns-blazing with your coding repertoire. If you have what it takes to be called a Credorian, come be a part of this amazing event, one which will bring out the hacker in you, in ways that you have not even imagined.
-          <br />
-          Credorian is an event to test your knowledge on reading and understanding a perplexed piece of code. 
+          A 24 Hour Hackathon to test the knowledge  on reading & understanding a perplexed piece of code.
+          
           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
@@ -54,11 +53,11 @@ function Set6() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>150</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>10K</p>
             </div>
           </div>
         </div>
@@ -89,16 +88,16 @@ function Set6() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Jasnamol M J </li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>jasnamoljacob2000@gmail.com  </li>
+              <li className={tab.highspace}><a href="tel:+919895816705" aria-hidden="true">+91 9895816705</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Biya Mathew</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>biyamathew123@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+919447973943" aria-hidden="true">+91 9447973943</a></li>
             </ul>
           </div>
           

@@ -43,7 +43,7 @@ function Set5() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          To solve a series of puzzles that goes through a prison break storyline and the winners will be the first team cracking the puzzles in order to break the prison. Challenging clues will be provided. 
+          A Puzzle Cracking Challenge where a series of puzzles will be provided to solve upon in order to break the prison by the use of some challenging clues.
           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>

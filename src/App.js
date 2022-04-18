@@ -25,6 +25,11 @@ import Set12 from "./components/Competitions/Set/Set12";
 import Set13 from "./components/Competitions/Set/Set13";
 import Set14 from "./components/Competitions/Set/Set14";
 import Set15 from "./components/Competitions/Set/Set15";
+import Set16 from "./components/Competitions/Set/Set16";
+import Set17 from "./components/Competitions/Set/Set17";
+
+import Other1 from "./components/Others/genevent/Other1";
+import Listothers from "./components/Others/Listothers";
 
 
 function App() {
@@ -40,6 +45,7 @@ function App() {
       
       <Route path="/workshops" element={<List />} />
       <Route path="/competitions" element={<Listcomp />} />
+      <Route path="/general" element={<Listothers />} />
       <Route path="/schedule" element={<Days />} />
       
       <Route path="/racezilla" element={<Set1 />} />
@@ -56,7 +62,11 @@ function App() {
       <Route path="/OHM-DECODER" element={<Set12 />} />
       <Route path="/RAINBOW" element={<Set13 />} />
       <Route path="/TECH-TODAY" element={<Set14 />} />
-      <Route path="/QUIZ–O–PHILE" element={<Set15 />} />
+      <Route path="/QuizOPhile" element={<Set15 />} />
+      <Route path="/WAVE-DIMENSION" element={<Set16 />} />
+      <Route path="/SOLDER-SPIN" element={<Set17 />} />
+
+      <Route path="/Mjolnir" element={<Other1 />} />
 
     </Routes>
   </Router>

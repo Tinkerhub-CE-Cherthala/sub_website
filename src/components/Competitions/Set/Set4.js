@@ -55,7 +55,7 @@ function Set4() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>2K</p>
             </div>
           </div>
         </div>
@@ -88,17 +88,12 @@ function Set4() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Gokuljith</li>
               <li className={tab.highspace}>Event head</li>
               <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}><a href="tel:+919074293951" aria-hidden="true">+91 9074293951 </a></li>
             </ul>
-            <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
-              <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
-            </ul>
+            
           </div>
           
         </div>

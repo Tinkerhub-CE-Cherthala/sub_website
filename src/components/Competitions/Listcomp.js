@@ -141,7 +141,23 @@ function Listcomp(){
                 <h3>QUIZ – O – PHILE</h3>
                     <div class={Listt.info}>
                         
-                    <Link to='/QUIZ–O–PHILE' class={Listt.btn}>DETAILS </Link>
+                    <Link to='/QuizOPhile' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>  
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>WAVE DIMENSION</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/WAVE-DIMENSION' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>SOLDER SPIN</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/SOLDER-SPIN' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 

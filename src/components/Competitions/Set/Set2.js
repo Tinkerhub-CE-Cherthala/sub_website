@@ -43,8 +43,7 @@ function Set2() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this event the participants are asked to do the perfect winding of a transformer. Upon knowing the number of primary turns, the secondary turns have to be calculated on their own using suitable equations. The one with perfect calculation and winding style will be awarded the prize.
-          </p>
+          A Transformer Winder Test where the participants will be asked to do the perfect winding by knowing the number of primary turns as well as calculating the number of secondary turns with a unique winding style in the given time.           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -85,16 +84,16 @@ function Set2() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Thasleema Nazar</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>thasleemanazar867@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+917994162491" aria-hidden="true">+91 7994162491</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Revathy Chandran </li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>revathychandran16@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+919188602641" aria-hidden="true">+91 9188602641</a></li>
             </ul>
           </div>
           

@@ -43,7 +43,7 @@ function Set3() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          The Objective behind organising Quiz competitions is to evaluate the knowledge of the participants within academics as well as beyond academics. The main purpose of the competition is to develop interest in subject areas of Electrical and Electronics Engineering.           </p>
+          A Quiz Competition to evaluate the knowlege of the participants within the academics as well as the beyonds.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -51,11 +51,11 @@ function Set3() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>30</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>2K</p>
             </div>
           </div>
         </div>
@@ -84,16 +84,16 @@ function Set3() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Anainika A </li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>noojaanu@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+917561852930" aria-hidden="true">+91 7561852930</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Veena Venugopal K S</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>veenavenugpl05@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+917994335132" aria-hidden="true">+91 7994335132</a></li>
             </ul>
           </div>
           

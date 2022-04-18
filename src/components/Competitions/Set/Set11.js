@@ -43,12 +43,7 @@ function Set11() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          Mindspark event is based on circuit debugging. Main aim is to correct the fault
-circuit by analysing the given output. A fault circuit and the exact output of the
-specific circuit is given. We are providing same circuit for all participants at a
-time. Also provide a time limit for the completion and based on that allotted time,
-we’ll choose the winners. This is a wonderful opportunity for the participants to
-increase their knowledge in circuits and it implementation.         </p>
+          A Circuit Debugging Contest for rectifying the fault circuit by analysing the given exact output within the time limit.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -56,11 +51,11 @@ increase their knowledge in circuits and it implementation.         </p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>30</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>6.5K</p>
             </div>
           </div>
         </div>
@@ -97,16 +92,16 @@ increase their knowledge in circuits and it implementation.         </p>
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Aliya T I</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>aliyaibrahim17@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+919946518347" aria-hidden="true">+91 9946518347</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Nandakumar P V</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>nandakumarnandu101@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+918593951168" aria-hidden="true">+91 8593951168</a></li>
             </ul>
           </div>
           

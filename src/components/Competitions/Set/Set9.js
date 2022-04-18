@@ -43,7 +43,7 @@ function Set9() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          This challenge is for a team of exactly 2 members. A description about a text encryption algorithm will be given to both members and a message will be given to either one member. The member who got the message need to figure out the algorithm from the description and write the code to encrypt the given message. Encrypt the message using that program and handover the encrypted message to the second member. At the same time the second member need to figure out the decryption algorithm and write the program to decrypt the message which is encrypted by the first member.          </p>
+          An Algorithm Decoding Competition in which the participants should figure out an alogorithm hidden in the description given.       </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -51,11 +51,11 @@ function Set9() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>250</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>3K</p>
             </div>
           </div>
         </div>
@@ -86,16 +86,22 @@ function Set9() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Devaraj P V</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>devarajperayil327@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+919946353821 " aria-hidden="true">+91 9946353821 </a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Anandhu G R</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>anandhugopakumar79@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+916238562691" aria-hidden="true">+91 6238562691</a></li>
+            </ul>
+            <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Aswin S</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}>aswinshajilias117@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+918714352805" aria-hidden="true">+91 8714352805</a></li>
             </ul>
           </div>
           

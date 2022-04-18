@@ -43,12 +43,7 @@ function Set13() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          RAINBOWisaminieventwhichbasicallyfocusedonthebasicfundamentalconceptoffindingthevalueofa
-resistorusingcolourcodemethod.
-Theeventistofindthecolourcodeofresistorsandfindtheirvaluesthathavebeenpresentedtothe
-participantswithcertaintimelimit.
-Theonewhofindsthevalueearlierofwithinthetimelimitwillbethewinner.
-Theeventisscheduledfor2timesaday.Anyonecanparticipateinanysessionalsoallofthem.         </p>
+          A Colour Code Detection Competition for Resistors by finding the values of the provided resistors with certain specific time limit.        </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -56,11 +51,11 @@ Theeventisscheduledfor2timesaday.Anyonecanparticipateinanysessionalsoallofthem. 
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>20</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>2K</p>
             </div>
           </div>
         </div>
@@ -94,16 +89,16 @@ the specified time will be the winner.</li>
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Akhil Prakash</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>akhil8765@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+919562381894" aria-hidden="true">+91 9562381894</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Amrutha Sunilraj</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>amruthasunilraj9@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+919567017417" aria-hidden="true">+91 9567017417</a></li>
             </ul>
           </div>
           

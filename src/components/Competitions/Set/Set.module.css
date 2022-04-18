@@ -67,7 +67,7 @@
       /* display: flex; */
       color: var(--orange);
       font-size: 2em;
-      /* padding: 15px 0px 15px 0px; */
+      padding: 15px 0px 15px 0px;
       text-align: center;
       width: 50%;
       background: rgba(128, 128, 128, 0.075);
@@ -127,7 +127,7 @@
       width: 100%;
       height: 100%;
       /* margin-bottom: 40px; */
-      color: var(--orange);
+      color: white;
       text-transform: none;
     }
     .activecontent {
@@ -180,7 +180,9 @@
     .highspace{
       text-transform: none;
       margin-bottom: 3px;
+      color: white;
     }
     .eventhead{
       font-size: 20px;
+      color: var(--orange);
     }

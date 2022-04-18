@@ -43,9 +43,7 @@ function Set7() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          Zealous 2022 presents PERSONA, an  intercollege project presentation contest that encourages students to
-showcase their development and innovative skills. It provides a platform to present their ready
-projects and explore more ideas.
+          A Project Presentation Contest that encourages students to showcase their development & innovative skills. 
             </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
@@ -54,11 +52,11 @@ projects and explore more ideas.
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>300</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>8K</p>
             </div>
           </div>
           <p className={tab.rules}>
@@ -110,16 +108,16 @@ limit are disqualified.</li>
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Gopika C Laiju</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>gopikaclaiju@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+917558932590" aria-hidden="true">+91 7558932590</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Megha Manoj</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>meghamanojm2000@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+919995322800" aria-hidden="true">+91 9995322800</a></li>
             </ul>
           </div>
           

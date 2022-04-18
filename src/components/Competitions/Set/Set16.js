@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
-function Set8() {
+function Set16() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set8() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>DIG-THE-BUG</p>
+      <p className={tab.eventname}>WAVE DIMENSION </p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -43,8 +43,7 @@ function Set8() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          An Error Detction Competition where the participants should find the maximum errors hidden in it & to be rectified.
-            </p>
+          A Wavefom Generation Competition where a particular waveform will be provided & to generate the same by designing the circuit themselves with a time duration of 30 minutes.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -52,11 +51,11 @@ function Set8() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>100</p>
+              <p>30</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>4K</p>
             </div>
           </div>
         </div>
@@ -68,8 +67,11 @@ function Set8() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Single participant is allowed.</li>
-            <li className={tab.p}>Person who finds out and correct the maximum no.of code segments wins the event</li>
+            <li className={tab.p}>It is an individual event.</li>
+            <li className={tab.p}>There will be only 1 question regarding wave generation.</li>
+            <li className={tab.p}>Time duration will be 30 minutes.</li>
+            <li className={tab.p}>Candidates will be judged on the basis of accuracy of the generated wave and its output as well as the time taken. </li>
+            <li className={tab.p}>Deadline for registration:  </li>
             
 
           </ul>
@@ -80,13 +82,18 @@ function Set8() {
           className={toggleState === 3 ? `${tab.content}  ${tab.activecontent}` : tab.content}
           >
           <div className={tab.highcontacts}>
-            <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Aashli Anoop K</li>
+          <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Muhammad Thamim K R </li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>aashlianoopk.a@gmail.com</li>
-              <li className={tab.highspace}><a href="tel:+916282959177" aria-hidden="true">+91 6282959177</a></li>
+              <li className={tab.highspace}>muhammedthamimkr618@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+916282704060" aria-hidden="true">+91 6282704060</a></li>
             </ul>
-            
+            <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Akshara CR</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}>aksharacr187@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+919072396141" aria-hidden="true">+91 9072396141</a></li>
+            </ul>
           </div>
           
         </div>
@@ -96,4 +103,4 @@ function Set8() {
   );
 }
 
-export default Set8;
+export default Set16;

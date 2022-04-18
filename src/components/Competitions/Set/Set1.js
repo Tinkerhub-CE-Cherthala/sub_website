@@ -43,7 +43,7 @@ function Set1() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          In this competition the contestant or team of contestants design a wireless robot within the specified dimensions that can operate manually. The robot that will complete the specified task in least time will be the winner. 
+          A Robot Designing Contest where the participants should design a wireless robot within the specified dimensions that can operate manually  to accomplish the specified task in least time.
           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
@@ -128,13 +128,13 @@ function Set1() {
             <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Treesa Thomas</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
+              <li className={tab.highspace}>sonatreesa2000@gmail.com </li>
               <li className={tab.highspace}><a href="tel:+919895939837" aria-hidden="true">+91 9895939837</a></li>
             </ul>
             <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Anjali K J </li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
+              <li className={tab.highspace}>anjalikj28ammu@gmail.com </li>
               <li className={tab.highspace}><a href="tel:+919383428027" aria-hidden="true">+91 9383428027</a></li>
             </ul>
           </div>

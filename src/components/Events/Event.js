@@ -60,12 +60,12 @@ function Event() {
        
       </div>
       <div class = {Eventcss.content}>
-      <Link to='/general/List' className={Eventcss.linkview}>
+      <Link to='/general' className={Eventcss.linkview}>
         <div class={Eventcss.view}>
           view
         </div>
       </Link>    
-      <p className={Eventcss.subdetail}>Workshop</p>   
+      <p className={Eventcss.subdetail}>General</p>   
       </div>
     </div>
     

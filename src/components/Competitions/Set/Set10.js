@@ -43,12 +43,7 @@ function Set10() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          Zealous 2022 presents ZEA-MAD (Mobile Application Development Contest) is a
-student contest focused on developing mobile applications. This contest was created to
-provide college students with additional competitive activities in the scope of
-computer science. By competing, students would focus on developing their technical
-and social (team) skills, since the prizes are arranged in a way to encourages
-teamwork.          </p>
+          A Mobile Application Development Contest where the students would focus on developing technical & social (teamwork) skills.        </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time,Date</p>
@@ -56,11 +51,11 @@ teamwork.          </p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>150</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
+              <p>5K</p>
             </div>
           </div>
         </div>
@@ -94,16 +89,16 @@ breaking the Code of Conduct, or other unsporting behavior.</li>
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Ajmal Jaleel</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Rini V Rajan</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919846065265" aria-hidden="true">+91 9846065265</a></li>
+              <li className={tab.highspace}>rinivrajan2000@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+917560845140" aria-hidden="true">+91 7560845140</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Lekshmi S Anil</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>gayathribelraj20@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
+              <li className={tab.highspace}>lekshmisanil2k@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+919207476385" aria-hidden="true">+91 9207476385</a></li>
             </ul>
           </div>
           

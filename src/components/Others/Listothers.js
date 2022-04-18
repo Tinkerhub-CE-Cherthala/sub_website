@@ -26,10 +26,10 @@ function Listothers(){
             <div class={Listt.boxcontainer}>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>Event1</h3>
+                <h3>Mjolnir</h3>
                     <div class={Listt.info}>
                         
-                    <Link to='/prisonbreak' class={Listt.btn}>DETAILS </Link>
+                    <Link to='/Mjolnir' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
