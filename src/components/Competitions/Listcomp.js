@@ -26,7 +26,7 @@ function Listcomp(){
             <div class={Listt.boxcontainer}>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>RACEZILLA Z3.0</h3>
+                <h3>RACEZILLA Z5.0</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/racezilla' class={Listt.btn}>DETAILS </Link>
@@ -34,7 +34,7 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>Mind Zone Invaders Z3.0</h3>
+                    <h3>Mind Zone Invaders Z5.0</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/MindZoneInvaders' class={Listt.btn}>DETAILS </Link>
@@ -42,7 +42,7 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>Turn a' round Z3.0</h3>
+                    <h3>Turn a' round Z5.0</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/TurnARound' class={Listt.btn}>DETAILS </Link>
@@ -50,7 +50,7 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>Short circuit Z3.0</h3>
+                    <h3>Short circuit Z5.0</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/ShortCircuit' class={Listt.btn}>DETAILS </Link>

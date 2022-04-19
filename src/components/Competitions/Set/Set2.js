@@ -14,7 +14,7 @@ function Set2() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Turn a' round Z3.0</p>
+      <p className={tab.eventname}>Turn a' round Z5.0</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button

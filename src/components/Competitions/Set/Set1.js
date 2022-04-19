@@ -14,7 +14,7 @@ function Set1() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>RACEZILLA Z3.0</p>
+      <p className={tab.eventname}>RACEZILLA Z5.0</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -47,8 +47,10 @@ function Set1() {
           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time, Date</p>
-              <p>3:00 pm, 4 May</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>3:00 pm</p>
+              <p className={tab.highlightheading}>Date</p>
+              <p>3:00 pm</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>

@@ -14,7 +14,7 @@ function Set3() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Mind Zone Invaders Z3.0</p>
+      <p className={tab.eventname}>Mind Zone Invaders Z5.0</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button

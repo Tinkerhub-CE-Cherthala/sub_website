@@ -95,7 +95,7 @@ the judge is final.</li>
             <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Anandu C S</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
+              <li className={tab.highspace}>9846683951.com@gmail.com </li>
               <li className={tab.highspace}><a href="tel:+919446290210" aria-hidden="true">+91 9446290210</a></li>
             </ul>
             <ul className={tab.highbox}>

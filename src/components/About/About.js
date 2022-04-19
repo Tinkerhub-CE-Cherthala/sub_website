@@ -38,7 +38,7 @@ function About() {
   
   
   
-  <p className={Aboutcss.commite}>Our Committee</p> 
+  <p className={Aboutcss.commite}>General body</p> 
   <div class={Aboutcss.container}>
   <div class={Aboutcss.row}>
   {/* <Marquee
@@ -53,7 +53,7 @@ function About() {
           <h4 class={Aboutcss.title}>Staff coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" aria-hidden="true"> <div className={Aboutcss.iccn}> <Phone className={Aboutcss.iconph}/></div></a></li>
+          <li><a href="tel:+1234567" aria-hidden="true"> <Phone className={Aboutcss.iconph}/></a></li>
           <li><a href="testmail@gmail.com" aria-hidden="true"><Envelop/></a></li>
         
         </ul>

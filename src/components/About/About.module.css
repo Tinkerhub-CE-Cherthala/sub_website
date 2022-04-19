@@ -510,7 +510,7 @@
    .ourteam .title {
      display: block;
      font-size: 15px;
-     color: wheat;
+     color: white;
      text-transform: capitalize;
    }
    
@@ -526,17 +526,19 @@
    }
    
    .ourteam:hover .social {
-     bottom: -10px;
+     bottom: 0px;
    }
    
    .ourteam .social li {
      display: inline-block;
-   }
-   
-   .ourteam .social li a {
+    }
+    
+    .ourteam .social li a {
+     background-color: #111419;
+     border-radius: 50px;
      display: block;
-     padding: 10px;
-     font-size: 17px;
+     padding: 6px;
+     font-size: 14px;
      color: white;
      transition: all 0.3s ease 0s;
      text-decoration: none;
@@ -547,13 +549,7 @@
      background-color: #f7f5ec;
    }
 
-   .iconph{
-     font-size: 10px;
-     color: white;
-   }
-   .iconph:hover{
-     background-color: white;
-   }
+   
    
    
 
