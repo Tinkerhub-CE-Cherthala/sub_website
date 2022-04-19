@@ -10,6 +10,7 @@
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    
 }
 
 /* .project{
@@ -21,8 +22,10 @@
     
     height: 168vh;
     z-index: 1000;
-
-  
+    width: 100%;
+    padding: 0;
+    margin-left: -1%;
+    margin-top: -1%;
 }
 
 .sec{
@@ -113,4 +116,27 @@
         top:90%
     }
 
+}
+@media (max-width:700px) {
+    
+    .project{
+        width: 100%;
+        margin-left: -1.3%;
+    }
+}
+
+@media (max-width:500px) {
+    
+    .project{
+        width: 100%;
+        margin-left: -1.6%;
+    }
+}
+
+@media (max-width:400px) {
+    
+    .project{
+        width: 100%;
+        margin-left: -1.7%;
+    }
 }

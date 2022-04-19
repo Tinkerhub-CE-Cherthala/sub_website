@@ -549,7 +549,8 @@
 
    .iconph{
      font-size: 10px;
-     color: white;
+     color: #bbb;
+     
    }
    .iconph:hover{
      background-color: white;
