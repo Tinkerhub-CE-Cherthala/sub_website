@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-import tab from './Set.module.css';
+import tab from './Other.module.css';
 
-function Set14() {
+function Other3() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,16 +14,16 @@ function Set14() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>TECH TODAY</p>
+      <p className={tab.eventname}>QUIZ – O – PHILE </p>
+      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
         </div>
         <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Prize pool: 3.5K</p>
+          <p className={tab.toplightheading}>Prize pool: 2250</p>
         </div>
       </div>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
@@ -51,11 +51,11 @@ function Set14() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          An extempore technical talk contest.           </p>
+          Electronics based Technical Quiz.            </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>3.5K</p>
+              <p>2250</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
@@ -63,7 +63,7 @@ function Set14() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>15</p>
+              <p>10</p>
             </div>
           </div>
         </div>
@@ -75,24 +75,23 @@ function Set14() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Topics will be chosen accordingly at that moment.</li>
-            <li className={tab.p}>Candidates can surf the internet for 5 minutes & further surfing
-will not be entertained.</li>
-            <li className={tab.p}>Should present the talk for 2 minutes.</li>
-            <li className={tab.p}>Best speech will be rewarded. </li>
-            <li className={tab.p}>Medium of Language is English.</li>
-            <li className={tab.p}>Enter the venue at least 15 minutes before the scheduled time in
-order to reduce the last minute rush.</li>
-            <li className={tab.p}>Any infringements of these instructions shall entail the
-cancellation of participation of that individual.</li>
-            <li className={tab.p}>Wearing of mask/face cover is mandatory for all candidates.
-Candidates without mask/face cover will not be allowed entry into
-the event.</li>
-            <li className={tab.p}>Candidates may carry his/her own hand sanitizer (small size) in
-transparent bottle.</li>
-            <li className={tab.p}>Candidates to follow COVID 19 norms of ‘social distancing’ in
-and around the premises of the venue.</li>
-            
+            <li className={tab.p}>There will be three rounds: Preliminary, Secondary & Final Round.</li>
+            <li className={tab.p}>First two rounds will be of question and answer type.</li>
+            <li className={tab.p}>Final Round will be of decoding the images given.</li>
+            <li className={tab.p}>First Two Rounds comprises of 10 questions each. </li>
+            <li className={tab.p}>Final Round contains 5 questions.</li>
+            <li className={tab.p}>Enter the venue at least 15 minutes before the scheduled time in order to
+reduce the last minute rush. </li>
+            <li className={tab.p}>Uses of Mobile phones & other electronic gadgets such as smart watches,
+calculators etc. are not allowed inside the venue. Any infringements of these
+instructions shall entail the cancellation of participation of that individual.</li>
+            <li className={tab.p}>Wearing of mask/face cover is mandatory for all candidates. Candidates
+without mask/face cover will not be allowed entry into the event.</li>
+            <li className={tab.p}>Candidates may carry his/her own hand sanitizer (small size) in transparent
+bottle.</li>
+            <li className={tab.p}>Candidates to follow COVID 19 norms of ‘social distancing’ in and around
+the premises of the venue. </li>
+            <li className={tab.p}>Medium of Language is English. </li>
 
           </ul>
           
@@ -102,7 +101,7 @@ and around the premises of the venue.</li>
           className={toggleState === 3 ? `${tab.content}  ${tab.activecontent}` : tab.content}
           >
           <div className={tab.highcontacts}>
-            <ul className={tab.highbox}>
+          <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Vinduja V Nair </li>
               <li className={tab.highspace}>Event head</li>
               <li className={tab.highspace}>vindujanair04@gmail.com</li>
@@ -123,4 +122,4 @@ and around the premises of the venue.</li>
   );
 }
 
-export default Set14;
+export default Other3;

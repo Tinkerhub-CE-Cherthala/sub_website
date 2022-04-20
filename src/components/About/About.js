@@ -11,7 +11,7 @@ import prg2 from '../../images/Program2.jpg'
 import prg3 from '../../images/Program3.jpg'
 import fin1 from '../../images/Finance1.jpg'
 import fin2 from '../../images/Finance2.jpg'
-import fin3 from '../../images/Finance2.jpg'
+import fin3 from '../../images/fund3.jpg'
 import med1 from '../../images/Media1.jpg'
 import med2 from '../../images/media2.jpg'
 import web from '../../images/web.jpg'
@@ -94,7 +94,7 @@ function About() {
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={fin2} alt='profile'/>
+          <img class={Aboutcss.imgfluid} src={fin3} alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Maria treesa joshna</h3>
@@ -110,7 +110,7 @@ function About() {
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={fin3} alt='profile'/>
+          <img class={Aboutcss.imgfluid} src={fin2} alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Shahsadhi K S</h3>

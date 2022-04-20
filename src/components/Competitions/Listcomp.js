@@ -73,13 +73,6 @@ function Listcomp(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
-                    <h3>PERSONA</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/PERSONA' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
 
                 <div class={Listt.box} data-aos="fade-up">
                     <h3>DIG-THE-BUG</h3>
@@ -130,28 +123,13 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>TECH TODAY</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/TECH-TODAY' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
-
-                <div class={Listt.box} data-aos="fade-up">
-                <h3>QUIZ – O – PHILE</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/QuizOPhile' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>  
-
-                <div class={Listt.box} data-aos="fade-up">
                 <h3>WAVE DIMENSION</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/WAVE-DIMENSION' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
+
 
                 <div class={Listt.box} data-aos="fade-up">
                 <h3>SOLDER SPIN</h3>

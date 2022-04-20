@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-import tab from './Set.module.css';
+import tab from './Other.module.css';
 
-function Set7() {
+function Other2() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Set7() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>PERSONA</p>
+      <p className={tab.eventname}>Risus</p>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
@@ -67,23 +67,49 @@ function Set7() {
               <p>300</p>
             </div>
           </div>
+          <p className={tab.rules}>Problem statement</p>
+          <p className={tab.p}>
+          The content of your presentation should mimic your report to a certain extent:
+          </p>
+          <p className={tab.p}>
+            Describe your problem and its significance.
+            Briefly provide some background for your problem, to give your audience some context before you describe your problem.
+            Describe your problem in words. Provide details about the objective function and constraints in your problem.
+            Give an overview of how you propose to solve your problem.
+            Explain why studying your problem is important. What will a solution to your problem enable you to do?
+            Describe previous work related to your problem.
+            Who has studied related problems? How are these problems similar/different from yours?
+            What approaches did they use? How are they similar/different from your proposed approach?
+            You may find that you don't have enough time to present everything in your report. Select what you want to present carefully.
+          </p>  
           <p className={tab.rules}>
               Round 1
           </p>
-          <li className={tab.p}>Registration and Submission of your Abstract .</li>
+          <p className={tab.p}>Registration and Submission of your Abstract.</p>
           <ul>
               <li className={tab.p}>The participants need to submit their Abstract of the project at  the time of registration. </li>
               <li className={tab.p}>The abstract should contain, idea, requirements, functionality and details about the expected output.</li>
               <li className={tab.p}>These abstracts will be judged and the best ideas will be selected for the Second round.</li>
+              <li className={tab.p}>Last date for submitting abstract is 29th April</li>
+              <li className={tab.p}>Result of first round will be published on 1st May</li>
           </ul>
           <p className={tab.rules}>
               Round 2
           </p>
-          <li className={tab.p}>Final Registration and Presentation of  PPT for selected participants.</li>
+          <p className={tab.p}>Final Registration and Presentation of  PPT for selected participants.</p>
           <ul>
               <li className={tab.p}>The second round will be conducted only for the selected participants.The selected participants should submit their PPT  before 9 Am on the day of  event.</li>
           </ul>
-          <li className={tab.p}>The  selected participants have to remmit the registration fee  during  the time of  final registration.</li>
+          <p className={tab.p}>The  selected participants have to remmit the registration fee  during  the time of  final registration.</p>
+
+            <p className={tab.rules}>
+            How will you be evaluated?
+            </p>
+            <ul>
+                <li className={tab.p}>Demonstrating a reasonable understanding of the problem.</li>
+                <li className={tab.p}>Demonstrating a reasonable understanding of previous related work.</li>
+                <li className={tab.p}>Giving a clear, well-organized, presentation.</li>
+            </ul>
         </div>
 
         <div
@@ -136,4 +162,4 @@ limit are disqualified.</li>
   );
 }
 
-export default Set7;
+export default Other2;
