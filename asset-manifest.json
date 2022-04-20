@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tinkerhub-CE-Cherthala/sub_website.git/static/css/main.e7b87458.css",
-    "main.js": "/Tinkerhub-CE-Cherthala/sub_website.git/static/js/main.e64a3af4.js",
+    "main.js": "/Tinkerhub-CE-Cherthala/sub_website.git/static/js/main.f922309e.js",
     "static/js/787.00a76e54.chunk.js": "/Tinkerhub-CE-Cherthala/sub_website.git/static/js/787.00a76e54.chunk.js",
     "static/media/Finance1.jpg": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/Finance1.a08afdb42a06e808fc95.jpg",
     "static/media/Tech1.jpg": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/Tech1.e4bc5deb1b82db5170f3.jpg",
@@ -20,14 +20,15 @@
     "static/media/program1.jpg": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/program1.250d8cbf019e4af4f83e.jpg",
     "static/media/logo thick 1.png": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/logo thick 1.d91ba66514d2006d9e4b.png",
     "static/media/wrench.png": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/wrench.96259f05370f7f8a7689.png",
+    "static/media/general.png": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/general.2e73d9e41f1a42a0efc1.png",
     "static/media/competition.png": "/Tinkerhub-CE-Cherthala/sub_website.git/static/media/competition.c710342a6a2fce338151.png",
     "index.html": "/Tinkerhub-CE-Cherthala/sub_website.git/index.html",
     "main.e7b87458.css.map": "/Tinkerhub-CE-Cherthala/sub_website.git/static/css/main.e7b87458.css.map",
-    "main.e64a3af4.js.map": "/Tinkerhub-CE-Cherthala/sub_website.git/static/js/main.e64a3af4.js.map",
+    "main.f922309e.js.map": "/Tinkerhub-CE-Cherthala/sub_website.git/static/js/main.f922309e.js.map",
     "787.00a76e54.chunk.js.map": "/Tinkerhub-CE-Cherthala/sub_website.git/static/js/787.00a76e54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7b87458.css",
-    "static/js/main.e64a3af4.js"
+    "static/js/main.f922309e.js"
   ]
 }
