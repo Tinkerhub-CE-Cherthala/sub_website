@@ -53,8 +53,8 @@ function About() {
           <h4 class={Aboutcss.title}>Staff coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" aria-hidden="true"> <Phone className={Aboutcss.iconph}/></a></li>
-          <li><a href="testmail@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+919995215540" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="anithadevdas@cectl.ac.in" aria-hidden="true"><Envelop/></a></li>
         
         </ul>
       </div>
@@ -69,54 +69,8 @@ function About() {
           <h4 class={Aboutcss.title}>Coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
-        </ul>
-      </div>
-    </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class={Aboutcss.ourteam}>
-        <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={prg1} alt='profile'/>
-        </div>
-        <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>Shafna sherin M V</h3>
-          <h4 class={Aboutcss.title}>Program head</h4>
-        </div>
-        <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
-        </ul>
-      </div>
-    </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class={Aboutcss.ourteam}>
-        <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={prg2} alt='profile'/>
-        </div>
-        <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>vidhu venugopal</h3>
-          <h4 class={Aboutcss.title}>Program head</h4>
-        </div>
-        <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class={Aboutcss.ourteam}>
-        <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={prg3} alt='profile'/>
-        </div>
-        <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>Unnikrishnan R</h3>
-          <h4 class={Aboutcss.title}>Program head</h4>
-        </div>
-        <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+918921399233" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="akhilpjose77@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -131,8 +85,8 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+918138025290" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="sidharthsabu2020@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -147,8 +101,8 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+916282473019" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="joshnacleetus007@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -163,11 +117,59 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+917736033754" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="shehzadhiks27@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
+    
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={prg1} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Shafna sherin M V</h3>
+          <h4 class={Aboutcss.title}>Program head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+917909252967" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="shafnasherin.mv@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={prg2} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>vidhu venugopal</h3>
+          <h4 class={Aboutcss.title}>Program head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+919249276666" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="vidhuv1995@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={prg3} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Unnikrishnan R</h3>
+          <h4 class={Aboutcss.title}>Program head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+917561061580" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="unnianitha88@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
 
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
@@ -179,8 +181,8 @@ function About() {
           <h4 class={Aboutcss.title}>Media head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+918547877490" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="krishnanmurali898@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -192,11 +194,11 @@ function About() {
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Aswin krishna k</h3>
-          <h4 class={Aboutcss.title}>Meadia head</h4>
+          <h4 class={Aboutcss.title}>Media head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+916282436505" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="aswinkrishnakkrishna@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -211,8 +213,8 @@ function About() {
           <h4 class={Aboutcss.title}>Web head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+919037955382" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="ajithshine77@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+919037955382" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="ajithshine@cectl.ac.in" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -227,8 +229,8 @@ function About() {
           <h4 class={Aboutcss.title}>Technical head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+919946353821" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="testmail@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -243,8 +245,8 @@ function About() {
           <h4 class={Aboutcss.title}>Technical head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+918714172969" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="anandhup042@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -259,8 +261,8 @@ function About() {
           <h4 class={Aboutcss.title}>Technical head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+1234567" class="fa fa-phone" aria-hidden="true"><div></div></a></li>
-          <li><a href="testmail@gmail.com" class="fa fa-envelope" aria-hidden="true"><div></div></a></li>
+          <li><a href="tel:+918714179301" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="anilanandhu79@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>

@@ -16,6 +16,14 @@ function Set10() {
     <div className={tab.container}>
       <p className={tab.eventname}>ZEA-MAD</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 5K</p>
+        </div>
+      </div>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
@@ -46,16 +54,16 @@ function Set10() {
           A Mobile Application Development Contest where the students would focus on developing technical & social (teamwork) skills.        </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>5K</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>150</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>5K</p>
             </div>
           </div>
         </div>

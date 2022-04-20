@@ -16,6 +16,14 @@ function Set2() {
     <div className={tab.container}>
       <p className={tab.eventname}>Turn a' round Z5.0</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 1K</p>
+        </div>
+      </div>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
@@ -46,16 +54,16 @@ function Set2() {
           A Transformer Winder Test where the participants will be asked to do the perfect winding by knowing the number of primary turns as well as calculating the number of secondary turns with a unique winding style in the given time.           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>1K</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>50</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>1K</p>
             </div>
           </div>
         </div>

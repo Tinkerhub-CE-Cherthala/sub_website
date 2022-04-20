@@ -15,6 +15,14 @@ function Set3() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Mind Zone Invaders Z5.0</p>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 2K</p>
+        </div>
+      </div>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -46,16 +54,16 @@ function Set3() {
           A Quiz Competition to evaluate the knowlege of the participants within the academics as well as the beyonds.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>2K</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>30</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>2K</p>
             </div>
           </div>
         </div>

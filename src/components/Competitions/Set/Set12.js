@@ -16,6 +16,14 @@ function Set12() {
     <div className={tab.container}>
       <p className={tab.eventname}>OHM DECODER</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 5K</p>
+        </div>
+      </div>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
@@ -46,16 +54,16 @@ function Set12() {
           A Circuit Completion Competition where the participants will be provided with the value of effective resistance & is to be completed within the given time duration.        </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>5K</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>30</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>5K</p>
             </div>
           </div>
         </div>

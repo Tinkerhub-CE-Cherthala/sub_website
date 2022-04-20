@@ -15,7 +15,16 @@ function Set16() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>WAVE DIMENSION </p>
+      
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 4K</p>
+        </div>
+      </div>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
@@ -46,16 +55,16 @@ function Set16() {
           A Wavefom Generation Competition where a particular waveform will be provided & to generate the same by designing the circuit themselves with a time duration of 30 minutes.         </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>4K</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>30</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>4K</p>
             </div>
           </div>
         </div>

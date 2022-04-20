@@ -15,6 +15,14 @@ function Set17() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>SOLDER SPIN</p>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 3.5K</p>
+        </div>
+      </div>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
@@ -46,16 +54,16 @@ function Set17() {
           We will give the basic idea of soldering. After the session interested students can form a group of maximum 5 students. A simple circuit is given to the participants and the participants have to solder it within the time limit. Evaluation is based on the time and perfection of the soldering.           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>3.5K</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>50</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>3.5K</p>
             </div>
           </div>
         </div>
