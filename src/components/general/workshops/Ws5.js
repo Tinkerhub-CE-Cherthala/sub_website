@@ -71,10 +71,10 @@ function Ws5() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Shuhaib</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Sanoop S</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>shuhaibshaike@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918281797758" aria-hidden="true">+91 8281797758</a></li>
+              <li className={tab.highspace}>sanoopsv1@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+918078713683" aria-hidden="true">+91 8078713683</a></li>
             </ul>
             
           </div>

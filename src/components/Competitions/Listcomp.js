@@ -131,13 +131,7 @@ function Listcomp(){
                 </div>
 
 
-                <div class={Listt.box} data-aos="fade-up">
-                <h3>SOLDER SPIN</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/SOLDER-SPIN' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+                
 
 
             </div>
