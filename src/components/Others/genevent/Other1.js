@@ -15,6 +15,14 @@ function Other1() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Mjolnir</p>
+      <div className={tab.toplights}>
+        <div className={tab.toplightdiv}>
+          
+        </div>
+        <div className={tab.toplightdiv}>
+          <p className={tab.toplightheading}>Prize pool: 3K</p>
+        </div>
+      </div>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
@@ -40,16 +48,16 @@ function Other1() {
           An Arm - Lifting Grip Challenge in which the participant will have to hold the handle of the hammer unless & until the jury gives the down command.          </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time,Date</p>
+              <p className={tab.highlightheading}>Time</p>
+              <p>3k</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
               <p>4 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
               <p>20</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Prize pool</p>
-              <p>3k</p>
             </div>
           </div>
         </div>

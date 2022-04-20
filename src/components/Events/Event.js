@@ -1,6 +1,7 @@
-import ece from '../../images/ece.png'
+
 import workshop from '../../images/wrench.png';
 import competition from '../../images/competition.png';
+import gen from '../../images/general.png';
 import Eventcss from './Event.module.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -56,7 +57,7 @@ function Event() {
     <div class = {Eventcss.card} data-aos="fade-up">
       <div class = {Eventcss.image}>
        
-        <img src = {ece} alt='ece'  />
+        <img src = {gen} alt='ece'  />
        
       </div>
       <div class = {Eventcss.content}>

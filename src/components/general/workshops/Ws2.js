@@ -57,11 +57,11 @@ function Ws2() {
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>3k</p>
+              <p>09:00 AM</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
-              <p>4 May</p>
+              <p>7 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
@@ -76,10 +76,16 @@ function Ws2() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Shuhaib</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Ananthakrishnan A</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>shuhaibshaike@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+918281797758" aria-hidden="true">+91 8281797758</a></li>
+              <li className={tab.highspace}>akananthu11@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+919400012666" aria-hidden="true">+91 9400012666</a></li>
+            </ul>
+            <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Aswin M M</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}>a4aswinatwork@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+919961248071" aria-hidden="true">+91 9961248071</a></li>
             </ul>
             
           </div>

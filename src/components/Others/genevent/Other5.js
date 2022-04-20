@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-import tab from './Set.module.css';
+import tab from './Other.module.css';
 
-function Set17() {
+function Other5() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -55,11 +55,11 @@ function Set17() {
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>3.5K</p>
+              <p>11:00 AM</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
-              <p>4 May</p>
+              <p>6 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
@@ -117,4 +117,4 @@ function Set17() {
   );
 }
 
-export default Set17;
+export default Other5;
