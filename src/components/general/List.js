@@ -26,69 +26,46 @@ function List(){
             <div class={Listt.boxcontainer}>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>Event1</h3>
+                <h3>Ethical Hacking</h3>
                     <div class={Listt.info}>
                         
-                    <Link to='/prisonbreak' class={Listt.btn}>DETAILS </Link>
+                    <Link to='/EthicalHacking' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT2</h3>
+                <h3>Web 3 & Blockchain</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/Web3-Blockchain' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT3</h3>
+                <h3>Electric Vehicles</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/ElectricVehicles' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT4</h3>
+                <h3>General</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/Generalws' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT5</h3>
+                <h3>ADAS & Machine Learning</h3>
                     <div class={Listt.info}>
                         
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
+                    <Link to='/ADAS' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT6</h3>
-                    <div class={Listt.info}>
-                        
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
-                    </div>
-                </div>
-
-                <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT7</h3>
-                    <div class={Listt.info}>
-                        
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
-                    </div>
-                </div>
-
-                <div class={Listt.box} data-aos="fade-up">
-                    <h3>EVENT8</h3>
-                    <div class={Listt.info}>
-                        
-                        <a href="https://rzp.io/l/TScCTTEKn" class={Listt.btn}>DETAILS</a>
-                    </div>
-                </div>
-                
+               
 
             </div>
 

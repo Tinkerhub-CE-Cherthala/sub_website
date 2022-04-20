@@ -26,10 +26,34 @@ function Listothers(){
             <div class={Listt.boxcontainer}>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>Mjolnir</h3>
+                    <h3>Mjolnir</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/Mjolnir' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>QUIZ – O – PHILE</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/QuizOPhile' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>  
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>TECH TODAY</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/TECH-TODAY' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                    <h3>Risus</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/Risus' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
 
