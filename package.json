@@ -1,6 +1,6 @@
 {
   "name": "front",
-  "homepage": "http://Tinkerhub-CE-Cherthala.github.io/sub_website",
+  "homepage": "https://github.com/Tinkerhub-CE-Cherthala/sub_website.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
