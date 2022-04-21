@@ -72,10 +72,16 @@ function Ws4() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Anjali K J</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Anainika A</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>anjalikj28ammu@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919383428027" aria-hidden="true">+91 9383428027</a></li>
+              <li className={tab.highspace}>noojaanu@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+917561852930" aria-hidden="true">+91 7561852930</a></li>
+            </ul>
+            <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Veena Venu Gopal K S</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}>veenavenugpl05@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+917994335132" aria-hidden="true">+91 7994335132</a></li>
             </ul>
             
           </div>
