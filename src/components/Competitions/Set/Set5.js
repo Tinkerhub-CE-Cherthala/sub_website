@@ -20,7 +20,7 @@ function Set5() {
           
         </div>
         <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Prize pool: K</p>
+          <p className={tab.toplightheading}>Prize pool: 1K</p>
         </div>
       </div>
       <a href="https://rzp.io/l/vOnYlRE7O0"  className={tab.regbutton}>register</a>
