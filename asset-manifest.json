@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/css/main.9c63e5df.css",
-    "main.js": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/js/main.88073074.js",
+    "main.js": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/js/main.73829394.js",
     "static/js/787.00a76e54.chunk.js": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/js/787.00a76e54.chunk.js",
     "static/media/Finance1.jpg": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/media/Finance1.a08afdb42a06e808fc95.jpg",
     "static/media/Tech1.jpg": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/media/Tech1.e4bc5deb1b82db5170f3.jpg",
@@ -24,11 +24,11 @@
     "static/media/competition.png": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/media/competition.c710342a6a2fce338151.png",
     "index.html": "/Tinkerhub-CE-Cherthala.github.io/sub_website/index.html",
     "main.9c63e5df.css.map": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/css/main.9c63e5df.css.map",
-    "main.88073074.js.map": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/js/main.88073074.js.map",
+    "main.73829394.js.map": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/js/main.73829394.js.map",
     "787.00a76e54.chunk.js.map": "/Tinkerhub-CE-Cherthala.github.io/sub_website/static/js/787.00a76e54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c63e5df.css",
-    "static/js/main.88073074.js"
+    "static/js/main.73829394.js"
   ]
 }
