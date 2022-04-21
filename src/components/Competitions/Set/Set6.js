@@ -51,13 +51,16 @@ function Set6() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          A 24 Hour Hackathon to test the knowledge  on reading & understanding a perplexed piece of code.
-          
+          Zealous 2022  In collaboration with Bytestrone presents you with the opportunity to go all-guns-blazing with your coding repertoire. If you have what it takes to be called a Credorian, come be a part of this amazing event, one which will bring out the programmer in you, in ways that you have not even imagined.          
+          </p>
+          <p className={tab.p}>
+          Credorian is an event to show up your coding skills!! 
+Can you be in a 24 Hour marathon of building, creating, producing, delivering and pitching? Then, don't miss out on this glorious opportunity to showcase your brilliant skills.What’s more? A career and internship opportunity with Bytestrone!!!
           </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>10:00 AM</p>
+              <p>09:30 AM</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
@@ -77,14 +80,17 @@ function Set6() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Teams will be a maximum of 5 people</li>
-            <li className={tab.p}>Teams should be made up exclusively of students or anyone who are not organizers, volunteers, judges, sponsors, or in any other privileged position at the event.</li>
-            <li className={tab.p}>All team members should be present at the event. </li>
+            <li className={tab.p}>Teams will be a maximum of 2-4 people</li>
+            <li className={tab.p}>Bytestrone will provide a git repository for each team, all the generated artifacts will have to be uploaded to the git repository. </li>
+            <li className={tab.p}>Hackathon Starts at 9:30AM  6th May 2022. </li>
+            <li className={tab.p}>All team members should be present at the event.  </li>
             <li className={tab.p}>All work on a project should be done during the hackathon. </li>
-            <li className={tab.p}>Teams can work on ideas that have already been done. Hacks do not have to be “innovative”. If somebody wants to work on a common idea they should be allowed to do so and should be judged on the quality of their hack.</li>
-            <li className={tab.p}>Teams can work on an idea that they have worked on before (as long as they do not re-use code).</li>
-            <li className={tab.p}>The entire idea need not be fully implemented however, the submission should be functional so that it can be reviewed by the judges.</li>
-            <li className={tab.p}>Teams can be disqualified from the competition at the organizers’ discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour.</li>
+            <li className={tab.p}>Participants will have to bring their own system.</li>
+            <li className={tab.p}>Teams can decide on the tools and technologies that they wish to use to implement the solution.</li>
+            <li className={tab.p}>Internet Connectivity will be provided. </li>
+            <li className={tab.p}>Each submission will be evaluated by Bytestrone and assigned representatives from college. </li>
+            <li className={tab.p}>Bysterone will provide trainee offer letters to each participants who clears the evaluation process. </li>
+            <li className={tab.p}>Teams can be disqualified from the competition at the organizers’ discretion. </li>
             
 
           </ul>
