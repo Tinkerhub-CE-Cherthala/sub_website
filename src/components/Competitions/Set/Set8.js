@@ -23,7 +23,7 @@ function Set8() {
           <p className={tab.toplightheading}>Prize pool: 1K</p>
         </div>
       </div>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <a href="https://rzp.io/l/PXlwzhJJbL" target="_blank" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}

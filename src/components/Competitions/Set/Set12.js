@@ -15,7 +15,7 @@ function Set12() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>OHM DECODER</p>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <a href="" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
@@ -101,10 +101,10 @@ the judge is final.</li>
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Anandu C S</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Alwyn jose</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>9846683951.com@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919446290210" aria-hidden="true">+91 9446290210</a></li>
+              <li className={tab.highspace}>alwynjose8@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+917306466284" aria-hidden="true">+91 7306466284</a></li>
             </ul>
             <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Aishwarya S Kumar</li>

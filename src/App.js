@@ -30,6 +30,9 @@ import Other3 from "./components/Others/genevent/Other3";
 import Other4 from "./components/Others/genevent/Other4";
 import Other5 from "./components/Others/genevent/Other5";
 import Other6 from "./components/Others/genevent/Other6";
+import Other7 from "./components/Others/genevent/Other7";
+import Other8 from "./components/Others/genevent/Other8";
+import Other9 from "./components/Others/genevent/Other9";
 
 import Ws1 from "./components/general/workshops/Ws1";
 import Ws2 from "./components/general/workshops/Ws2";
@@ -76,6 +79,10 @@ function App() {
       <Route path="/TECH-TODAY" element={<Other4 />} />
       <Route path="/SOLDER-SPIN" element={<Other5 />} />
       <Route path="/Photography" element={<Other6 />} />
+      <Route path="/SpotPhotography" element={<Other7 />} />
+      <Route path="/VirtualGames" element={<Other8 />} />
+      <Route path="/StarOfZealous" element={<Other9 />} />
+      
 
       <Route path="/EthicalHacking" element={<Ws1 />} />
       <Route path="/Web3-Blockchain" element={<Ws2 />} />

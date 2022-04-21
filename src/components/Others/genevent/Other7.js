@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
 
-function Other6() {
+function Other7() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,9 @@ function Other6() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Photography competition</p>
+      <p className={tab.eventname}>Spot Photography competition</p>
+      <a href="https://forms.gle/EvCkBshMXxkxJ2j26" className={tab.regbutton}>register</a>
+
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
@@ -104,4 +106,4 @@ Click it anyway you like, camera or phone, of anything keeping in mind the theme
   );
 }
 
-export default Other6;
+export default Other7;
