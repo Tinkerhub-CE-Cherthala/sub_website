@@ -17,7 +17,7 @@
 .page{
     /* background-color: var(--black); */
     width: 100vw;
-    height: 450vh;
+    height: 400vh;
     /* min-height: 100vh; */
     /* position: absolute; */
     transform: translateX(-30%);

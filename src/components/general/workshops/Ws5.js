@@ -15,6 +15,7 @@ function Ws5() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Advanced driver-assistance systems (ADAS) & Machine Learning</p>
+      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
@@ -52,11 +53,11 @@ function Ws5() {
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>3k</p>
+              <p>07:45 PM</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
-              <p>4 May</p>
+              <p>6 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>

@@ -15,7 +15,7 @@ function Set6() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Credorian</p>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <a href="https://rzp.io/l/7RtNMx3R" target="_blank" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           

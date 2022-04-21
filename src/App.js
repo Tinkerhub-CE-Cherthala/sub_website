@@ -1,6 +1,5 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-
 import './App.css';
 
 import List from './components/general/List';
@@ -23,14 +22,17 @@ import Set10 from "./components/Competitions/Set/Set10";
 import Set11 from "./components/Competitions/Set/Set11";
 import Set12 from "./components/Competitions/Set/Set12";
 import Set13 from "./components/Competitions/Set/Set13";
+import Set14 from "./components/Competitions/Set/Set14";
 import Set16 from "./components/Competitions/Set/Set16";
 
 import Other1 from "./components/Others/genevent/Other1";
 import Other2 from "./components/Others/genevent/Other2";
 import Other3 from "./components/Others/genevent/Other3";
 import Other4 from "./components/Others/genevent/Other4";
-import Other5 from "./components/Others/genevent/Other5";
 import Other6 from "./components/Others/genevent/Other6";
+import Other7 from "./components/Others/genevent/Other7";
+import Other8 from "./components/Others/genevent/Other8";
+import Other9 from "./components/Others/genevent/Other9";
 
 import Ws1 from "./components/general/workshops/Ws1";
 import Ws2 from "./components/general/workshops/Ws2";
@@ -69,14 +71,18 @@ function App() {
       <Route path="/Mindspark" element={<Set11 />} />
       <Route path="/OHM-DECODER" element={<Set12 />} />
       <Route path="/RAINBOW" element={<Set13 />} />
+      <Route path="/SOLDER-SPIN" element={<Set14 />} />
       <Route path="/WAVE-DIMENSION" element={<Set16 />} />
 
       <Route path="/Mjolnir" element={<Other1 />} />
       <Route path="/Risus" element={<Other2 />} />
       <Route path="/QuizOPhile" element={<Other3 />} />
       <Route path="/TECH-TODAY" element={<Other4 />} />
-      <Route path="/SOLDER-SPIN" element={<Other5 />} />
       <Route path="/Photography" element={<Other6 />} />
+      <Route path="/SpotPhotography" element={<Other7 />} />
+      <Route path="/VirtualGames" element={<Other8 />} />
+      <Route path="/StarOfZealous" element={<Other9 />} />
+      
 
       <Route path="/EthicalHacking" element={<Ws1 />} />
       <Route path="/Web3-Blockchain" element={<Ws2 />} />

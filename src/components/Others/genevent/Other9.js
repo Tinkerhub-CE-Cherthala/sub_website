@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-import tab from './Ws.module.css';
+import tab from './Other.module.css';
 
-function Ws4() {
+function Other9() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,14 +14,13 @@ function Ws4() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>General</p>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <p className={tab.eventname}>Star of zealous</p>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
         </div>
         <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Mode: Offline</p>
+          <p className={tab.toplightheading}>Prize pool: 3K</p>
         </div>
       </div>
       <div className={tab.bloctabs}>
@@ -46,24 +45,20 @@ function Ws4() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          A general Workshop involving talks, training, skills, management and much more.  </p>
-          <p className={tab.p}>
-          Presented by Mohammed Ikan  the founder of Online Interact Platform, influencer coach, body language expert,  public speaker.           </p>         
+          A star on the walk of fame is something to dream!
+We don’t have a Walk of Fame.
+But what we do have is a platform for all you lot to have a chance to be a star, etch yourself into
+history.
+Zealous 5.0 is proud to present .
+#Star_Of_Zealous
+.
+Overcome your obstacles and have a chance to be a star and win a prize money of 3K and get
+a chance to have a free go at the adventure courses!!
+.
+Clear your calenders boys and girls!
+And be there at 6th & 7th of May at College Of Engineering Cherthala.         </p>
          
-          <div className={tab.highlights}>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Time</p>
-              <p>09:00 AM</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Date</p>
-              <p>7 May</p>
-            </div>
-            <div className={tab.highlightdiv}>
-              <p className={tab.highlightheading}>Entry fee</p>
-              <p>20</p>
-            </div>
-          </div>
+        
         </div>
 
 
@@ -72,10 +67,15 @@ function Ws4() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Anjali K J</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Anuvind Shaj</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>anjalikj28ammu@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919383428027" aria-hidden="true">+91 9383428027</a></li>
+              
+              <li className={tab.highspace}><a href="tel:+919037804284" aria-hidden="true">+91 9037804284</a></li>
+            </ul>
+            <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Amrutha Sunilraj</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}><a href="tel:+919567017417" aria-hidden="true">+91 9567017417</a></li>
             </ul>
             
           </div>
@@ -87,4 +87,4 @@ function Ws4() {
   );
 }
 
-export default Ws4;
+export default Other9;

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-import tab from './Other.module.css';
+import tab from './Set.module.css';
 
-function Other5() {
+function Set14() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -14,7 +14,7 @@ function Other5() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>SOLDER SPIN</p>
+      <p className={tab.eventname}>Solder spin</p>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
@@ -117,4 +117,4 @@ function Other5() {
   );
 }
 
-export default Other5;
+export default Set14;
