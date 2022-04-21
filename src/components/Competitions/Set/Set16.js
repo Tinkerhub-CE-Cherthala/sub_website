@@ -16,7 +16,7 @@ function Set16() {
     <div className={tab.container}>
       <p className={tab.eventname}>WAVE DIMENSION </p>
       
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      {/* <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a> */}
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           

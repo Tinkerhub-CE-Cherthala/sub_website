@@ -15,7 +15,7 @@ function Set12() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>OHM DECODER</p>
-      <a href="" className={tab.regbutton}>register</a>
+      {/* <a href="" className={tab.regbutton}>register</a> */}
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           

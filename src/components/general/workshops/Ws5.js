@@ -15,7 +15,7 @@ function Ws5() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Advanced driver-assistance systems (ADAS) & Machine Learning</p>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <a href="https://rzp.io/l/M0rPeZM" rel="noopener noreferrer" target="_blank" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           

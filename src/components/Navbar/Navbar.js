@@ -55,11 +55,11 @@ useEffect(() => {
       </li>
       </Link>
     
-      <Link to="/#about" id='items' onClick={toggleNav}>
+      <a href="/#about" id='items' onClick={toggleNav}>
       <li className='navcolor'>
         About
       </li>
-      </Link>
+      </a>
     </ul>
        
       )}
