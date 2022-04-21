@@ -14,7 +14,7 @@ function Ws4() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>General</p>
+      <p className={tab.eventname}>Managerial Workshop</p>
       <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
@@ -61,7 +61,7 @@ function Ws4() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>20</p>
+              <p>350</p>
             </div>
           </div>
         </div>

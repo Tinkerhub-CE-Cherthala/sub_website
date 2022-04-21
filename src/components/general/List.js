@@ -50,7 +50,7 @@ function List(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>General</h3>
+                <h3>Managerial Workshop</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/Generalws' class={Listt.btn}>DETAILS </Link>
