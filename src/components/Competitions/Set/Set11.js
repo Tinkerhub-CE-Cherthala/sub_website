@@ -59,7 +59,7 @@ function Set11() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
-              <p>6 May</p>
+              <p>6,7 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
