@@ -23,7 +23,7 @@ function Other2() {
           <p className={tab.toplightheading}>Prize pool: 8K</p>
         </div>
       </div>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <a href="https://forms.gle/6x742HCe8zoXf6ej7" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}

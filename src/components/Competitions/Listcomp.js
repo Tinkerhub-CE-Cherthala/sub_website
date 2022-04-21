@@ -33,13 +33,13 @@ function Listcomp(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
+                {/* <div class={Listt.box} data-aos="fade-up">
                     <h3>Mind Zone Invaders Z5.0</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/MindZoneInvaders' class={Listt.btn}>DETAILS </Link>
                     </div>
-                </div>
+                </div> */}
 
                 <div class={Listt.box} data-aos="fade-up">
                     <h3>Turn a' round Z5.0</h3>

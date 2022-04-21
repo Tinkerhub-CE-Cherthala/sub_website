@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import './Day.css';
 import 'aos/dist/aos.css';
@@ -51,10 +52,13 @@ export default function Days() {
                     <p class="name">Inauguration</p>
                     <p class="time">9:00 AM</p>
                 </li>
+                    <Link to='/EthicalHacking' className='hidedeco'>
                 <li class="prog1" data-aos="fade-up">
                     <p class="name">Ethical Hacking Workshop Day 1</p>
                     <p class="time">10:00 AM</p>
                 </li>
+                    </Link>
+
                 <li class="prog1" data-aos="fade-up">
                     <p class="name">Tectra</p>
                     <p class="time">10:00 AM</p>
@@ -127,6 +131,15 @@ export default function Days() {
                     <p class="name">Zea-Mad</p>
                     <p class="time">06:00 PM</p>
                 </li>
+                <li class="prog1" data-aos="fade-up">
+                    <p class="name">Electric Vehicles</p>
+                    <p class="time">06:00 PM</p>
+                </li>
+                <li class="prog1" data-aos="fade-up">
+                    <p class="name">ADAS & Machine Learning</p>
+                    <p class="time">07:45 PM</p>
+                </li>
+                
             </ul>
             <ul class="table" id="day2" >
                 <li class="prog1" data-aos="fade-up">
@@ -216,6 +229,14 @@ export default function Days() {
                 <li class="prog1" data-aos="fade-up">
                     <p class="name">Band / DJ </p>
                     <p class="time">05:30 PM</p>
+                </li>
+                <li class="prog1" data-aos="fade-up">
+                    <p class="name">Electric Vehicles</p>
+                    <p class="time">06:00 PM</p>
+                </li>
+                <li class="prog1" data-aos="fade-up">
+                    <p class="name">ADAS & Machine Learning</p>
+                    <p class="time">07:45 PM</p>
                 </li>
             </ul>
         </nav>

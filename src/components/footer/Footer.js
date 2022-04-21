@@ -25,7 +25,7 @@ export default function Footer() {
         </div>    
         <div class="smedia">
             <div class="twitter">
-                <a href="https://twitter.com/zealouscec" class="icon-link"><Twitter/></a>
+                <a href=" https://twitter.com/ceczealous?t=NvzVgwvU1LgGiaGmr1TFQA&s=08" class="icon-link"><Twitter/></a>
             </div>
         </div>        
     </div>
