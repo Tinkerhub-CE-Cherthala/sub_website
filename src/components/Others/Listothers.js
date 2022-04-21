@@ -42,7 +42,7 @@ function Listothers(){
                 </div>  
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>TECH TODAY</h3>
+                <h3>Tech Today</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/TECH-TODAY' class={Listt.btn}>DETAILS </Link>
@@ -57,13 +57,7 @@ function Listothers(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
-                <h3>SOLDER SPIN</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/SOLDER-SPIN' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+                
 
                 <div class={Listt.box} data-aos="fade-up">
                 <h3>Photography</h3>

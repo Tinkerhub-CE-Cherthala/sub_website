@@ -107,7 +107,7 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>OHM DECODER</h3>
+                <h3>Ohm decoder</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/OHM-DECODER' class={Listt.btn}>DETAILS </Link>
@@ -115,7 +115,7 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>RAINBOW</h3>
+                <h3>Rainbow</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/RAINBOW' class={Listt.btn}>DETAILS </Link>
@@ -123,7 +123,15 @@ function Listcomp(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>WAVE DIMENSION</h3>
+                <h3>Solder spin</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/SOLDER-SPIN' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>Wave dimension</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/WAVE-DIMENSION' class={Listt.btn}>DETAILS </Link>
