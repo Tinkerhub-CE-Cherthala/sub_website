@@ -65,7 +65,7 @@ function Set6() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>150</p>
+              <p>300</p>
             </div>
           </div>
         </div>
