@@ -356,8 +356,12 @@
       justify-content: center;
       padding: 2% 2%;
       width: 100%;
-      margin-left: 624%;
+      margin-left: 677%;
       
+    }
+    .ourteam .social li a {
+      width: 30px;
+      height: 30px;
     }
    
     
@@ -372,8 +376,12 @@
     .container .row{
      
       /* width: 950px; */
-       margin-left: 288.3%; 
+       margin-left: 314.5%; 
       
+    }
+    .ourteam .social li a {
+      width: 28px;
+      height: 28px;
     }
 }
 
@@ -381,7 +389,7 @@
   .container .row{
    
     /* width: 950px; */
-     margin-left: 288%;
+     margin-left: 314%;
      width: 100%;
     
   }
@@ -535,13 +543,15 @@
     
     .ourteam .social li a {
      background-color: #111419;
-     border-radius: 50px;
+     border-radius: 100%;
      display: block;
      padding: 6px;
      font-size: 14px;
      color: white;
      transition: all 0.3s ease 0s;
      text-decoration: none;
+     width: 35px;
+     height: 35px; 
    }
    
    .ourteam .social li a:hover {

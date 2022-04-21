@@ -23,7 +23,7 @@ function Set14() {
           <p className={tab.toplightheading}>Prize pool: 3.5K</p>
         </div>
       </div>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      {/* <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a> */}
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}

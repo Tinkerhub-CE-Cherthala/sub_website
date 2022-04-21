@@ -15,7 +15,7 @@ function Ws2() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Web 3 & Blockchain</p>
-      <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a>
+      <a href="https://rzp.io/l/alZxMw8" rel="noopener noreferrer" target="_blank" className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           

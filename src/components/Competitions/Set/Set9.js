@@ -23,7 +23,7 @@ function Set9() {
           <p className={tab.toplightheading}>Prize pool: 3K</p>
         </div>
       </div>
-      <a href="https://rzp.io/l/I0mHzoRT" target="_blank" className={tab.regbutton}>register</a>
+      <a href="https://rzp.io/l/I0mHzoRT" rel="noopener noreferrer" target="_blank" className={tab.regbutton}>register</a>
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}
