@@ -29,7 +29,7 @@ export default function Index() {
 
   return (
     
-  <div className='bgmain'>
+  <div>
     
       
        { loading ?
@@ -39,7 +39,7 @@ export default function Index() {
          color='#fa9200'
          ariaLabel='loading'/> </div> 
          : 
-       ( <div >
+       ( <div  className='bgmain' >
           <StrictMode>
 
          <Navbar />

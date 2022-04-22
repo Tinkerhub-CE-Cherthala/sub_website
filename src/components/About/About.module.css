@@ -15,9 +15,9 @@
 .commite{
   font-family: 'Poppins',sans-serif;
 }
-.full{
+/* .full{
   margin-right: 2%;
-}
+} */
 .para{
  
 
@@ -71,8 +71,8 @@
    /* Google Font CDN Link */
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
    *{
-     margin: 10;
-     padding: 10;
+     /* margin: 10;
+     padding: 10; */
      box-sizing: border-box;
      font-family: 'Poppins',sans-serif;
    }
