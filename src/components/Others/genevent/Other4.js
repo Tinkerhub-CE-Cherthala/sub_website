@@ -55,7 +55,7 @@ function Other4() {
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>01:00 PM</p>
+              <p>01:30 PM</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>

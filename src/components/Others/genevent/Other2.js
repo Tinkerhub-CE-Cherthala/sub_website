@@ -100,7 +100,7 @@ function Other2() {
           <ul>
               <li className={tab.p}>The second round will be conducted only for the selected participants.The selected participants should submit their PPT  before 9 Am on the day of  event.</li>
           </ul>
-          <p className={tab.p}>The  selected participants have to remmit the registration fee  during  the time of  final registration.</p>
+          <p className={tab.pp}>The  selected participants have to remmit the registration fee  during  the time of  final registration.</p>
 
             <p className={tab.rules}>
             How will you be evaluated?

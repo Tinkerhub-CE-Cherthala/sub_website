@@ -55,7 +55,7 @@ function Set4() {
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
-              <p>01:30 PM</p>
+              <p>02:00 PM</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
@@ -98,7 +98,7 @@ function Set4() {
             <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Gokuljith</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>ajmaljaleel5@gmail.com </li>
+              <li className={tab.highspace}>gokuljith2001@gmail.com</li>
               <li className={tab.highspace}><a href="tel:+919074293951" aria-hidden="true">+91 9074293951 </a></li>
             </ul>
             

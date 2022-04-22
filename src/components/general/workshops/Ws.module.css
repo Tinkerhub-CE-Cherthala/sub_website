@@ -136,6 +136,7 @@
   
     .rules{
       font-size: 30px;
+      color: var(--orange);
     }
 
     .ool{
@@ -158,6 +159,7 @@
     }
   
     .highlights .highlightheading{
+      color: var(--orange);
       font-weight: 700;
       margin: 0 auto;
     }
@@ -206,6 +208,7 @@
     }
   
     .toplights .toplightheading{
+      color: var(--orange);
       font-weight: 700;
       margin: 0 auto;
     }
