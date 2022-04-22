@@ -19,6 +19,8 @@ import tech1 from '../../images/Tech1.jpg'
 import tech2 from '../../images/tech2.jpg'
 import tech3 from '../../images/tech3.jpg'
 import neeraj from '../../images/Neeraj.jpeg'
+import gen1 from '../../images/gen1.jpg'
+import gen2 from '../../images/gen2.jpg'
 import Phone from '../Icons/Phone';
 import Envelop from '../Icons/Envelope';
 
@@ -95,54 +97,6 @@ function About() {
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={tech1} alt='profile'/>
-        </div>
-        <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>Devaraj P V </h3>
-          <h4 class={Aboutcss.title}>Technical head</h4>
-        </div>
-        <ul class={Aboutcss.social}>
-          <li><a href="tel:+919946353821" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="testmail@gmail.com" aria-hidden="true"><Envelop/></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class={Aboutcss.ourteam}>
-        <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={web} alt='profile'/>
-        </div>
-        <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>Ajith shine</h3>
-          <h4 class={Aboutcss.title}>Web head</h4>
-        </div>
-        <ul class={Aboutcss.social}>
-          <li><a href="tel:+919037955382" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="ajithshine@cectl.ac.in" aria-hidden="true"><Envelop/></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class={Aboutcss.ourteam}>
-        <div class={Aboutcss.picture}>
-          <img class={Aboutcss.imgfluid} src={neeraj} alt='profile'/>
-        </div>
-        <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>Neeraj M R</h3>
-          <h4 class={Aboutcss.title}>Web head</h4>
-        </div>
-        <ul class={Aboutcss.social}>
-          <li><a href="tel:+918129390516" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="neerajramachandran30@gmail.com" aria-hidden="true"><Envelop/></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class={Aboutcss.ourteam}>
-        <div class={Aboutcss.picture}>
           <img class={Aboutcss.imgfluid} src={fin3} alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
@@ -172,6 +126,25 @@ function About() {
       </div>
     </div>
     
+    
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={tech1} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Devaraj P V </h3>
+          <h4 class={Aboutcss.title}>Technical head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+919946353821" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="testmail@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
+    
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class={Aboutcss.ourteam}>
         <div class={Aboutcss.picture}>
@@ -179,7 +152,7 @@ function About() {
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Shafna sherin M V</h3>
-          <h4 class={Aboutcss.title}>Program head</h4>
+          <h4 class={Aboutcss.title}>Program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
           <li><a href="tel:+917909252967" aria-hidden="true"> <Phone /></a></li>
@@ -194,7 +167,7 @@ function About() {
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>vidhu venugopal</h3>
-          <h4 class={Aboutcss.title}>Program head</h4>
+          <h4 class={Aboutcss.title}>Program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
           <li><a href="tel:+919249276666" aria-hidden="true"> <Phone /></a></li>
@@ -210,7 +183,7 @@ function About() {
         </div>
         <div class={Aboutcss.teamcontent}>
           <h3 class={Aboutcss.name}>Unnikrishnan R</h3>
-          <h4 class={Aboutcss.title}>Program head</h4>
+          <h4 class={Aboutcss.title}>Program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
           <li><a href="tel:+917561061580" aria-hidden="true"> <Phone /></a></li>
@@ -252,6 +225,70 @@ function About() {
       </div>
     </div>
 
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={web} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Ajith shine</h3>
+          <h4 class={Aboutcss.title}>Web head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+919037955382" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="ajithshine@cectl.ac.in" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={neeraj} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Neeraj M R</h3>
+          <h4 class={Aboutcss.title}>Web head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+918129390516" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="neerajramachandran30@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={gen1} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Aisha S Methor</h3>
+          <h4 class={Aboutcss.title}>General program coordinator</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+917510795492" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="aisha.methor@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={gen2} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Sujith kumar M A</h3>
+          <h4 class={Aboutcss.title}>General program coordinator</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+918281595988" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="sujithk923@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
+
     
 
     
@@ -287,6 +324,7 @@ function About() {
         </ul>
       </div>
     </div>
+
     {/* </Marquee> */}
   </div>
 </div>

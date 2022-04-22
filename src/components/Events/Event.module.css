@@ -27,11 +27,11 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 7em;
   text-decoration: none;
-  color: var(--orange);
 }
 .event p{
+  font-size: 7em;
+  color: var(--orange);
   font-family: 'Roboto', sans-serif;
 
 }

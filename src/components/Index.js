@@ -1,7 +1,7 @@
 import React, { StrictMode,useEffect,useState} from 'react'
 import './Index.css'
 import Event from './Events/Event'
-import Schedule from './Schedule/Schedule'
+// import Schedule from './Schedule/Schedule'
 import Navbar from './Navbar/Navbar'
 import About from './About/About'
 import Footer from './footer/Footer'
@@ -9,6 +9,7 @@ import Front from './Frontp/Front'
 // import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
 // import Particlesbg from './Background/Particlesbg'
+import pin from '../images/pin.png';
 
 
 
@@ -42,6 +43,14 @@ export default function Index() {
 <div className='bg-m'>
 
         <Navbar />
+
+        <div >
+          
+            <img src={pin} alt='map' className='themap' />
+          
+        </div>
+
+          
       
         
         <div className='head'>
@@ -49,7 +58,7 @@ export default function Index() {
         </div>
       <div className='main'>
         <Event />
-        <Schedule />
+        {/* <Schedule /> */}
         <About />
         <Footer />
       </div>  

@@ -159,7 +159,7 @@ export default function Days() {
                     <p class="time">9:00 AM</p>
                 </li>
                 <li class="prog1" data-aos="fade-up">
-                    <p class="name">Quiz (Round 1)</p>
+                    <p class="name">Quiz – O – Phile(Round 1)</p>
                     <p class="time">9:00 AM</p>
                 </li>
                 <li class="prog1" data-aos="fade-up">
@@ -214,12 +214,9 @@ export default function Days() {
                     <p class="name">Tech Talk</p>
                     <p class="time">01:30 PM</p>
                 </li>
+                
                 <li class="prog1" data-aos="fade-up">
-                    <p class="name">Bridge Making </p>
-                    <p class="time">01:30 PM</p>
-                </li>
-                <li class="prog1" data-aos="fade-up">
-                    <p class="name">Quiz Final round  </p>
+                    <p class="name">Quiz – O – Phile(Final round) </p>
                     <p class="time">03:00 PM</p>
                 </li>
                 <li class="prog1" data-aos="fade-up">
