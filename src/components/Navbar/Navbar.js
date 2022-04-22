@@ -43,7 +43,7 @@ useEffect(() => {
         <h1 className="zealous">Zealous</h1>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
-      <Link to="#home" id='items' onClick={toggleNav}>
+      <Link to="/#home" id='items' onClick={toggleNav}>
       <li className='navcolor'>
         Home  
       </li>
@@ -55,11 +55,11 @@ useEffect(() => {
       </li>
       </Link>
     
-      <a href="/#about" id='items' onClick={toggleNav}>
+      <Link to="/#about" id='items' onClick={toggleNav}>
       <li className='navcolor'>
         About
       </li>
-      </a>
+      </Link>
     </ul>
        
       )}

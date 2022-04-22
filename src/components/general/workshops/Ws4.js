@@ -46,10 +46,10 @@ function Ws4() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          A general Workshop involving talks, training, skills, management and much more.  </p>
-          <p className={tab.p}>
-          Presented by Mohammed Ikan  the founder of Online Interact Platform, influencer coach, body language expert,  public speaker.           </p>         
-         
+          This workshop conducted by  Mohammed Ikan, Communication coaching & outbound  training  consultant, intends to create a conscience on what an employer looks for from a student and the vital skills necessary to bridge the gap between institutional learning and corporate expectations.  </p>
+                
+         <p className={tab.rules}>Topic</p>
+         <p>Corporate Expectations & Future Skills</p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
