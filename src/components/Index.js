@@ -9,7 +9,8 @@ import Front from './Frontp/Front'
 // import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
 // import Particlesbg from './Background/Particlesbg'
-import pin from '../images/pin.png';
+// import pin from '../images/pin.png';
+
 
 
 
@@ -28,44 +29,44 @@ export default function Index() {
 
   return (
     
-  <div>
+  <div className='bgmain'>
     
       
-      { loading ? <div className='loader'> <Triangle height="100"
+       { loading ?
+       <div className='loader'> <Triangle height="100"
         
-        width="100"
-        color='#fa9200'
-        ariaLabel='loading'/> </div> : 
-        
-        
-        <StrictMode>
-        
-<div className='bg-m'>
+       width="100"
+         color='#fa9200'
+         ariaLabel='loading'/> </div> 
+         : 
+       ( <div >
+          <StrictMode>
 
-        <Navbar />
-
-        <div >
+         <Navbar />
+{/* 
+          <div >
           
             <img src={pin} alt='map' className='themap' />
           
-        </div>
+        </div>   */}
 
           
       
         
-        <div className='head'>
-        <Front />
-        </div>
-      <div className='main'>
-        <Event />
-        {/* <Schedule /> */}
-        <About />
-        <Footer />
-      </div>  
-</div>
-        </StrictMode>
-        
+         <div className='head'>
+         <Front />
+         </div>
+       <div className='main'>
+         <Event />
+           {/* <Schedule />  */}
+         <About />
+         <Footer />
+       </div>  
+       
+         </StrictMode>
+         </div>)
 }
+        
         </div>
   
   )

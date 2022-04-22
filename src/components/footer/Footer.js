@@ -10,7 +10,7 @@ export default function Footer() {
     <div class="social">
         <div class="smedia">
             <div class="facebook">
-                <a href="https://www.facebook.com/ceczealous/" class="icon-link"><Facebook/></a>
+                <a href="https://www.facebook.com/ceczealous/"  class="icon-link"><Facebook/></a>
             </div>
         </div>
         <div class="smedia">

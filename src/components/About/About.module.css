@@ -9,6 +9,14 @@
 }
 .social{
   background-color: #000000;
+  
+}
+
+.commite{
+  font-family: 'Poppins',sans-serif;
+}
+.full{
+  margin-right: 2%;
 }
 .para{
  
@@ -54,8 +62,11 @@
      justify-content: center;
      margin-top: 5%;
    }
-   
-   
+   .commite{
+     color: var(--orange);
+      font-family: 'Poppins',sans-serif; 
+   }
+    
    
    /* Google Font CDN Link */
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -85,6 +96,8 @@
      
 
    }
+
+   
    .cards{
     display: flex;
    }
@@ -181,24 +194,25 @@
    
    }
    
-   .mediaicons a{
+    /* .mediaicons a{
      text-align: center;
      line-height: 33px;
      height: 35px;
      width: 35px;
      margin: 0 4px;
      font-size: 14px;
-     color: #FFF;
-     border-radius: 50%;
+     /* color: #FFF; */
+   /*  border-radius: 50%;
      border: 2px solid transparent;
      background: #FF676D;
      transition: all 0.3s ease;
-   }
-   .mediaicons a:hover{
+   } 
+    .mediaicons a:hover{
      color: #FF676D;
      background-color: #fff;
      border-color: #FF676D;
-   }
+     
+   }  */
     .container .button{
      width: 100%;
      display: flex;
@@ -356,7 +370,7 @@
       justify-content: center;
       padding: 2% 2%;
       width: 100%;
-      margin-left: 677%;
+      margin-left: 772.5%;
       
     }
     .ourteam .social li a {
@@ -376,7 +390,7 @@
     .container .row{
      
       /* width: 950px; */
-       margin-left: 314.5%; 
+       margin-left: 362.5%; 
       
     }
     .ourteam .social li a {
@@ -389,7 +403,7 @@
   .container .row{
    
     /* width: 950px; */
-     margin-left: 314%;
+     margin-left: 362%;
      width: 100%;
     
   }
@@ -542,7 +556,7 @@
     }
     
     .ourteam .social li a {
-     background-color: #111419;
+     /* background-color: #111419; */
      border-radius: 100%;
      display: block;
      padding: 6px;
@@ -553,10 +567,11 @@
      width: 35px;
      height: 35px; 
    }
-   
    .ourteam .social li a:hover {
-     color: #1369ce;
-     background-color: #f7f5ec;
+    color: #f7f5ec;
+     /* background-color: #f7f5ec; */
+     background-color: #000000;
+
    }
 
    

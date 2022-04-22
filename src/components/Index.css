@@ -7,6 +7,20 @@
     
 }
 
+.bgmain{
+    overflow: hidden;
+}
+
+/* @media (max-width: 800px) {
+.bgmain::-webkit-scrollbar {
+    
+  }
+  .bgmain {
+    -ms-overflow-style: none;  /* IE and Edge */
+   /* scrollbar-width: none;  /* Firefox */
+  /*}
+} */
+
 .themap{
     position: fixed;
     background-color: #01010101;

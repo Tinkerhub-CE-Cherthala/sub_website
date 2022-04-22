@@ -34,7 +34,7 @@ function About() {
     <div className={Aboutcss.full} id='about'>
     <div className={Aboutcss.cardm}>
         <h2 className={Aboutcss.heading}>About</h2>
-        <p className={Aboutcss.para}>Back from 2014, the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres. ZEALOUS, the so called technical event, makes it almost like a modern-day Athens, the place of Athena herself.</p>
+        <p className={Aboutcss.para}>Back from 2019, the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres. ZEALOUS, the so called technical event, makes it almost like a modern-day Athens, the place of Athena herself.</p>
        
        
 
@@ -72,7 +72,7 @@ function About() {
           <h4 class={Aboutcss.title}>Coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918921399233" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="tel:+918921399233" aria-hidden="true" className={Aboutcss.phone}> <Phone /></a></li>
           <li><a href="akhilpjose77@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
@@ -88,7 +88,7 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918138025290" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="tel:+918138025290" aria-hidden="true"> <Phone id="iconz" /></a></li>
           <li><a href="sidharthsabu2020@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
