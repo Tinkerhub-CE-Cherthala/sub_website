@@ -301,7 +301,7 @@ function About() {
         </div>
         <ul class={Aboutcss.social}>
           <li><a href="tel:+919383428027" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="anjalikj28ammu@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="mailto: anjalikj28ammu@gmail.com" aria-hidden="true"><Envelop/></a></li>
         </ul>
       </div>
     </div>

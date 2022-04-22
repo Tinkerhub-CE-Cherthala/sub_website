@@ -39,7 +39,7 @@ export default function Index() {
          color='#fa9200'
          ariaLabel='loading'/> </div> 
          : 
-       ( <div >
+       ( 
           <StrictMode>
 
          <Navbar />
@@ -64,7 +64,7 @@ export default function Index() {
        </div>  
        
          </StrictMode>
-         </div>)
+         )
 }
         
         </div>
