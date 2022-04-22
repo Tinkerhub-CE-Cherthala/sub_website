@@ -21,7 +21,7 @@ function Other3() {
           
         </div>
         <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Prize pool: 2250</p>
+          <p className={tab.toplightheading}>Prize pool: 3K</p>
         </div>
       </div>
       <div className={tab.bloctabs}>

@@ -12,6 +12,7 @@ import prg3 from '../../images/Program3.jpg'
 import fin1 from '../../images/Finance1.jpg'
 import fin2 from '../../images/Finance2.jpg'
 import fin3 from '../../images/fund3.jpg'
+import promo from '../../images/Public.jpg'
 import med1 from '../../images/Media1.jpg'
 import med2 from '../../images/media2.jpg'
 import web from '../../images/web.jpg'
@@ -288,9 +289,22 @@ function About() {
         </ul>
       </div>
     </div>
-
     
-
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class={Aboutcss.ourteam}>
+        <div class={Aboutcss.picture}>
+          <img class={Aboutcss.imgfluid} src={promo} alt='profile'/>
+        </div>
+        <div class={Aboutcss.teamcontent}>
+          <h3 class={Aboutcss.name}>Anjali K J</h3>
+          <h4 class={Aboutcss.title}>Promotion head</h4>
+        </div>
+        <ul class={Aboutcss.social}>
+          <li><a href="tel:+919383428027" aria-hidden="true"> <Phone /></a></li>
+          <li><a href="anjalikj28ammu@gmail.com" aria-hidden="true"><Envelop/></a></li>
+        </ul>
+      </div>
+    </div>
     
 
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
