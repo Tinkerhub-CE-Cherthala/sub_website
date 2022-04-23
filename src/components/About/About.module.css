@@ -529,6 +529,10 @@
      transform: scale(0.7);
    }
    
+   .ourteam .name{
+     color: var(--orange);
+   }
+
    .ourteam .title {
      display: block;
      font-size: 15px;
