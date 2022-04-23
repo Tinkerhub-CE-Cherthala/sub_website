@@ -49,7 +49,11 @@ function Ws3() {
           Transportation is evolving and we need to get ready. The electric vehicle revolution is here and you can be a part of it.   </p>
           <p className={tab.p}>
           Zealous presents a workshop on the latest advancements and challenges to the Electric Vehicle Industry. 
-          </p>         
+          </p>   
+          <p className={tab.pp}>May 6 | <span className={tab.p}>6pm - 7pm (Online)</span></p>      
+          <p className={tab.pp}>May 7 | <span className={tab.p}>10am (Offline)</span></p>      
+          <p className={tab.pp}>May 7 | <span className={tab.p}>6pm - 7pm (Online)</span></p>      
+
          <p className={tab.rules}>
           Requirements
           </p>

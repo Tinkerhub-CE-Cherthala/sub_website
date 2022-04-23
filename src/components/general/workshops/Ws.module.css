@@ -130,6 +130,10 @@
       color: white;
       text-transform: none;
     }
+    .content .pp{
+      color: var(--orange);
+    }
+
     .activecontent {
       display: block;
     }
