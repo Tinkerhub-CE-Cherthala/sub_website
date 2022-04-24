@@ -33,6 +33,7 @@ import Other6 from "./components/Others/genevent/Other6";
 import Other7 from "./components/Others/genevent/Other7";
 import Other8 from "./components/Others/genevent/Other8";
 import Other9 from "./components/Others/genevent/Other9";
+import Other10 from "./components/Others/genevent/Other10";
 
 import Ws1 from "./components/general/workshops/Ws1";
 import Ws2 from "./components/general/workshops/Ws2";
@@ -82,6 +83,7 @@ function App() {
       <Route path="/SpotPhotography" element={<Other7 />} />
       <Route path="/VirtualGames" element={<Other8 />} />
       <Route path="/StarOfZealous" element={<Other9 />} />
+      <Route path="/SellnWill" element={<Other10 />} />
       
 
       <Route path="/EthicalHacking" element={<Ws1 />} />

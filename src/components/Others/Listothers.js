@@ -75,13 +75,13 @@ function Listothers(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
+                {/* <div class={Listt.box} data-aos="fade-up">
                 <h3>Virtual games</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/VirtualGames' class={Listt.btn}>DETAILS </Link>
                     </div>
-                </div>
+                </div> */}
 
                 <div class={Listt.box} data-aos="fade-up">
                 <h3>Star of zealous</h3>
@@ -91,6 +91,13 @@ function Listothers(){
                     </div>
                 </div>
 
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>Sell & Win</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/SellnWill' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
                 
                 
 
