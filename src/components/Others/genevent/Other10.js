@@ -50,6 +50,20 @@ function Other10() {
           </p>
          
          <p className={tab.pp}>Note : <span className={tab.p}>Both online and offline registrations are available. </span> </p>
+         <div className={tab.highlights}>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Time</p>
+              <p>2 hrs</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
+              <p>7 May</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Entry fee</p>
+              <p>20</p>
+            </div>
+          </div>
     
         </div>
 
