@@ -1,14 +1,17 @@
+*{
+    background-color: transparent;
+}
 
 
 .main{
     margin-top: 1100px;
-    width: 100vw;
-    
-    
 }
 
 .bgmain{
     overflow: hidden;
+    
+
+    
 }
 
 /* @media (max-width: 800px) {

@@ -41,10 +41,9 @@ export default function Index() {
          : 
        ( 
           <StrictMode>
-            <div>
+            <div className='ground'>
 
-
-         <Navbar />
+          <Navbar /> 
 {/* 
           <div >
           
@@ -55,15 +54,15 @@ export default function Index() {
           
       
         
-         <div className='head'>
+          <div className='head'>
          <Front />
-         </div>
-       <div className='main'>
-         <Event />
-           {/* <Schedule />  */}
-         <About />
-         <Footer />
-       </div>  
+         </div> 
+        <div className='main'>
+          <Event /> 
+            {/* <Schedule />   */}
+          <About /> 
+          <Footer /> 
+        </div>   
        
           </div>
          </StrictMode>
