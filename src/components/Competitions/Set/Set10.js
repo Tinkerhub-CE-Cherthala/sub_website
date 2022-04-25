@@ -15,7 +15,7 @@ function Set10() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>ZEA-MAD</p>
-      <a href="https://rzp.io/l/PsZ32vvd" rel="noopener noreferrer" className={tab.regbutton}>register</a>
+      <a href="https://rzp.io/l/PsZ32vvd" rel="noopener noreferrer" target='_blank' className={tab.regbutton}>register</a>
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           

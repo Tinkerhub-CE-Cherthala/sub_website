@@ -67,7 +67,7 @@ function Ws1() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>600</p>
+              <p>500</p>
             </div>
           </div>
         </div>
