@@ -20,7 +20,7 @@ function Set13() {
           
         </div>
         <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Prize pool: 2K</p>
+          <p className={tab.toplightheading}>Prize pool: 6K</p>
         </div>
       </div>
       {/* <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a> */}
@@ -63,7 +63,7 @@ function Set13() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>20</p>
+              <p>50</p>
             </div>
           </div>
         </div>
