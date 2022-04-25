@@ -151,6 +151,8 @@
   background-color: var(--black);
   color: var(--orange);
 }
+
+
 /* .view::before{
   content: '';
   position: absolute;

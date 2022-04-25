@@ -27,9 +27,13 @@
     font-size: 2em;
     color: black;
      z-index: 1000; 
+   
+
      
     
 }
+
+
 .footercontainer{
     margin-top: 4%;
     background-color: black;

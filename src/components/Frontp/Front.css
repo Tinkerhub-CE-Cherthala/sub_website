@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 :root{
     --orange: #fa9200;
@@ -20,13 +22,25 @@
 } */
 .project{
     
-    height: 168vh;
-    z-index: 1000;
+    
+    /* z-index: 1000; */
     width: 100%;
     padding: 0;
      margin-left: -1%;
-    margin-top: -1%; 
+    margin-top: -1%;
+    /* background-image:linear-gradient(
+        rgba(51, 50, 50, 0.45), 
+        rgba(39, 38, 38, 0.45)
+      ),  url('../../images/bg4.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
+.logo{
+    width: 50%;
+}
+
 
 .sec{
     /* scroll-snap-align: start; */
@@ -41,7 +55,7 @@
     /* scroll-snap-align: start; */
 }
 #sec1{
-     background: url('../../images/bg1.png'); 
+    /* background: url('../../images/bg1.png');   */
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -59,7 +73,7 @@
 
 }
 
-.boxx1,
+/* .boxx1,
 .boxx2{
     content: '';
     position: absolute;
@@ -74,14 +88,14 @@
     transform: translate(-50%,-100%) rotate(45deg);
     animation: scroll 1s ease-in-out infinite;
     /* transform: rotate(45deg); */
-    border-top: transparent;
+ /*   border-top: transparent;
     border-left: transparent;
 }
 
 .boxx2{
     top: 20%;
     animation-delay: 0.3s;
-}
+} */
 
 .logocont{
     display:flex;
@@ -89,9 +103,13 @@
     align-items: center;
     
 }
-.logo{
-    width: 50%;
+ p{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
+
 .title{
     font-size: 5em;
     color: var(--orange);
@@ -118,26 +136,21 @@
     }
 
 }
-@media (max-width:700px) {
+@media (max-width:750px) {
     
-    .project{
-        width: 100%;
-        margin-left: -1.3%;
+    
+
+    .title{
+        font-size: 4.5em;
+    }
+    .caption{
+        font-size: 1.5;
+    }
+    .logo{
+        width: 40%;
+    }
+    .logocont{
+        margin-top: -70%;
     }
 }
 
-@media (max-width:500px) {
-    
-    .project{
-        width: 100%;
-        margin-left: -1.6%;
-    }
-}
-
-@media (max-width:400px) {
-    
-    .project{
-        width: 100%;
-        margin-left: -1.7%;
-    }
-}

@@ -42,6 +42,7 @@ import Ws4 from "./components/general/workshops/Ws4";
 import Ws5 from "./components/general/workshops/Ws5";
 
 import Listothers from "./components/Others/Listothers";
+import Pages from "./Pages";
 
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
     <Router>
     <Routes>
 
-      <Route exact path="/" element={<Index />}/>\
+      <Route exact path="/" element={<Pages/>}/>\
       <Route path="/error" element={<Listee/>}/>
 
       
