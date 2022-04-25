@@ -41,6 +41,8 @@ export default function Index() {
          : 
        ( 
           <StrictMode>
+            <div>
+
 
          <Navbar />
 {/* 
@@ -63,6 +65,7 @@ export default function Index() {
          <Footer />
        </div>  
        
+          </div>
          </StrictMode>
          )
 }

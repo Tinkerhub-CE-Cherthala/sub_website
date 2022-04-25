@@ -15,7 +15,7 @@ function Other10() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Sell & Win</p>
-      {/* <a href=" " className={tab.regbutton}>register</a> */}
+       <a href="https://rzp.io/l/I0mHzoRT" rel="noopener noreferrer" target='_blank' className={tab.regbutton}>register</a> 
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
@@ -50,6 +50,20 @@ function Other10() {
           </p>
          
          <p className={tab.pp}>Note : <span className={tab.p}>Both online and offline registrations are available. </span> </p>
+         <div className={tab.highlights}>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Time</p>
+              <p>2 hrs</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
+              <p>7 May</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Entry fee</p>
+              <p>20</p>
+            </div>
+          </div>
     
         </div>
 

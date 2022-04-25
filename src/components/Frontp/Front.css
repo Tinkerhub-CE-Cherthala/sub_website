@@ -41,9 +41,10 @@
     /* scroll-snap-align: start; */
 }
 #sec1{
-     background: url('../../images/bg.png'); 
+     background: url('../../images/bg1.png'); 
     background-repeat: no-repeat;
     background-size: cover;
+    
     /* background-color: black; */
 }
 .scroll{
