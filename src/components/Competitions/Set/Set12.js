@@ -21,7 +21,7 @@ function Set12() {
           
         </div>
         <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Prize pool: 5K</p>
+          <p className={tab.toplightheading}>Prize pool: 4K</p>
         </div>
       </div>
       <div className={tab.bloctabs}>
