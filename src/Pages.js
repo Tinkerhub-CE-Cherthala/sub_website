@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Front from './components/Frontp/Front';
 import Event from './components/Events/Event';
 import About from './components/About/About';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 
 function Pages() {
   const [loading,setLoading] = useState(true);

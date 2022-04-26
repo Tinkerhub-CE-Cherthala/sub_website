@@ -39,7 +39,7 @@
     
 }
 .logo{
-    width: 38%;
+    width: 20%;
 }
 
 
@@ -56,7 +56,11 @@
     /* scroll-snap-align: start; */
 }
 #sec1{
-     background: url('../../images/bg1.png');   
+     background:linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.45)
+      ), 
+     url('../../images/bg1.png');   
     background-repeat: no-repeat;
     
     text-align: center;
@@ -168,9 +172,12 @@
     }
 
 }
-#desc p{
+#desc{
     font-size: 1.5em;
+    width: 50%;
+    text-align: center;
 }
+
 
 
 @media (max-width:750px) {
@@ -196,8 +203,10 @@
         
     }
   
-    #desc p{
-        font-size: 1em;
+    #desc{
+        font-size: 1.7em;
+        width: 85%;
+        
     }
 
     #zdescription #z1{
@@ -211,9 +220,7 @@
     /* .scroll{
         margin-top: -10%;
     } */
-    #desc p{
-        font-size: 1.5em;
-    }
+    
     /* .events{
         margin-top: 70%;
     } */
@@ -242,6 +249,11 @@
     .contain{
         margin-top: -20%;
     }
+    #desc{
+        font-size: 1.6em;
+        width: 80%;
+        
+    }
     
 }
 
@@ -252,13 +264,19 @@
     .contain{
         margin-top: -30%;
     }
-    
+    #desc{
+        font-size: 1.5em;
+        width: 80%;
+        
+    }
 }
 
 @media (max-width:430px){
     
-    #desc p{
-        font-size: 1.1em;
+    #desc{
+        font-size: 1.4em;
+        width: 80%;
+        
     }
     #zdescription #z1{
         
@@ -276,8 +294,10 @@
 }
 @media (max-width:319px){
     
-    #desc p{
-        font-size: 1em;
+    #desc{
+        font-size: 1.3em;
+        width: 80%;
+        
     }
     
     

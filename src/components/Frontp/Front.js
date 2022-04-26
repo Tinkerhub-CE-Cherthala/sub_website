@@ -29,9 +29,9 @@ export default function Front() {
               <p className='caption'>Explore the New Horizon</p>
 
               <div id='desc'>
-                <p id='desc1'>Zealous Is The 5th Techfest Of College Of Engineering Cherthala, Zealous</p>
-                <p id='desc2'>Aims To Promote Innovations Of Budding Engineers To Explore And</p>
-                <p id='desc3' >Exploit Diverse Talents In Various Spheres</p>
+                <p id='desc1'>Zealous Is The 5th Techfest Of College Of Engineering Cherthala, Zealous
+                Aims To Promote Innovations Of Budding Engineers To Explore And
+                Exploit Diverse Talents In Various Spheres</p>
               </div>
               </Fade>
               <div className='bottom'>
@@ -40,9 +40,9 @@ export default function Front() {
               <div className="boxx1"></div>
               <div className="boxx2"></div>
             </div>
-              <div className='events'>
+              {/* <div className='events'>
                 <a className='eventbtn' href='/#events'><Arrowdown/> </a>
-              </div>
+              </div> */}
             
               </div>
             </div>
