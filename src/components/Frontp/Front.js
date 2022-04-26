@@ -2,17 +2,19 @@ import React from 'react'
 import './Front.css';
 import logo from '../../images/logo thick 1.png'
 import Fade from 'react-reveal'
+import Arrowdown from '../Icons/Arrowdown';
 
 export default function Front() {
   return (
     <>
     
+    <Fade>
     <div className='project' id='home'>
-    
+
     <section class="sec" id="sec1">
         <div class="contain">
           <div id="zdescription"> 
-            <p id='z1'>college of engineering cherthala</p>
+            <div id='z1'>college of engineering cherthala</div>
             <p id='z2'>presents</p>
           </div>
             <div className='logocont'>
@@ -39,7 +41,7 @@ export default function Front() {
               <div className="boxx2"></div>
             </div>
               <div className='events'>
-                <a className='eventbtn' href='/#events'>Events</a>
+                <a className='eventbtn' href='/#events'><Arrowdown/> </a>
               </div>
             
               </div>
@@ -49,6 +51,7 @@ export default function Front() {
     </section>
 
     </div>
+    </Fade>
     </>
   )
 }

@@ -24,6 +24,7 @@ import gen1 from '../../images/gen1.jpg'
 import gen2 from '../../images/gen2.jpg'
 import Phone from '../Icons/Phone';
 import Envelop from '../Icons/Envelope';
+import { Fade } from 'react-reveal';
 
 
 function About() {
@@ -33,6 +34,8 @@ function About() {
 
   return (
     <div className={Aboutcss.full} id='about'>
+    <Fade bottom>
+
     <div className={Aboutcss.cardm}>
         <h2 className={Aboutcss.heading}>About</h2>
         <p className={Aboutcss.para}>Back from 2009, the College of Engineering Cherthala annually organizes TECHFEST with an aim to promote innovations of budding engineers to explore and exploit diverse talents in various spheres. ZEALOUS, the so called technical event, makes it almost like a modern-day Athens, the place of Athena herself.</p>
@@ -343,6 +346,7 @@ function About() {
   </div>
 </div>
     </div>
+    </Fade>
     </div>
   )
 }

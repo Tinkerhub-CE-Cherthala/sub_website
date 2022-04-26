@@ -7,20 +7,20 @@ import Fade from 'react-reveal'
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-  const [navbar,setNavbar] = useState(false);
+  // const [navbar,setNavbar] = useState(false);
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
 
-   const changeBackground = ()=>{
-     if(window.scrollY>100){
-       setNavbar(true);
-     }
-    else{
-       setNavbar(false);
-     }
-   }  
+  //  const changeBackground = ()=>{
+  //    if(window.scrollY>100){
+  //      setNavbar(true);
+  //    }
+  //   else{
+  //      setNavbar(false);
+  //    }
+  //  }  
 useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -29,12 +29,12 @@ useEffect(() => {
   }, 
   
   [])
-   useEffect(() => {
-     window.addEventListener('scroll',changeBackground);  
-     return () => {
-       window.removeEventListener('scroll',changeBackground);
-     }
-   }, [])
+  //  useEffect(() => {
+  //    window.addEventListener('scroll',changeBackground);  
+  //    return () => {
+  //      window.removeEventListener('scroll',changeBackground);
+  //    }
+  //  }, [])
   
 
 
@@ -42,8 +42,8 @@ useEffect(() => {
 
 
   return (
-    // <Fade top>
-    <nav className={navbar ?'navnav':'navnot'}>
+     <Fade top>
+    <nav className='navnav'>
 
       <div className='navlogo'>
         <img src={logo} alt="" />
@@ -80,6 +80,6 @@ useEffect(() => {
 
       <div onClick={toggleNav} className="btnnav"></div>
     </nav>
-    //</Fade>
+    </Fade>
   )
 }

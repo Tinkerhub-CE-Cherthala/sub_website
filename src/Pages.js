@@ -51,7 +51,7 @@ function Pages() {
           <Event /> 
             {/* <Schedule />   */}
           <About /> 
-          <Footer /> 
+          {/* <Footer />  */}
         </div>   
        
           </div>

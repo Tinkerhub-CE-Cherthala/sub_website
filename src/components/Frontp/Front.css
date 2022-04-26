@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 :root{
     --orange: #fa9200;
     --black: #000000;
@@ -38,7 +39,7 @@
     
 }
 .logo{
-    width: 40%;
+    width: 38%;
 }
 
 
@@ -69,12 +70,12 @@
     height: 6vh;
     width: 35vw;
     /* border-bottom: 3px solid var(--orange); */
-    position: absolute;
+    position: fixed;
     left: 32.5%;
     /* bottom: 5%; */
     border-radius: 50px;
     /* transform: rotate(45deg); */
-    
+    margin-top: -1%;
     
 
 }
@@ -112,27 +113,29 @@
 #zdescription #z1{
     text-align: center;
     font-size:  1.9em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-family: 'DM Sans', sans-serif;
+    
 }
 #zdescription #z2{
     font-size: 1.9em;
+    font-family: 'DM Sans', sans-serif;
+
 }
 
 .events{
-    width: 150px;
-    height: 50px;
-    background: #000000;
+    
     margin-top: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
-    font-size: 1.5em;
-    border-radius: 10px;
+    border-radius: 100%;
+    
 }
 .events .eventbtn{
-    text-decoration: none;
+    font-size: 4em;
+    margin-top: 50%;
+    color: #fa9200;
+
 }
 .bottom{
     margin-top: 6%;
@@ -172,7 +175,7 @@
 
 @media (max-width:750px) {
     .contain{
-        margin-top: -20%;
+        margin-top: -5%;
     }
     .desc{
         padding-left: 2%;
@@ -220,24 +223,40 @@
     .scroll{
         margin-top: -10%;
     }
+
+    .events .eventbtn{
+        margin-left: 10%;
+    }
+    
 }
 
+
+
 @media (max-width:660px) {
+    .contain{
+        margin-top: -50%;
+    }
     .bottom{
         margin-bottom: -40%;
     }
+    .contain{
+        margin-top: -20%;
+    }
+    
 }
 
 @media (max-width:560px){
     .bottom{
         margin-bottom: -50%;
     }
-    .logo{
-        width: 40%;
+    .contain{
+        margin-top: -30%;
     }
+    
 }
 
 @media (max-width:430px){
+    
     #desc p{
         font-size: 1.1em;
     }
@@ -249,6 +268,9 @@
     #zdescription #z2{
         font-size: 1.7em;
     }
+    .contain{
+        margin-top: -50%;
+    }
     
 
 }
@@ -258,7 +280,5 @@
         font-size: 1em;
     }
     
-    .logo{
-        width: 60%;
-    }
+    
 }
