@@ -83,10 +83,10 @@ event.</li>
             <li className={tab.p}>All team members should be present at the event. </li>
             <li className={tab.p}>The entire app need not be fully implemented however, the submission should be
 functional so that it can be reviewed by the judges.</li>
-            <li className={tab.p}>Teams can be disqualified from the competition at the organizers’ discretion.
+            <li className={tab.p}>Teams can be disqualified from the competition at the organizer’s discretion.
 Reasons might include but are not limited to breaking the Competition Rules,
-breaking the Code of Conduct, or other unsporting behavior.</li>
-            
+breaking the Code of Conduct, or other unspporting behaviour.</li>
+            <li className={tab.p}>Participants will have to bring their own system with Android studio installed in it.</li>
 
           </ul>
           
