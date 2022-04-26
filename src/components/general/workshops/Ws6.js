@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-import tab from './Set.module.css';
+import tab from './Ws.module.css';
 
-function Set14() {
+function Ws6() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -15,14 +15,6 @@ function Set14() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Solder spin</p>
-      <div className={tab.toplights}>
-        <div className={tab.toplightdiv}>
-          
-        </div>
-        <div className={tab.toplightdiv}>
-          <p className={tab.toplightheading}>Prize pool: 3.5K</p>
-        </div>
-      </div>
       {/* <a href="https://rzp.io/l/TScCTTEKn" className={tab.regbutton}>register</a> */}
       <div className={tab.bloctabs}>
         <button
@@ -51,7 +43,24 @@ function Set14() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          We will give the basic idea of soldering. After the session interested students can form a group of maximum 5 students. A simple circuit is given to the participants and the participants have to solder it within the time limit. Evaluation is based on the time and perfection of the soldering.           </p>
+          Stay strong like iron.............</p>
+          <p className={tab.p}>
+          But, Sometimes the slogan ain't  works when iron becomes the softer material to makes some bonds stronger.......
+Well, Leaving all the condradictions, we  announce our workshop......
+
+          <p className={tab.p}>"The Solder Spin"</p>
+          </p>
+          <p className={tab.p}>
+          Its all about soldering.... Bonding... And winning....!
+          </p>
+          <p className={tab.p}>
+          The workshop will teach you the art of melting metal to connect circuits!
+          </p>
+          <p className={tab.p}>
+          So we invite you all to learn from scratch! 
+          The best hands who keeps the bonds stronger will be rewarded.!
+          So, Come, solder, win, go!!!
+          </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
@@ -63,7 +72,7 @@ function Set14() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>50</p>
+              <p>100</p>
             </div>
           </div>
         </div>
@@ -117,4 +126,4 @@ function Set14() {
   );
 }
 
-export default Set14;
+export default Ws6;

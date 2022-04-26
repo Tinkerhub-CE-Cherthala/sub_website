@@ -22,7 +22,7 @@ import Set10 from "./components/Competitions/Set/Set10";
 import Set11 from "./components/Competitions/Set/Set11";
 import Set12 from "./components/Competitions/Set/Set12";
 import Set13 from "./components/Competitions/Set/Set13";
-import Set14 from "./components/Competitions/Set/Set14";
+// import Set14 from "./components/Competitions/Set/Set14";
 import Set16 from "./components/Competitions/Set/Set16";
 
 import Other1 from "./components/Others/genevent/Other1";
@@ -40,6 +40,7 @@ import Ws2 from "./components/general/workshops/Ws2";
 import Ws3 from "./components/general/workshops/Ws3";
 import Ws4 from "./components/general/workshops/Ws4";
 import Ws5 from "./components/general/workshops/Ws5";
+import Ws6 from "./components/general/workshops/Ws6";
 
 import Listothers from "./components/Others/Listothers";
 
@@ -72,7 +73,6 @@ function App() {
       <Route path="/Mindspark" element={<Set11 />} />
       <Route path="/OHM-DECODER" element={<Set12 />} />
       <Route path="/RAINBOW" element={<Set13 />} />
-      <Route path="/SOLDER-SPIN" element={<Set14 />} />
       <Route path="/WAVE-DIMENSION" element={<Set16 />} />
 
       <Route path="/Mjolnir" element={<Other1 />} />
@@ -91,6 +91,7 @@ function App() {
       <Route path="/ElectricVehicles" element={<Ws3 />} />
       <Route path="/Generalws" element={<Ws4 />} />
       <Route path="/ADAS" element={<Ws5 />} />
+      <Route path="/SOLDER-SPIN" element={<Ws6 />} />
     </Routes>
   </Router>
     </div>
