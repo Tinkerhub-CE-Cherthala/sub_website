@@ -57,6 +57,9 @@ function Set6() {
           Credorian is an event to show up your coding skills!! 
 Can you be in a 24 Hour marathon of building, creating, producing, delivering and pitching? Then, don't miss out on this glorious opportunity to showcase your brilliant skills.What’s more? A career and internship opportunity with Bytestrone!!!
           </p>
+          <p className={tab.p}>
+          Selected participants will be getting direct interview from Bytestrone  and placed students  will be getting a package of 4 lakhs per annum. For participants who are given an internship offer, they will be paid a fixed monthly stipend of Rs. 8000.
+          </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
