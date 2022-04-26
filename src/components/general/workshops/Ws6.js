@@ -84,7 +84,7 @@ Well, Leaving all the condradictions, we  announce our workshop......
             Rules
           </p>
           <ul>
-            <li className={tab.p}>Group of maximum 5 members.</li>
+            <li className={tab.p}>Group of maximum 2 members.</li>
             <li className={tab.p}>Spot registration is possible.</li>
             <li className={tab.p}>Students without college ID is not permitted.</li>
             <li className={tab.p}>Group with perfect and neat soldered will be the winner. </li>
