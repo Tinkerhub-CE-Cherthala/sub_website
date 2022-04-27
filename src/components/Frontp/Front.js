@@ -28,10 +28,12 @@ export default function Front() {
               
               <p className='caption'>Explore the New Horizon</p>
 
+              <div className='date'>
+                <h4>May 6th & 7th</h4>
+              </div>
+
               <div id='desc'>
-                <p id='desc1'>Zealous Is The 5th Techfest Of College Of Engineering Cherthala, Zealous
-                Aims To Promote Innovations Of Budding Engineers To Explore And
-                Exploit Diverse Talents In Various Spheres</p>
+                <p id='desc1'>Every improvement or innovation begin with an idea.But an idea is a only possibility - a small beginning that must be nurtured, developed ,engineer, tinkered with, championed,tested, implemented and checked ideas have no value until they are implemented</p>
               </div>
               </Fade>
               <div className='bottom'>

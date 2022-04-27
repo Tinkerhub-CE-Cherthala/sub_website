@@ -5,6 +5,7 @@ import Front from './components/Frontp/Front';
 import Event from './components/Events/Event';
 import About from './components/About/About';
 // import Footer from './components/footer/Footer';
+import Mainfooter from './components/Mainfooter/Mainfooter'
 
 function Pages() {
   const [loading,setLoading] = useState(true);
@@ -52,6 +53,7 @@ function Pages() {
             {/* <Schedule />   */}
           <About /> 
           {/* <Footer />  */}
+          <Mainfooter/>
         </div>   
        
           </div>

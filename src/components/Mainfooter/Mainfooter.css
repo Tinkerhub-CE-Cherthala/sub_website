@@ -1,4 +1,252 @@
 .footerbg{
     background: black;
+    height: fit;
+
     
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.zealousfooter{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.zealousfooter h2{
+text-align: start;
+font-size: 2.5em;
+margin-top: 1%;
+
+}
+.zealousfooter p{
+    width: 50%;
+    text-align: start;
+    margin-left: 3%;
+    font-size: 1.5em;
+    text-transform: none;
+}
+
+.getin{
+    
+    width: 100%;
+    text-align: start;
+    font-size: 1.6em;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -7%;
+    
+}
+.getin #how{
+    margin-top: 5%;
+    font-size: 1.5em;
+    text-transform: none;
+}
+.getin img{
+    width: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 17%;
+}
+
+
+.contactus{
+    width: 100%;
+    margin-top: 38%;
+    margin-left: -130%;
+
+    
+
+}
+.contactus h2{
+    font-size: 2.3em;
+    text-transform: none;
+    margin-top: 2%;
+    text-align: center;
+    margin-right: 35%;
+    width: 100%;
+}
+.connect{
+    margin-top: 5%;
+}
+.icon-container{
+    display: flex;
+    
+}
+.connect h3{
+    font-size: 2.3em;
+    text-transform: none;
+    margin-left: 5%;
+}
+
+.icon-container #icon{
+    
+    margin: 0% 3% 0% 3%;
+    margin-top: -5%;
+}
+#icon #fb{
+    font-size: 2.5em;
+}
+#icon #tw{
+    font-size: 2.5em;
+}
+#icon #In{
+    font-size: 2.5em;
+}
+#icon #Yu{
+    font-size: 2.5em;
+}
+.contactcont{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.staff{
+    margin-left: 0;
+    
+
+}
+.staff #name{
+    font-size: 1.9em;
+    width: 100%;
+}
+.staff #post{
+    font-size: 1.7em;
+}
+.staff #mobile{
+     font-size: 1.5em;
+}
+.student{
+    margin-right: -5%;
+}
+.student #name{
+    font-size: 2em;
+}
+.student #post{
+    font-size: 1.7em;
+}
+
+.student #mobile{
+    font-size: 1.5em;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: -30%;
+}
+.foo{
+    display: flex;
+    flex-direction: column;
+}
+.foo #mi{
+    margin-top: 15%;
+    font-size: 1.1em;
+    text-transform: none;
+    
+}
+.foo #mi1{
+    margin-top: 15%;
+    font-size: 1.1em;
+    /* margin-right: -200%; */
+    text-transform: none;
+    margin-left: -230%;
+    
+}
+
+@media (max-width:800px){
+    .footercontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .zealousfooter h2{
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 1%;
+        
+        }
+        
+
+        .zealousfooter p{
+           text-align: center;
+            margin-left: 0%;
+          
+        }
+        .connect h3{
+            font-size: 2.3em;
+            text-transform: none;
+            text-align: center;
+        }
+        .connect .icon-container{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .contactus h2{
+            font-size: 2.3em;
+            text-transform: none;
+            margin-top: 2%;
+            text-align: center;
+            
+        }
+        .connect h3{
+            
+            margin-left: 0%;
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: 3%;
+        }
+        .getin{
+            margin-left: 0%;
+            margin-top: 0%;
+            
+        }
+        .foo #mi1{
+            margin-left: 0%;
+            margin-top: 5%;
+        }
+        .foo #mi{
+            margin-top: 5%;
+        }
+        .contactus{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        .contactus h2{
+            text-align: center;
+            margin-right: 0%;   
+        }
+      .contactus .contactcont{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      } 
+        .contactcont{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .staff{
+            margin-top: 30%;
+        }
+        .student{
+            margin-top: 30%;
+        }
+        .ftrdesc p{
+            text-align: center;
+            margin-left: 18%;
+            width: 60%;
+        }
 }
