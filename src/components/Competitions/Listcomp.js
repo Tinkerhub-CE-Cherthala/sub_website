@@ -114,7 +114,7 @@ function Listcomp(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
+                <div class={Listt.box}>
                 <h3>Rainbow</h3>
                     <div class={Listt.info}>
                         
@@ -123,7 +123,7 @@ function Listcomp(){
                 </div>
 
 
-                <div class={Listt.box} data-aos="fade-up">
+                <div class={Listt.box}>
                 <h3>Wave dimension</h3>
                     <div class={Listt.info}>
                         

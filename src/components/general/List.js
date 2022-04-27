@@ -57,7 +57,7 @@ function List(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
+                <div class={Listt.box}>
                 <h3>ADAS & Machine Learning</h3>
                     <div class={Listt.info}>
                         
@@ -65,7 +65,7 @@ function List(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
+                <div class={Listt.box}>
                 <h3>Solder spin</h3>
                     <div class={Listt.info}>
                         

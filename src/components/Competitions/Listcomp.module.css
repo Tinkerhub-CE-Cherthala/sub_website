@@ -29,7 +29,8 @@
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
   background:var(--black);
-  height: 500vh;
+  /* height: 500vh; */
+  height: auto;
   width: 100vw;
 }
 

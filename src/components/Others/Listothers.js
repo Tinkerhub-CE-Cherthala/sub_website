@@ -83,7 +83,7 @@ function Listothers(){
                     </div>
                 </div> */}
 
-                <div class={Listt.box} data-aos="fade-up">
+                <div class={Listt.box}>
                 <h3>Star of zealous</h3>
                     <div class={Listt.info}>
                         
@@ -91,7 +91,7 @@ function Listothers(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
+                <div class={Listt.box}>
                 <h3>Sell & Win</h3>
                     <div class={Listt.info}>
                         
