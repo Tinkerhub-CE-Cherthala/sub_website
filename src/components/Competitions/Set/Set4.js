@@ -96,6 +96,12 @@ function Set4() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Vishnu K B</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}>vv887733@gmail.com</li>
+              <li className={tab.highspace}><a href="tel:+919526661563" aria-hidden="true">+91 9526661563 </a></li>
+            </ul>
+            <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Gokuljith</li>
               <li className={tab.highspace}>Event head</li>
               <li className={tab.highspace}>gokuljith2001@gmail.com</li>

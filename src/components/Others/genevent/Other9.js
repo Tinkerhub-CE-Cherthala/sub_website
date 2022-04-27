@@ -57,6 +57,21 @@ a chance to have a free go at the adventure courses!!
 .
 Clear your calenders boys and girls!
 And be there at 6th & 7th of May at College Of Engineering Cherthala.         </p>
+
+<div className={tab.highlights}>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Time</p>
+              <p>10:30 AM</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Date</p>
+              <p>6 May</p>
+            </div>
+            <div className={tab.highlightdiv}>
+              <p className={tab.highlightheading}>Entry fee</p>
+              <p>20</p>
+            </div>
+          </div>
          
         
         </div>
