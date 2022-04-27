@@ -83,6 +83,14 @@
     
 
 }
+a .scroll{
+    position: absolute;
+}
+@-moz-document url-prefix() {
+    a .scroll {
+        position: fixed;        
+    }
+}
 
  .boxx1,
 .boxx2{
@@ -118,12 +126,13 @@
     text-align: center;
     font-size:  1.9em;
     font-family: 'DM Sans', sans-serif;
+    text-transform: none;
     
 }
 #zdescription #z2{
     font-size: 1.9em;
     font-family: 'DM Sans', sans-serif;
-
+    text-transform: none;
 }
 
 .events{
@@ -172,10 +181,17 @@
     }
 
 }
-#desc{
-    font-size: 1.5em;
+
+#desc {
+    font-size: 1.7em;
     width: 50%;
     text-align: center;
+    text-transform: none; 
+    
+    
+}
+#desc p{
+    text-transform: none;
 }
 
 

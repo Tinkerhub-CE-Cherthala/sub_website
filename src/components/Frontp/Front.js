@@ -14,7 +14,7 @@ export default function Front() {
     <section class="sec" id="sec1">
         <div class="contain">
           <div id="zdescription"> 
-            <div id='z1'>college of engineering cherthala</div>
+            <div id='z1'>College of engineering cherthala</div>
             <p id='z2'>presents</p>
           </div>
             <div className='logocont'>
@@ -35,11 +35,13 @@ export default function Front() {
               </div>
               </Fade>
               <div className='bottom'>
+            <a href='/#events'>
 
             <div class="scroll">
               <div className="boxx1"></div>
               <div className="boxx2"></div>
             </div>
+            </a>
               {/* <div className='events'>
                 <a className='eventbtn' href='/#events'><Arrowdown/> </a>
               </div> */}
