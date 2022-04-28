@@ -60,8 +60,8 @@ function About() {
           <h4 class={Aboutcss.title}>Staff coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+919995215540" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: anithadevdas@cectl.ac.in" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+919995215540" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: anithadevdas@cectl.ac.in" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         
         </ul>
       </div>
@@ -76,8 +76,8 @@ function About() {
           <h4 class={Aboutcss.title}>Coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918921399233" aria-hidden="true" className={Aboutcss.phone}> <Phone /></a></li>
-          <li><a href="mailto: akhilpjose77@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918921399233" aria-hidden="true" className={Aboutcss.phone} rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: akhilpjose77@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -92,8 +92,8 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918138025290" aria-hidden="true"> <Phone id="iconz" /></a></li>
-          <li><a href="mailto: sidharthsabu2020@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918138025290" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone id="iconz" /></a></li>
+          <li><a href="mailto: sidharthsabu2020@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -108,8 +108,8 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+916282473019" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: joshnacleetus007@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+916282473019" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: joshnacleetus007@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -124,8 +124,8 @@ function About() {
           <h4 class={Aboutcss.title}>Finance head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+917736033754" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: shehzadhiks27@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+917736033754" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: shehzadhiks27@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -142,8 +142,8 @@ function About() {
           <h4 class={Aboutcss.title}>Technical head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+919946353821" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: devarajperayil327@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+919946353821" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: devarajperayil327@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -159,8 +159,8 @@ function About() {
           <h4 class={Aboutcss.title}>Program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+917909252967" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: shafnasherin.mv@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+917909252967" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: shafnasherin.mv@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -174,8 +174,8 @@ function About() {
           <h4 class={Aboutcss.title}>Program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+919249276666" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: vidhuv1995@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+919249276666" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: vidhuv1995@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -190,8 +190,8 @@ function About() {
           <h4 class={Aboutcss.title}>Program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+917561061580" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: unnianitha88@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+917561061580" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: unnianitha88@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -207,8 +207,8 @@ function About() {
           <h4 class={Aboutcss.title}>Media head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918547877490" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: krishnanmurali898@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918547877490" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: krishnanmurali898@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -223,8 +223,8 @@ function About() {
           <h4 class={Aboutcss.title}>Media head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+916282436505" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="aswinkrishnakkrishna@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+916282436505" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="aswinkrishnakkrishna@gmail.com" aria-hidden="true"rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -239,8 +239,8 @@ function About() {
           <h4 class={Aboutcss.title}>Web head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+919037955382" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: ajithshine@cectl.ac.in" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+919037955382" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: ajithshine@cectl.ac.in" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -255,8 +255,8 @@ function About() {
           <h4 class={Aboutcss.title}>Web head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918129390516" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: neerajramachandran30@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918129390516" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: neerajramachandran30@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -271,8 +271,8 @@ function About() {
           <h4 class={Aboutcss.title}>General program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+917510795492" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: aisha.methor@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+917510795492" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: aisha.methor@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -287,8 +287,8 @@ function About() {
           <h4 class={Aboutcss.title}>General program coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918281595988" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: sujithk923@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918281595988" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: sujithk923@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -303,8 +303,8 @@ function About() {
           <h4 class={Aboutcss.title}>Promotion head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+919383428027" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: anjalikj28ammu@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+919383428027" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: anjalikj28ammu@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -320,8 +320,8 @@ function About() {
           <h4 class={Aboutcss.title}>Technical head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918714172969" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: anandhup042@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918714172969" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: anandhup042@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>
@@ -336,8 +336,8 @@ function About() {
           <h4 class={Aboutcss.title}>Technical head</h4>
         </div>
         <ul class={Aboutcss.social}>
-          <li><a href="tel:+918714179301" aria-hidden="true"> <Phone /></a></li>
-          <li><a href="mailto: anilanandhu79@gmail.com" aria-hidden="true"><Envelop/></a></li>
+          <li><a href="tel:+918714179301" aria-hidden="true" rel="noopener noreferrer" target="_blank" > <Phone /></a></li>
+          <li><a href="mailto: anilanandhu79@gmail.com" aria-hidden="true" rel="noopener noreferrer" target="_blank" ><Envelop/></a></li>
         </ul>
       </div>
     </div>

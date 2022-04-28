@@ -26,7 +26,8 @@ color: #fa9200;
 
 }
 .zealousfooter p{
-    width: 13%;
+    /* width: 13%; */
+    width: 22%;
     text-align: start;
     margin-left: 1%;
     font-size: 1.5em;
@@ -47,6 +48,7 @@ color: #fa9200;
 .date {
 margin-top: 1%;
 }
+
 .mapimg img{
 
 width: 30px;
@@ -77,6 +79,7 @@ margin-left: 1%;
     margin-left: -120%;
     margin-right: 5%;
 
+
     
 }
 .contactus h2{
@@ -87,7 +90,7 @@ margin-left: 1%;
     width: 100%;
 }
 .connect{
-    margin-top: 35%;
+    margin-top: 13%;
     text-align: center;
 
 }
@@ -187,6 +190,10 @@ margin-left: 1%;
 .foo a:hover{
     text-decoration: none;
 
+}
+
+#mobile a{
+    color: white;
 }
 
 @media (max-width:800px){

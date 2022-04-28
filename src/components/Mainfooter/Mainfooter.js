@@ -22,8 +22,10 @@ function Mainfooter() {
             <p id='d2'>Venue: College of engineering cherthala</p>
           </div>
           <div className='mapimg'>
-             
-              <img src={map} alt="" /> 
+          <a href='https://goo.gl/maps/w9vaLNeW658fpAiN9' rel="noopener noreferrer" target="_blank" >
+              <img src={map} alt="map" /> 
+
+          </a>
           </div>
           
           {/* <div className="connect">
@@ -40,7 +42,7 @@ function Mainfooter() {
 
 
 
-            <div className='getin'>
+            {/* <div className='getin'>
               
               <div className='middle'>
                <div className='foo'>
@@ -56,11 +58,11 @@ function Mainfooter() {
               
                  </div> 
 
-              </div>
+              </div> */}
               
   {/* <p id='how'>Location</p>
               <img src={map} alt="" />  */}
-            </div>
+            {/* </div> */}
             
 
 
@@ -72,12 +74,12 @@ function Mainfooter() {
 
              <p id='name'>Anitha devadas</p> 
              <p id='post'>Staff coordinator</p>
-              <p id='mobile'>number</p>
+              <p id='mobile'><a href='tel: +919995215540' rel="noopener noreferrer" target="_blank" >+919995215540</a></p>
              </div>
              <div className='student'>
              <p id='name'>Akhil p jose</p> 
              <p id='post'>Coordinator</p>
-              <p id='mobile'>number</p>
+              <p id='mobile'><a href="tel:+918921399233" rel="noopener noreferrer" target="_blank" >+918921399233</a></p>
              </div>
             </div>
             <div className="connect">
