@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
+import Mainfooter from '../../../components/Mainfooter/Mainfooter'
 
 function Set1() {
   const [toggleState, setToggleState] = useState(1);
@@ -150,6 +151,7 @@ function Set1() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

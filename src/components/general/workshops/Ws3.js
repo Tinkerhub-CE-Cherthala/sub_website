@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
+import Mainfooter from '../../../components/Mainfooter/Mainfooter'
 
 function Ws3() {
   const [toggleState, setToggleState] = useState(1);
@@ -93,6 +94,7 @@ function Ws3() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

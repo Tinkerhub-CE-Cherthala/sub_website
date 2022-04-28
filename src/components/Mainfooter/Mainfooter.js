@@ -86,10 +86,10 @@ function Mainfooter() {
             <h3>Connect with us</h3>
             <div className='icon-container'>
 
-            <div id='icon'><a id='fb' href='#'><Facebook/> </a></div>
-            <div id='icon'><a id='tw' href='#'><Twitter/> </a></div>
-            <div id='icon'><a id='In' href='#'><Instagram/> </a></div>
-            <div id='icon'><a id='Yu' href='#' ><Youtube/> </a></div>
+            <div id='icon'><a id='fb' href="https://www.facebook.com/ceczealous/" rel="noopener noreferrer" target="_blank"><Facebook/> </a></div>
+            <div id='icon'><a id='tw' href=" https://twitter.com/ceczealous?t=NvzVgwvU1LgGiaGmr1TFQA&s=08" rel="noopener noreferrer" target="_blank" class="icon-link"><Twitter/> </a></div>
+            <div id='icon'><a id='In' href="https://www.instagram.com/zealouscec/?hl=en" rel="noopener noreferrer" target="_blank" class="icon-link"><Instagram/> </a></div>
+            <div id='icon'><a id='Yu' href="https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA" rel="noopener noreferrer" target="_blank" ><Youtube/> </a></div>
             </div>
           </div>
             </div>

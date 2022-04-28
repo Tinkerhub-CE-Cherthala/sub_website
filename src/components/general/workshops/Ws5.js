@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 
@@ -83,6 +84,7 @@ function Ws5() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

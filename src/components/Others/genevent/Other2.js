@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
 
@@ -158,6 +159,7 @@ limit are disqualified.</li>
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 
@@ -122,6 +123,7 @@ Well, Leaving all the condradictions, we  announce our workshop......
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

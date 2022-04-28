@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
@@ -121,6 +122,7 @@ Can you be in a 24 Hour marathon of building, creating, producing, delivering an
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

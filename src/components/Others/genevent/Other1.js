@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
-
+import Mainfooter from '../../../components/Mainfooter/Mainfooter'
 function Other1() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -79,6 +79,7 @@ function Other1() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

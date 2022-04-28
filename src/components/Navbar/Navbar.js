@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './Navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import logo from '../../images/logo thick 1.png'
+ import logo from '../../images/logo thick 1.png'
 import Fade from 'react-reveal'
 
 export default function Navbar() {
@@ -46,8 +46,8 @@ useEffect(() => {
     <nav className='navnav'>
 
       <div className='navlogo'>
-        <img src={logo} alt="" />
-        {/* <h2 className='zealous'>Zealous</h2> */}
+         <img src={logo} alt="" /> 
+         {/* <h2 className='zealous'>Zealous</h2>  */}
       
       </div>
       {(toggleMenu || screenWidth > 750) && (

@@ -7,7 +7,8 @@
 }
 
 *{
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'proxima-nova', sans-serif;
   margin: 1px;
   padding: -1px;
   box-sizing: border-box;
@@ -28,7 +29,7 @@
   overflow-x: hidden;
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
-  background:var(--black);
+  background:#191919;
   /* height: 250vh; */
   height: auto;
   width: 100vw;

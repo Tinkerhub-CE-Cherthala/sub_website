@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron:wght@700&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 :root{
-  --black:#141414;
+   --black:#141414; 
   --pink: rgb(250, 146, 0);
 }
 
 *{
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'proxima-nova', sans-serif;
   margin: 1px;
   padding: -1px;
   box-sizing: border-box;
@@ -28,7 +29,7 @@
   overflow-x: hidden;
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
-  background:var(--black);
+  background:#191919;
   /* height: 250vh; */
   height: auto;
   width: 100vw;
@@ -72,6 +73,7 @@
 .h1{
   text-decoration:  solid var(--pink);
   font-size: 7em;
+  font-family: 'proxima-nova', sans-serif;
   
 }
 

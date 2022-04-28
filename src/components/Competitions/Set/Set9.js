@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
@@ -116,6 +117,7 @@ function Set9() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

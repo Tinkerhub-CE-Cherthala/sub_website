@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
 
@@ -118,6 +119,7 @@ the premises of the venue. </li>
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

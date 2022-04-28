@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
 
@@ -98,6 +99,7 @@ And be there at 6th & 7th of May at College Of Engineering Cherthala.         </
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

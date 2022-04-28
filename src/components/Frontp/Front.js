@@ -14,7 +14,7 @@ export default function Front() {
     <section class="sec" id="sec1">
         <div class="contain">
           <div id="zdescription"> 
-            <div id='z1'>College of engineering cherthala</div>
+            <div id='z1'>College Of Engineering Cherthala</div>
             <p id='z2'>presents</p>
           </div>
             <div className='logocont'>

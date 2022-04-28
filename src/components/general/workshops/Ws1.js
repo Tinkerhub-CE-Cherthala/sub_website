@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
+import Mainfooter from "../../Mainfooter/Mainfooter";
 
 function Ws1() {
   const [toggleState, setToggleState] = useState(1);
@@ -89,6 +90,7 @@ function Ws1() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

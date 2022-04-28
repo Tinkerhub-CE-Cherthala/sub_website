@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
 
@@ -102,6 +103,7 @@ Click it anyway you like, camera or phone, of anything keeping in mind the theme
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Set.module.css';
 
@@ -113,6 +114,7 @@ breaking the Code of Conduct, or other unspporting behaviour.</li>
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }

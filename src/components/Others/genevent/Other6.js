@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Mainfooter from "../../Mainfooter/Mainfooter";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Other.module.css';
 
@@ -105,6 +106,7 @@ function Other6() {
         </div>
       </div>
     </div>
+    <Mainfooter/>
   </>
   );
 }
