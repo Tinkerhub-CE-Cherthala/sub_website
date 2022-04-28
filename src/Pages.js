@@ -5,7 +5,7 @@ import Front from './components/Frontp/Front';
 import Event from './components/Events/Event';
 import About from './components/About/About';
 import Mainfooter from './components/Mainfooter/Mainfooter'
-import pin from './images/pin.png';
+// import pin from './images/pin.png';
 
 function Pages() {
   const [loading,setLoading] = useState(true);
