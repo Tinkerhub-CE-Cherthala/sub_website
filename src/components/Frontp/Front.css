@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 :root{
     --orange: #fa9200;
     --black: #000000;
@@ -39,7 +40,7 @@
     
 }
 .logo{
-    width: 20%;
+    width: 18%;
 }
 
 
@@ -93,6 +94,10 @@ a .scroll{
     }
 }
 
+    
+
+
+
  .boxx1,
 .boxx2{
     content: '';
@@ -110,6 +115,12 @@ a .scroll{
     /* transform: rotate(45deg); */
     border-top: transparent;
     border-left: transparent;
+}
+.titledate p{
+    color:#00ffff;
+    font-size: 2em;
+    font-family: 'proxima-nova', sans-serif;
+    
 }
 
 .boxx2{
@@ -188,7 +199,7 @@ a .scroll{
     width: 50%;
     text-align: center;
     text-transform: none; 
-    
+    font-family: 'proxima-nova', sans-serif;
     
 }
 #desc p{

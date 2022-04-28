@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 :root{
   --orange: #fa9200;
   --black: #141414;
@@ -21,7 +22,9 @@
   min-height : 800px;
 
 }
-
+.outer{
+  margin-top: 3%;
+}
 .event{
   display: flex;
   text-align: center;
@@ -30,9 +33,10 @@
   text-decoration: none;
 }
 .event p{
-  font-size: 7em;
+  font-size: 5.5em;
   color: var(--orange);
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'proxima-nova', sans-serif;
 
 }
 

@@ -4,7 +4,7 @@ import Listt from './Listcomp.module.css';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Navbar from "../Navbar/Navbar";
-
+import Mainfooter from "../Mainfooter/Mainfooter";
 function Listcomp(){
     useEffect(()=>{
         Aos.init({duration: 1000});
@@ -146,7 +146,7 @@ function Listcomp(){
 
             </section>
         </div>
-
+                <Mainfooter/>
 
 
         </>  

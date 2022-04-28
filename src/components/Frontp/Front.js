@@ -28,8 +28,8 @@ export default function Front() {
               
               <p className='caption'>Explore the New Horizon</p>
 
-              <div className='date'>
-                <h4>May 6th & 7th</h4>
+              <div className='titledate'>
+                <p>May 6th & 7th</p>
               </div>
 
               <div id='desc'>
