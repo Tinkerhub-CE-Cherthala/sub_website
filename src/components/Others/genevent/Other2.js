@@ -90,7 +90,7 @@ function Other2() {
               <li className={tab.p}>The participants need to submit their Abstract of the project at  the time of registration. </li>
               <li className={tab.p}>The abstract should contain, idea, requirements, functionality and details about the expected output.</li>
               <li className={tab.p}>These abstracts will be judged and the best ideas will be selected for the Second round.</li>
-              <li className={tab.p}>Last date for submitting abstract is 3ed May.</li>
+              <li className={tab.p}>Last date for submitting abstract is 3ed May</li>
               <li className={tab.p}>Result of first round will be published on 4th May</li>
           </ul>
           <p className={tab.rules}>
