@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import './Navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
+import logo from '../../images/logo thick 1.png'
+import Fade from 'react-reveal'
+
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -10,14 +13,14 @@ export default function Navbar() {
     setToggleMenu(!toggleMenu)
   }
 
-  // const changeBackground = ()=>{
-  //   if(window.scrollY>100){
-  //     setNavbar(true);
-  //   }
+  //  const changeBackground = ()=>{
+  //    if(window.scrollY>100){
+  //      setNavbar(true);
+  //    }
   //   else{
-  //     setNavbar(false);
-  //   }
-  // }  
+  //      setNavbar(false);
+  //    }
+  //  }  
 useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -26,12 +29,12 @@ useEffect(() => {
   }, 
   
   [])
-  // useEffect(() => {
-  //   window.addEventListener('scroll',changeBackground);  
-  //   return () => {
-  //     window.removeEventListener('scroll',changeBackground);
-  //   }
-  // }, [])
+  //  useEffect(() => {
+  //    window.addEventListener('scroll',changeBackground);  
+  //    return () => {
+  //      window.removeEventListener('scroll',changeBackground);
+  //    }
+  //  }, [])
   
 
 
@@ -39,11 +42,19 @@ useEffect(() => {
 
 
   return (
+     <Fade top>
     <nav className='navnav'>
-        <h1 className="zealous">Zealous</h1>
+
+      <div className='navlogo'>
+        <img src={logo} alt="" />
+        {/* <h2 className='zealous'>Zealous</h2> */}
+      
+      </div>
       {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
+
       <Link to="/#home" id='items' onClick={toggleNav}>
+
       <li className='navcolor'>
         Home  
       </li>
@@ -69,5 +80,6 @@ useEffect(() => {
 
       <div onClick={toggleNav} className="btnnav"></div>
     </nav>
+    </Fade>
   )
 }

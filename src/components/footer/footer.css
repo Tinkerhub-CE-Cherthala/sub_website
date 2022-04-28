@@ -1,20 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+:root{
+  --orange: #fa9200;
+  --black: #000000;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .social
 {
     display: flex;
     justify-content: center;
     height: 100px;
-    margin-top: 5%;
+    
     
     
 }
 .smedia
 {
-    margin: 0% 2% 0% 2%;
+    margin: 0% 10% 0% 10%;
     display: flex;
     align-items: center;
 }
 .icon-link{
-    font-size: 3em;
-    color: #fa9200;
-    z-index: 1000;
+    font-size: 2em;
+    color: black;
+     z-index: 1000; 
+   
+
+     
+    
+}
+
+
+.footercontainer{
+    margin-top: 4%;
+    background-color: black;
+    
+    width: 100vw;
+
+}
+.footercontainer h2{
+    padding: 15px;
+    color:var(--orange);
+    font-family:'Roboto', sans-serif;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 4em;
+    text-align: center;
+    padding-top: 3%;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.socialcontainer{
+    width: 35%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: #202930;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.socialcontainer .map{
+margin-top: 5%;
+}
+
+.smedia .facebook {
+    width: 50px;
+    height: 50px;
+    background-color: #1778F2;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.facebook:hover{
+    font-size: 13px;
+}
+.smedia .instagram{
+    width: 50px;
+    height: 50px;
+    background-color: #bc2a8d;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.instagram:hover{
+    font-size: 13px;
+}
+
+.smedia .twitter{
+    width: 50px;
+    height: 50px;
+    background-color: #1DA1F2;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.twitter:hover{
+    font-size: 13px;
+}
+.smedia .youtube{
+    width: 50px;
+    height: 50px;
+    background-color: #FF0000;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.youtube:hover{
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .socialcontainer{
+        width: 50%;
+    }
+    .icon-link{
+        font-size: 1em;
+    }
+    .map img{
+        width: 500px;
+    }
+    .smedia{
+    margin: 0% 2% 0% 2%;
+    display: flex;
+    align-items: center;
+}
+.smedia .facebook {
+    width: 40px;
+    height: 40px;
+}
+.smedia .instagram{
+    width: 30px;
+    height: 30px;
+}
 }

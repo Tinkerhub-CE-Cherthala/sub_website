@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import {useEffect} from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import Fade from 'react-reveal'
 
 
 function Event() {
@@ -19,7 +20,9 @@ function Event() {
     return (
         <div class={Eventcss.outer} id='events'>
             <div class={Eventcss.event}>
+          <Fade top>
     <p>Events</p>
+  </Fade>
   </div>
   <div class={Eventcss.section2}>
   <div class ={Eventcss.container}>

@@ -4,6 +4,7 @@ import Listt from './Listothers.module.css';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Navbar from "../Navbar/Navbar";
+import Mainfooter from "../Mainfooter/Mainfooter";
 
 function Listothers(){
     useEffect(()=>{
@@ -13,7 +14,10 @@ function Listothers(){
     return(
         <>
         <div className={Listt.listout}>
+            <div className={Listt.othernv}>
+
         <Navbar />    
+            </div>
 
         <section class={Listt.event} id="event">
 
@@ -105,7 +109,7 @@ function Listothers(){
 
             </section>
         </div>
-
+<Mainfooter/>
 
 
         </>  

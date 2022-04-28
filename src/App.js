@@ -5,7 +5,7 @@ import './App.css';
 import List from './components/general/List';
 import Listee from './components/eee/Listee';
 
-import Index from "./components/Index";
+// import Index from "./components/Index";
 import Days from "./components/Schedule/Days";
 
 import Listcomp from "./components/Competitions/Listcomp";
@@ -43,6 +43,7 @@ import Ws5 from "./components/general/workshops/Ws5";
 import Ws6 from "./components/general/workshops/Ws6";
 
 import Listothers from "./components/Others/Listothers";
+import Pages from "./Pages";
 
 
 function App() {
@@ -52,7 +53,8 @@ function App() {
     <Router>
     <Routes>
 
-      <Route exact path="/" element={<Index/>}/>\
+
+      <Route exact path="/" element={<Pages/>}/>
       <Route path="/error" element={<Listee/>}/>
 
       

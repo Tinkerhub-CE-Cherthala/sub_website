@@ -34,7 +34,9 @@
   width: 100vw;
 }
 
-
+.othernv{
+  font-size: 1.5em;
+}
 
 .event{
   padding:3rem 9%;

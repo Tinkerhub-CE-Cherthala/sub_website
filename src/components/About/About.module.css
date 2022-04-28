@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 :root{
   --orange: #fa9200;
   --black: #000000;
@@ -24,21 +25,22 @@
     padding: 15px;
     color:aliceblue;
     text-transform: none;
-     font-family: 'Montserrat';
+     /* font-family: 'Montserrat'; */
     /* font-family: "Times New Roman", Times, serif; */
-    font-weight: bold;
+    
      text-align: justify;
      font-size: large;
-   
+     font-family: 'proxima-nova', sans-serif;
    
    }
    .heading{
    
     padding: 15px;
     color:var(--orange);
-    font-family:'Roboto', sans-serif;
+    /* font-family:'Roboto', sans-serif; */
     /* font-family: "Times New Roman", Times, serif; */
-    font-size: 7em;
+    font-size: 5.5em;
+    font-family: 'proxima-nova', sans-serif;
     
    
    }
@@ -64,7 +66,9 @@
    }
    .commite{
      color: var(--orange);
-      font-family: 'Poppins',sans-serif; 
+      /* font-family: 'Poppins',sans-serif;  */
+      font-family: 'proxima-nova', sans-serif;
+      
    }
     
    
@@ -308,6 +312,7 @@
         padding: 2% 2%;
         
         
+        
       }
 
    }
@@ -370,7 +375,7 @@
       justify-content: center;
       padding: 2% 2%;
       width: 100%;
-      margin-left: 822%;
+      margin-left: 820%;
       
     }
     .ourteam .social li a {
@@ -403,7 +408,7 @@
   .container .row{
    
     /* width: 950px; */
-     margin-left: 386.5%;
+     margin-left: 387%;
      width: 100%;
     
   }
@@ -483,6 +488,7 @@
      margin-bottom: 50px;
      z-index: 1;
      position: relative;
+     
    }
    
    .ourteam .picture::before {
@@ -531,6 +537,7 @@
    
    .ourteam .name{
      color: var(--orange);
+     font-family: 'proxima-nova', sans-serif;
    }
 
    .ourteam .title {
@@ -538,6 +545,7 @@
      font-size: 15px;
      color: white;
      text-transform: capitalize;
+     font-family: 'proxima-nova', sans-serif;
    }
    
    .ourteam .social {

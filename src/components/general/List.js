@@ -4,6 +4,7 @@ import Listt from './List.module.css';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Navbar from "../Navbar/Navbar";
+import Mainfooter from '../Mainfooter/Mainfooter'
 
 function List(){
     useEffect(()=>{
@@ -13,7 +14,10 @@ function List(){
     return(
         <>
         <div className={Listt.listout}>
+            <div className={Listt.worknv}>
+
         <Navbar />    
+            </div>
 
         <section class={Listt.event} id="event">
 
@@ -79,7 +83,7 @@ function List(){
             </section>
         </div>
 
-
+        <Mainfooter/>
 
         </>  
     )

@@ -1,0 +1,325 @@
+.footerbg{
+    background-color: #000000;
+    height: auto;
+    margin-top: 5%;
+    
+
+    
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    
+
+}
+.zealousfooter{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.zealousfooter h2{
+text-align: start;
+font-size: 2.5em;
+margin-top: 1%;
+margin-left: 1%;
+color: #fa9200;
+
+}
+.zealousfooter p{
+    /* width: 13%; */
+    width: 22%;
+    text-align: start;
+    margin-left: 1%;
+    font-size: 1.5em;
+    text-transform: none;
+}
+
+.getin{
+    
+    width: 100%;
+    text-align: start;
+    font-size: 1.6em;
+    margin-top: 2%;
+    display: flex;
+    margin-left: -90%;
+    
+    
+}
+.date {
+margin-top: 1%;
+}
+
+.mapimg img{
+
+width: 30px;
+margin-left: 1%;
+
+    
+    
+    
+}
+
+
+.getin #how{
+    margin-top: 5%;
+    font-size: 1.5em;
+    text-transform: none;
+}
+/* .getin img{
+    width: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 17%;
+} */
+
+
+.contactus{
+    width: 25%;
+    margin-top: 6%;
+    margin-left: -120%;
+    margin-right: 5%;
+
+
+    
+}
+.contactus h2{
+    font-size: 2.3em;
+    text-transform: none;
+    text-align: center;
+    
+    width: 100%;
+}
+.connect{
+    margin-top: 13%;
+    text-align: center;
+
+}
+.icon-container{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.connect h3{
+    font-size: 2.3em;
+    text-transform: none;
+    margin-left: 5%;
+}
+
+
+.icon-container #icon{
+    
+    margin: 0% 8% 0% 8%;
+    margin-top: -5%;
+}
+#icon #fb{
+    font-size: 2.5em;
+}
+#icon #tw{
+    font-size: 2.5em;
+}
+#icon #In{
+    font-size: 2.5em;
+}
+#icon #Yu{
+    font-size: 2.5em;
+}
+.contactcont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+    
+}
+.staff{
+    margin-left: 0;
+    
+
+}
+.staff #name{
+    font-size: 1.9em;
+    width: 100%;
+}
+.staff #post{
+    font-size: 1.7em;
+}
+.staff #mobile{
+     font-size: 1.5em;
+}
+.student{
+    margin-right: -5%;
+}
+.student #name{
+    font-size: 2em;
+}
+.student #post{
+    font-size: 1.7em;
+}
+
+.student #mobile{
+    font-size: 1.5em;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: -30%;
+}
+.foo{
+    display: flex;
+    flex-direction: column;
+}
+.foo #mi{
+    margin-top: 15%;
+    font-size: 1.1em;
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    
+}
+.foo #mi1{
+    margin-top: 15%;
+    font-size: 1.1em;
+    /* margin-right: -200%; */
+    text-transform: none;
+    margin-left: -230%;
+    color: white;
+}
+.foo a:hover{
+    text-decoration: none;
+
+}
+
+#mobile a{
+    color: white;
+}
+
+@media (max-width:800px){
+    .footercontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .zealousfooter h2{
+        text-align: start;
+        font-size: 2.5em;
+        margin-top: 1%;
+        
+        }
+        
+
+        .zealousfooter p{
+           text-align: start;
+            margin-left: 0%;
+          
+        }
+        .connect h3{
+            font-size: 2.3em;
+            text-transform: none;
+            text-align: center;
+        }
+        .connect .icon-container{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .contactus h2{
+            font-size: 2.3em;
+            text-transform: none;
+            margin-top: 2%;
+            text-align: center;
+            
+        }
+        .connect h3{
+            
+            margin-left: 0%;
+        }
+        .middle{
+            width: 100%;
+            text-align: start;
+            margin-left: 10%;
+            display: flex;
+        flex-direction: column;
+        }
+        .getin{
+            margin-left: 2%;
+            margin-top: 0%;
+            
+        }
+        .foo #mi1{
+            margin-left: 0%;
+            margin-top: 5%;
+        }
+        .foo #mi{
+            margin-top: 5%;
+        }
+        .contactus{
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-top: 10%;
+            width: 100%;
+        }
+        .contactus h2{
+            text-align: center;
+            margin-right: 0%;   
+        }
+      .contactus .contactcont{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      } 
+
+      .mapimg img{
+
+        width: 20px;
+        margin-left: 1%;
+        
+            
+            
+            
+        }
+
+        .contactcont{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .staff{
+            margin-top: 0%;
+        }
+        .student{
+            margin-top: 5%;
+            margin-left: -5%;
+        }
+        .zealousfooter p{
+            text-align: start;
+            margin-left: 2%;
+            width: 90%;
+        }
+        .date {
+            margin-top: 10%;
+        }
+        .mapimg{
+            display: flex;
+            justify-content: left;
+            margin-left: 2%;
+        }
+        .icon-container #icon{
+    
+            margin: 0% 7% 0% 7%;
+            margin-top: -5%;
+        }
+        .footercontainer{
+            padding-bottom: 50px;
+        }
+        .connect{
+            margin-top: 7%;
+        }
+}

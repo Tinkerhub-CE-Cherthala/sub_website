@@ -41,13 +41,20 @@ export default function Index() {
          : 
        ( 
           <StrictMode>
-            <div>
+            <div className='ground'>
 
+{/* <<<<<<< HEAD
 
          <Navbar />
 
           <a href={'https://virtualtour-zealouscec.netlify.app/'} rel="noopener noreferrer" target='_blank'>
         
+======= */}
+          <Navbar /> 
+{/* 
+          <div >
+          
+>>>>>>> new_features
             <img src={pin} alt='map' className='themap' />
           
         </a>  
@@ -55,18 +62,18 @@ export default function Index() {
           
       
         
-         <div className='head'>
+          <div className='head'>
          <Front />
-         </div>
-       <div className='main'>
-         <Event />
-           {/* <Schedule />  */}
-         <About />
-         <Footer />
-       </div>  
+         </div> 
+        <div className='main'>
+          <Event /> 
+            {/* <Schedule />   */}
+          <About /> 
+          <Footer /> 
+        </div>   
        
-          </div>
-         </StrictMode>
+          {/* </div> */}
+        //  </StrictMode>
          )
 }
         
