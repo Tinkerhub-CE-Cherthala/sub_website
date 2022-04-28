@@ -10,22 +10,22 @@ export default function Footer() {
     <div class="social">
         <div class="smedia">
             <div class="facebook">
-                <a href="https://www.facebook.com/ceczealous/"  class="icon-link"><Facebook/></a>
+                <a href={"https://www.facebook.com/ceczealous/"} rel="noopener noreferrer" target='_blank'  class="icon-link"><Facebook/></a>
             </div>
         </div>
         <div class="smedia">
             <div class="instagram">
-                <a href="https://www.instagram.com/zealouscec/?hl=en" class="icon-link"><Instagram/></a>
+                <a href={"https://www.instagram.com/zealouscec/?hl=en"} rel="noopener noreferrer" target='_blank' class="icon-link"><Instagram/></a>
             </div>
         </div>
         <div class="smedia">
             <div class="youtube">
-                <a href="https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA" class="icon-link" ><Youtube/></a>
+                <a href={"https://www.youtube.com/channel/UCjNm_V23UkeU3lzFT_fcTiA"} rel="noopener noreferrer" target='_blank' class="icon-link" ><Youtube/></a>
             </div>
         </div>    
         <div class="smedia">
             <div class="twitter">
-                <a href=" https://twitter.com/ceczealous?t=NvzVgwvU1LgGiaGmr1TFQA&s=08" class="icon-link"><Twitter/></a>
+                <a href={" https://twitter.com/ceczealous?t=NvzVgwvU1LgGiaGmr1TFQA&s=08"} rel="noopener noreferrer" target='_blank' class="icon-link"><Twitter/></a>
             </div>
         </div>        
     </div>

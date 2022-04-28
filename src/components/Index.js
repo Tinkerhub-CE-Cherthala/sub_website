@@ -9,7 +9,7 @@ import Front from './Frontp/Front'
 // import Preconnect from './Preconnect/Preconnect'
 import { Triangle } from 'react-loader-spinner'
 // import Particlesbg from './Background/Particlesbg'
-// import pin from '../images/pin.png';
+import pin from '../images/pin.png';
 
 
 
@@ -45,12 +45,12 @@ export default function Index() {
 
 
          <Navbar />
-{/* 
-          <div >
-          
+
+          <a href={'https://virtualtour-zealouscec.netlify.app/'} rel="noopener noreferrer" target='_blank'>
+        
             <img src={pin} alt='map' className='themap' />
           
-        </div>   */}
+        </a>  
 
           
       
