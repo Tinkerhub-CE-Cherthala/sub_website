@@ -90,15 +90,15 @@ function Other2() {
               <li className={tab.p}>The participants need to submit their Abstract of the project at  the time of registration. </li>
               <li className={tab.p}>The abstract should contain, idea, requirements, functionality and details about the expected output.</li>
               <li className={tab.p}>These abstracts will be judged and the best ideas will be selected for the Second round.</li>
-              <li className={tab.p}>Last date for submitting abstract is 29th April</li>
-              <li className={tab.p}>Result of first round will be published on 1st May</li>
+              <li className={tab.p}>Last date for submitting abstract is 3ed May.</li>
+              <li className={tab.p}>Result of first round will be published on 4th May</li>
           </ul>
           <p className={tab.rules}>
               Round 2
           </p>
           <p className={tab.p}>Final Registration and Presentation of  PPT for selected participants.</p>
           <ul>
-              <li className={tab.p}>The second round will be conducted only for the selected participants.The selected participants should submit their PPT  before 9 Am on the day of  event.</li>
+              <li className={tab.p}>The second round will be conducted only for the selected participants.The selected participants should submit their PPT  before 9 Am on the day of the event.</li>
           </ul>
           <p className={tab.pp}>The  selected participants have to remmit the registration fee  during  the time of  final registration.</p>
 
