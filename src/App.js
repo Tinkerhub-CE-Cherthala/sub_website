@@ -40,7 +40,7 @@ import Ws2 from "./components/general/workshops/Ws2";
 import Ws3 from "./components/general/workshops/Ws3";
 import Ws4 from "./components/general/workshops/Ws4";
 import Ws5 from "./components/general/workshops/Ws5";
-import Ws6 from "./components/general/workshops/Ws6";
+import Ws6 from "./components/general/workshops/Ws6"
 
 import Listothers from "./components/Others/Listothers";
 import Pages from "./Pages";

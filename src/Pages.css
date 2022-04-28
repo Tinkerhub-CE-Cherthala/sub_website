@@ -1,0 +1,15 @@
+.themap{
+    position: fixed;
+    background-color: #01010101;
+    border: 2px solid #fa9200;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 90px;
+    z-index: 0;
+    padding: 9px;
+}
+.themap:hover{
+    background-color: #000000;
+}
