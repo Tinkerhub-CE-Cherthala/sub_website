@@ -1,13 +1,15 @@
 .footerbg{
-    background: black;
-    height: fit;
+    background-color: #000000;
+    height: auto;
+    margin-top: 5%;
+    
 
     
 }
 .footercontainer{
     display: flex;
     justify-content: space-between;
-    
+    padding-bottom: 4%;
     
 
 }
@@ -19,12 +21,13 @@
 text-align: start;
 font-size: 2.5em;
 margin-top: 1%;
+margin-left: 1%;
 
 }
 .zealousfooter p{
-    width: 50%;
+    width: 13%;
     text-align: start;
-    margin-left: 3%;
+    margin-left: 1%;
     font-size: 1.5em;
     text-transform: none;
 }
@@ -34,46 +37,66 @@ margin-top: 1%;
     width: 100%;
     text-align: start;
     font-size: 1.6em;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
-    flex-direction: column;
-    margin-left: -7%;
+    margin-left: -90%;
+    
     
 }
+.date {
+margin-top: 1%;
+}
+.mapimg img{
+
+width: 30px;
+margin-left: 1%;
+
+    
+    
+    
+}
+
+
 .getin #how{
     margin-top: 5%;
     font-size: 1.5em;
     text-transform: none;
 }
-.getin img{
+/* .getin img{
     width: 30px;
     text-align: center;
     margin-left: 30%;
     margin-top: 17%;
-}
+} */
 
 
 .contactus{
-    width: 100%;
-    margin-top: 38%;
-    margin-left: -130%;
+    width: 25%;
+    margin-top: 6%;
+    margin-left: -120%;
+    margin-right: 5%;
 
     
-
 }
 .contactus h2{
     font-size: 2.3em;
     text-transform: none;
-    margin-top: 2%;
     text-align: center;
-    margin-right: 35%;
+    
     width: 100%;
 }
 .connect{
-    margin-top: 5%;
+    margin-top: 35%;
+    text-align: center;
+
 }
 .icon-container{
     display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+
+    
     
 }
 .connect h3{
@@ -82,9 +105,10 @@ margin-top: 1%;
     margin-left: 5%;
 }
 
+
 .icon-container #icon{
     
-    margin: 0% 3% 0% 3%;
+    margin: 0% 8% 0% 8%;
     margin-top: -5%;
 }
 #icon #fb{
@@ -102,6 +126,7 @@ margin-top: 1%;
 .contactcont{
     display: flex;
     justify-content: space-between;
+    margin-top: 6%;
     
 }
 .staff{
@@ -146,6 +171,8 @@ margin-top: 1%;
     margin-top: 15%;
     font-size: 1.1em;
     text-transform: none;
+    text-decoration: none;
+    color: white;
     
 }
 .foo #mi1{
@@ -154,7 +181,11 @@ margin-top: 1%;
     /* margin-right: -200%; */
     text-transform: none;
     margin-left: -230%;
-    
+    color: white;
+}
+.foo a:hover{
+    text-decoration: none;
+
 }
 
 @media (max-width:800px){
@@ -166,7 +197,7 @@ margin-top: 1%;
         
     }
     .zealousfooter h2{
-        text-align: center;
+        text-align: start;
         font-size: 2.5em;
         margin-top: 1%;
         
@@ -174,7 +205,7 @@ margin-top: 1%;
         
 
         .zealousfooter p{
-           text-align: center;
+           text-align: start;
             margin-left: 0%;
           
         }
@@ -200,13 +231,14 @@ margin-top: 1%;
             margin-left: 0%;
         }
         .middle{
+            width: 100%;
+            text-align: start;
+            margin-left: 10%;
             display: flex;
-            flex-direction: column;
-            text-align: center;
-            margin-left: 3%;
+        flex-direction: column;
         }
         .getin{
-            margin-left: 0%;
+            margin-left: 2%;
             margin-top: 0%;
             
         }
@@ -220,6 +252,8 @@ margin-top: 1%;
         .contactus{
             margin-left: 0%;
             margin-right: 0%;
+            margin-top: 10%;
+            width: 100%;
         }
         .contactus h2{
             text-align: center;
@@ -231,6 +265,17 @@ margin-top: 1%;
           justify-content: center;
           align-items: center;
       } 
+
+      .mapimg img{
+
+        width: 20px;
+        margin-left: 1%;
+        
+            
+            
+            
+        }
+
         .contactcont{
             display: flex;
             flex-direction: column;
@@ -239,14 +284,34 @@ margin-top: 1%;
             
         }
         .staff{
-            margin-top: 30%;
+            margin-top: 0%;
         }
         .student{
-            margin-top: 30%;
+            margin-top: 5%;
+            margin-left: -5%;
         }
-        .ftrdesc p{
-            text-align: center;
-            margin-left: 18%;
-            width: 60%;
+        .zealousfooter p{
+            text-align: start;
+            margin-left: 2%;
+            width: 90%;
+        }
+        .date {
+            margin-top: 10%;
+        }
+        .mapimg{
+            display: flex;
+            justify-content: left;
+            margin-left: 2%;
+        }
+        .icon-container #icon{
+    
+            margin: 0% 7% 0% 7%;
+            margin-top: -5%;
+        }
+        .footercontainer{
+            padding-bottom: 50px;
+        }
+        .connect{
+            margin-top: 7%;
         }
 }

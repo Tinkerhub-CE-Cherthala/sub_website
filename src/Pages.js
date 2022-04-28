@@ -9,7 +9,17 @@ import Mainfooter from './components/Mainfooter/Mainfooter'
 
 function Pages() {
   const [loading,setLoading] = useState(true);
+  const [navbar,setNavbar] = useState(false);
 
+
+  const changeBackground = ()=>{
+        if(window.scrollY>100){
+          setNavbar(true);
+        }
+       else{
+          setNavbar(false);
+        }
+      } 
 
   useEffect(() => {
     setLoading(true);
@@ -18,7 +28,16 @@ function Pages() {
       },2000)
 
   }, [])
+
+  useEffect(() => {
+    window.addEventListener('scroll',changeBackground);  
+      return () => {
+        window.removeEventListener('scroll',changeBackground);
+      }
+  }, [])
   
+  
+ 
 
 
   return (
@@ -37,7 +56,7 @@ function Pages() {
           
             <div>
 
-          <Navbar /> 
+        { navbar && <Navbar />} 
 {/* 
           <div >
           

@@ -10,9 +10,16 @@ html{
   scroll-behavior: smooth;
   overflow-x: hidden;
   
+  
+  
 }
 body{
   overflow-x: hidden;
+  
+}
+.background{
+  background-color: #191919;
+  
 }
 
 /* .App {

@@ -5,7 +5,7 @@ import './App.css';
 import List from './components/general/List';
 import Listee from './components/eee/Listee';
 
-import Index from "./components/Index";
+// import Index from "./components/Index";
 import Days from "./components/Schedule/Days";
 
 import Listcomp from "./components/Competitions/Listcomp";
