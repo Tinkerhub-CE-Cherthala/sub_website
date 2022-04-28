@@ -13,6 +13,7 @@ export default function Front() {
               <img src={logo} className='logo' alt='logo' />
               <p className='title'>ZEALOUS 5.0</p>
               <p className='caption'>Explore the New Horizon</p>
+              <p className='dates'><span className='datespan'>6</span> & <span className='datespan'> 7</span> May</p>
             </div>
             
             <div class="scroll">
