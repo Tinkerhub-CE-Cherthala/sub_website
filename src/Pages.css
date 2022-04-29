@@ -5,11 +5,20 @@
     border-radius: 20px;
     width: 50px;
     height: 50px;
-    right: 50px;
-    bottom: 90px;
-    z-index: 0;
+    right: 20px;
+    bottom: 30px;
+    z-index: 2;
     padding: 9px;
 }
 .themap:hover{
     background-color: #000000;
+}
+@media (max-width: 800px){
+    .themap
+    {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        bottom: 40px;
+    }
 }

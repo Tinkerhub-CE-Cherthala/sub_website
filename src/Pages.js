@@ -5,8 +5,8 @@ import Front from './components/Frontp/Front';
 import Event from './components/Events/Event';
 import About from './components/About/About';
 import Mainfooter from './components/Mainfooter/Mainfooter'
-// import pin from './images/pin.png';
-
+import pin from './images/pin.png';
+import './Pages.css'
 function Pages() {
   const [loading,setLoading] = useState(true);
   const [navbar,setNavbar] = useState(false);
@@ -57,9 +57,9 @@ function Pages() {
             <div>
 
         { navbar && <Navbar />} 
-        {/* <a href={'https://virtualtour-zealouscec.netlify.app/'} rel="noopener noreferrer" target='_blank'>
+        <a href={'https://virtualtour-zealouscec.netlify.app/'} rel="noopener noreferrer" target='_blank'>
         <img src={pin} alt='map' className='themap' />
-        </a> */}
+        </a> 
 
 {/* 
           <div >
@@ -78,7 +78,7 @@ function Pages() {
           {/* <Footer />  */}
           <Mainfooter/>
         </div>   
-       
+        
           </div>
          )
       }
