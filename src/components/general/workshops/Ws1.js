@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 import Mainfooter from "../../Mainfooter/Mainfooter";
@@ -9,6 +9,26 @@ function Ws1() {
   const toggleTab = (index) => {
     setToggleState(index);
   };
+  useEffect(() => {
+    
+      document.head.innerHTML+=`
+      
+      <meta property="og:title" content="Ethical hacking"/>  
+    <meta property="og:description" content="Ethical hacking event registrations"/>  
+    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/Resus.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="300"/>
+    <meta property="og:image:height" content="300"/>
+    <meta property="og:url" content="https://www.zealouscec.com/EthicalHacking"/>
+      
+      `
+  
+   
+  }, []);
+
+
+
 
   return (
     <>
