@@ -83,7 +83,7 @@ And be there at 6th & 7th of May at College Of Engineering Cherthala.         </
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Anuvind Shaj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Anuvind Shaji</li>
               <li className={tab.highspace}>Event head</li>
               
               <li className={tab.highspace}><a href="tel:+919037804284" aria-hidden="true">+91 9037804284</a></li>

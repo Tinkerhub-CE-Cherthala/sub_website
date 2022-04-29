@@ -86,7 +86,7 @@ function Other6() {
               <li className={`${tab.highspace} ${tab.eventhead}`}>Sangeeth subhash</li>
               <li className={tab.highspace}>Event head</li>
               <li className={tab.highspace}>vishnusangeeth21@gmail.com</li>
-              <li className={tab.highspace}><a href="tel:+918281797758" aria-hidden="true">+91 8281797758</a></li>
+              <li className={tab.highspace}><a href="tel:+918547963858" aria-hidden="true">+91 8547963858</a></li>
             </ul>
             <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Shuhaib</li>
