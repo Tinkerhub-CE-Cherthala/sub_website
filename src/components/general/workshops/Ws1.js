@@ -15,9 +15,14 @@ function Ws1() {
     <>
     <MetaTags>
             <title>Ethical Hacking</title>
-            <meta name="description" content="Zealous  presents a workshop on Ethical Hacking where, you will be able to uncover a lot about the world of cybersecurity and potential vulnerabilities that can exist in computer systems and computer networks of today's world." />
-            <meta property="og:title" content="Ethical Hacking" />
-            <meta property="og:image" content="https://www.zealouscec.com/Resus.png" />
+            <meta property="og:title" content="Zealous"/>  
+    <meta property="og:description" content="Zealous event registrations"/>  
+    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/zealous1.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="300"/>
+    <meta property="og:image:height" content="300"/>
+    <meta property="og:url" content="https://www.zealouscec.com"/>
     </MetaTags>
     
       <Navbar />
