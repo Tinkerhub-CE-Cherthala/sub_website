@@ -45,16 +45,12 @@ import Ws6 from "./components/general/workshops/Ws6"
 import Listothers from "./components/Others/Listothers";
 import Pages from "./Pages";
 
-import {Helmet} from 'react-helmet'
-
 
 function App() {
   return (
     <div className="background">
     <Router>
     <Routes>
-
-
       <Route exact path="/" element={<Pages/>}/>
       <Route path="/error" element={<Listee/>}/>
 
