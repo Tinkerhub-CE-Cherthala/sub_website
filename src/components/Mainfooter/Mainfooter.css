@@ -59,6 +59,13 @@ margin-left: 1%;
     
 }
 
+#d2{
+    display: flex;
+}
+#mp{
+    margin-left: 2%;
+    margin-top: -5%;
+}
 
 .getin #how{
     margin-top: 5%;
@@ -321,5 +328,10 @@ margin-left: 1%;
         }
         .connect{
             margin-top: 7%;
+        }
+        #mp{
+            margin-left: 3%;
+            margin-top: -4%;
+            
         }
 }

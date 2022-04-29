@@ -17,16 +17,21 @@ function Mainfooter() {
           <div className='ftrdesc'>
            <p id="descri">Zealous 5.0, the annual technical fest of College of engineering cherthala, is an enthralling kaleidoscope of internally invigorating events. It has something in store for all and brings together renowned experts of various spheres of academic and the corporate industry.</p>
           </div>
+
+
+          
           <div className='date' >
             <p id='d1'>Date: May 6th & 7th</p>
-            <p id='d2'>Venue: College of engineering cherthala</p>
-          </div>
+            <p id='d2'>Venue: College Of Engineering Cherthala <span id='mp'>
+              
           <div className='mapimg'>
           <a href='https://goo.gl/maps/w9vaLNeW658fpAiN9' rel="noopener noreferrer" target="_blank" >
               <img src={map} alt="map" /> 
-
           </a>
           </div>
+              </span> </p>
+          </div>
+        
           
           {/* <div className="connect">
             <h3>Connect with us</h3>
