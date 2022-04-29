@@ -54,11 +54,8 @@ import Pages from "./Pages";
 function App() {
   return (
     <div className="background">
-
     <Router>
     <Routes>
-
-
       <Route exact path="/" element={<Pages/>}/>
       <Route path="/error" element={<Listee/>}/>
 
