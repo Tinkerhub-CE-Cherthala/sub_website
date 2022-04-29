@@ -34,6 +34,11 @@ import Other7 from "./components/Others/genevent/Other7";
 import Other8 from "./components/Others/genevent/Other8";
 import Other9 from "./components/Others/genevent/Other9";
 import Other10 from "./components/Others/genevent/Other10";
+import Other11 from "./components/Others/genevent/Other11";
+import Other12 from "./components/Others/genevent/Other12";
+import Other13 from "./components/Others/genevent/Other13";
+import Other14 from "./components/Others/genevent/Other14";
+import Other15 from "./components/Others/genevent/Other15";
 
 import Ws1 from "./components/general/workshops/Ws1";
 import Ws2 from "./components/general/workshops/Ws2";
@@ -86,6 +91,11 @@ function App() {
       <Route path="/VirtualGames" element={<Other8 />} />
       <Route path="/StarOfZealous" element={<Other9 />} />
       <Route path="/SellnWill" element={<Other10 />} />
+      <Route path="/PesTourniment" element={<Other11 />} />
+      <Route path="/PUBGtourniment" element={<Other12 />} />
+      <Route path="/CallOfDuty" element={<Other13 />} />
+      <Route path="/Valorant" element={<Other14 />} />
+      <Route path="/MiniMilitia" element={<Other15 />} />
       
 
       <Route path="/EthicalHacking" element={<Ws1 />} />

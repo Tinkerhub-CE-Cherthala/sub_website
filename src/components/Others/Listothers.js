@@ -87,7 +87,7 @@ function Listothers(){
                     </div>
                 </div> */}
 
-                <div class={Listt.box}>
+                <div class={Listt.box}  data-aos="fade-up">
                 <h3>Star of zealous</h3>
                     <div class={Listt.info}>
                         
@@ -95,11 +95,51 @@ function Listothers(){
                     </div>
                 </div>
 
-                <div class={Listt.box}>
+                <div class={Listt.box}  data-aos="fade-up">
                 <h3>Sell & Win</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/SellnWill' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>Pes Tournament</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/PesTourniment' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>PUPG Tournament</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/PUBGtourniment' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box} data-aos="fade-up">
+                <h3>Call Of Duty: Mobile</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/CallOfDuty' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box}>
+                <h3>Valorant</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/Valorant' class={Listt.btn}>DETAILS </Link>
+                    </div>
+                </div>
+
+                <div class={Listt.box}>
+                <h3>Mini Militia</h3>
+                    <div class={Listt.info}>
+                        
+                    <Link to='/MiniMilitia' class={Listt.btn}>DETAILS </Link>
                     </div>
                 </div>
                 
