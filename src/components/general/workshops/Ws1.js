@@ -12,15 +12,9 @@ function Ws1() {
   useEffect(() => {
     
       document.head.innerHTML+=`
+      <meta name='description' content='Ethical hacking'/>
+      <meta name='keywords' content='hacking ethicalhacking'/>
       
-      <meta property="og:title" content="Ethical hacking"/>  
-    <meta property="og:description" content="Ethical hacking event registrations"/>  
-    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/Resus.png"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image:type" content="image/png"/>
-    <meta property="og:image:width" content="300"/>
-    <meta property="og:image:height" content="300"/>
-    <meta property="og:url" content="https://www.zealouscec.com/EthicalHacking"/>
       
       `
   
