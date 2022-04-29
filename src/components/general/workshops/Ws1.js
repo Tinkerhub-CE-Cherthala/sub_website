@@ -3,7 +3,7 @@ import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 import Mainfooter from "../../Mainfooter/Mainfooter";
 import { Helmet } from "react-helmet";
-import img from '../../../images/Resus.png'
+
 
 function Ws1() {
   const [toggleState, setToggleState] = useState(1);
