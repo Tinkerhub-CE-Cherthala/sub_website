@@ -3,6 +3,8 @@ import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 import Mainfooter from "../../Mainfooter/Mainfooter";
 import { Helmet } from "react-helmet";
+import img from '../../../images/Resus.png'
+
 function Ws1() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -26,7 +28,7 @@ function Ws1() {
   /> */}
   <meta property="og:title" content="Ethical Hacking"/>  
     <meta property="og:description" content="Ethical Hacking"/>  
-    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/Resus.png"/>
+    <meta property="og:image" itemprop="image" content={img}/>
     <meta property="og:type" content="website"/>
     <meta property="og:image:type" content="image/png"/>
     <meta property="og:image:width" content="300"/>
