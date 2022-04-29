@@ -14,7 +14,6 @@ function Ws1() {
 
   return (
     <div>
-    <div>
      <Helmet>
   
   {/* <title>Music Lyrics</title> */}
@@ -26,9 +25,10 @@ function Ws1() {
       name="keywords"
       content="Music, Audio, Lyrics"
   /> */}
+  <title>Ethical Hacking</title>
   <meta property="og:title" content="Ethical Hacking"/>  
     <meta property="og:description" content="Ethical Hacking"/>  
-    <meta property="og:image" itemprop="image" content={img}/>
+    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/Resus.png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image:type" content="image/png"/>
     <meta property="og:image:width" content="300"/>
@@ -37,6 +37,7 @@ function Ws1() {
 
 </Helmet>
     
+      <div>
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Ethical Hacking</p>
