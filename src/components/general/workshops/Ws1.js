@@ -2,8 +2,7 @@ import { useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 import Mainfooter from "../../Mainfooter/Mainfooter";
-import MetaTags from 'react-meta-tags'
-
+import {Helmet} from "react-helmet";
 function Ws1() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -13,7 +12,7 @@ function Ws1() {
 
   return (
     <>
-    <MetaTags>
+    <Helmet>
             <title>Ethical Hacking</title>
             <meta property="og:title" content="Zealous"/>  
     <meta property="og:description" content="Zealous event registrations"/>  
@@ -23,7 +22,7 @@ function Ws1() {
     <meta property="og:image:width" content="300"/>
     <meta property="og:image:height" content="300"/>
     <meta property="og:url" content="https://www.zealouscec.com"/>
-    </MetaTags>
+    </Helmet>
     
       <Navbar />
     <div className={tab.container}>
