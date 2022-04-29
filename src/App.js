@@ -45,10 +45,23 @@ import Ws6 from "./components/general/workshops/Ws6"
 import Listothers from "./components/Others/Listothers";
 import Pages from "./Pages";
 
+import {Helmet} from 'react-helmet'
+
 
 function App() {
   return (
     <div className="background">
+      <Helmet>
+        <title>Zealous 5.0</title>
+        <meta property="og:title" content="Zealous"/>  
+    <meta property="og:description" content="Zealous event registrations"/>  
+    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/zealous1.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="300"/>
+    <meta property="og:image:height" content="300"/>
+    <meta property="og:url" content="https://www.zealouscec.com"/>
+      </Helmet>
 
     <Router>
     <Routes>
