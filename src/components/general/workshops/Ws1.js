@@ -2,7 +2,7 @@ import { useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 import Mainfooter from "../../Mainfooter/Mainfooter";
-import MetaTags from 'react-meta-tags';
+import { Helmet } from "react-helmet";
 function Ws1() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -12,12 +12,28 @@ function Ws1() {
 
   return (
     <div>
-     <MetaTags>
-             <title>Ethical Hacking</title> 
-            <meta name="description" content="Zealous  presents a workshop on Ethical Hacking where, you will be able to uncover a lot about the world of cybersecurity and potential vulnerabilities that can exist in computer systems and computer networks of today's world." />
-            <meta property="og:title" content="Ethical Hacking" />
-            <meta property="og:image" content="https://www.zealouscec.com/Resus.png" />
-          </MetaTags>
+    <div>
+     <Helmet>
+  
+  {/* <title>Music Lyrics</title> */}
+  {/* <meta
+      name="description"
+      content="Get lyrics of every music for free"
+  />
+  <meta
+      name="keywords"
+      content="Music, Audio, Lyrics"
+  /> */}
+  <meta property="og:title" content="Ethical Hacking"/>  
+    <meta property="og:description" content="Ethical Hacking"/>  
+    <meta property="og:image" itemprop="image" content="https://www.zealouscec.com/Resus.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="300"/>
+    <meta property="og:image:height" content="300"/>
+    <meta property="og:url" content="https://www.zealouscec.com/EthicalHacking"/> 
+
+</Helmet>
     
       <Navbar />
     <div className={tab.container}>
@@ -97,6 +113,7 @@ function Ws1() {
       </div>
     </div>
     <Mainfooter/>
+  </div>
   </div>
   );
 }
