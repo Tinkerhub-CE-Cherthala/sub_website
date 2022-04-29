@@ -2,6 +2,7 @@ import { useState,useEffect } from "react";
 import Navbar from "../../Navbar/Navbar";
 import tab from './Ws.module.css';
 import Mainfooter from "../../Mainfooter/Mainfooter";
+import MetaTags from 'react-meta-tags'
 
 function Ws1() {
   const [toggleState, setToggleState] = useState(1);
@@ -9,23 +10,15 @@ function Ws1() {
   const toggleTab = (index) => {
     setToggleState(index);
   };
-  useEffect(() => {
-    
-      document.head.innerHTML+=`
-      <meta name='description' content='Ethical hacking'/>
-      <meta name='keywords' content='hacking ethicalhacking'/>
-      
-      
-      `
-  
-   
-  }, []);
-
-
-
 
   return (
     <>
+    <MetaTags>
+            <title>Ethical Hacking</title>
+            <meta name="description" content="Zealous  presents a workshop on Ethical Hacking where, you will be able to uncover a lot about the world of cybersecurity and potential vulnerabilities that can exist in computer systems and computer networks of today's world." />
+            <meta property="og:title" content="Ethical Hacking" />
+            <meta property="og:image" content="https://www.zealouscec.com/Resus.png" />
+    </MetaTags>
     
       <Navbar />
     <div className={tab.container}>
