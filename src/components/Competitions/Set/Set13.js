@@ -104,10 +104,10 @@ the specified time will be the winner.</li>
               <li className={tab.highspace}><a href="tel:+919562381894" aria-hidden="true">+91 9562381894</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Amrutha Sunilraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Akshay A U</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}>amruthasunilraj9@gmail.com </li>
-              <li className={tab.highspace}><a href="tel:+919567017417" aria-hidden="true">+91 9567017417</a></li>
+              <li className={tab.highspace}>akshayudayakumar1999@gmail.com </li>
+              <li className={tab.highspace}><a href="tel:+918921884886" aria-hidden="true">+91 8921884886</a></li>
             </ul>
           </div>
           

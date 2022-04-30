@@ -15,7 +15,7 @@ function Other6() {
     
       <Navbar />
     <div className={tab.container}>
-      <p className={tab.eventname}>Photography competition</p>
+      <p className={tab.eventname}>Shutter up</p>
       <a href="https://forms.gle/XauUUUXBVfyhtCHNA"rel="noopener noreferrer" target='_blank' className={tab.regbutton}>register</a>
 
       <div className={tab.toplights}>

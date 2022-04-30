@@ -61,7 +61,7 @@ function Other13() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>100/team</p>
+              <p>80/team</p>
             </div>
           </div>
     

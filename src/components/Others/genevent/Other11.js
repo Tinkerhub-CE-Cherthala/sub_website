@@ -73,15 +73,15 @@ function Other11() {
           >
           <div className={tab.highcontacts}>
             <ul className={tab.highbox}>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Aswin S</li>
+              <li className={tab.highspace}>Event head</li>
+              <li className={tab.highspace}><a href="tel:+918592936369" aria-hidden="true">+91 8592936369</a></li>
+            </ul>
+            <ul className={tab.highbox}>
               <li className={`${tab.highspace} ${tab.eventhead}`}>Manish Manoj</li>
               <li className={tab.highspace}>Event head</li>
               
               <li className={tab.highspace}><a href="tel:+919567692364" aria-hidden="true">+91 9567692364</a></li>
-            </ul>
-            <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Aswin S</li>
-              <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}><a href="tel:+918592936369" aria-hidden="true">+91 8592936369</a></li>
             </ul>
             
           </div>

@@ -89,9 +89,9 @@ And be there at 6th & 7th of May at College Of Engineering Cherthala.         </
               <li className={tab.highspace}><a href="tel:+919037804284" aria-hidden="true">+91 9037804284</a></li>
             </ul>
             <ul className={tab.highbox}>
-              <li className={`${tab.highspace} ${tab.eventhead}`}>Amrutha Sunilraj</li>
+              <li className={`${tab.highspace} ${tab.eventhead}`}>Gayathri Belraj</li>
               <li className={tab.highspace}>Event head</li>
-              <li className={tab.highspace}><a href="tel:+919567017417" aria-hidden="true">+91 9567017417</a></li>
+              <li className={tab.highspace}><a href="tel:+918078873930" aria-hidden="true">+91 8078873930</a></li>
             </ul>
             
           </div>
