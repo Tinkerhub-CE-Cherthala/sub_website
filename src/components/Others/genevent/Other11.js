@@ -16,7 +16,7 @@ function Other11() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Pes Tournament</p>
-       {/* <a href="https://rzp.io/l/I0mHzoRT" rel="noopener noreferrer" target='_blank' className={tab.regbutton}>register</a>  */}
+      <a href="https://forms.gle/iCUYgXa46KHJdKcZ8" rel="noopener noreferrer" target='_blank' className={tab.regbutton}>register</a> 
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
