@@ -52,7 +52,8 @@ function Other3() {
           className={toggleState === 1 ? `${tab.content}  ${tab.activecontent}` : tab.content}
         >
           <p className={tab.p}>
-          Electronics based Technical Quiz.            </p>
+          A General Quiz which contains General Knowledge, Aptitudes & Technicals of Basics of Computer Science Engineering, Electrical Engineering & Electronics Engineering.
+          </p>
           <div className={tab.highlights}>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Time</p>
@@ -76,11 +77,12 @@ function Other3() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>There will be three rounds: Preliminary, Secondary & Final Round.</li>
-            <li className={tab.p}>First two rounds will be of question and answer type.</li>
-            <li className={tab.p}>Final Round will be of decoding the images given.</li>
-            <li className={tab.p}>First Two Rounds comprises of 10 questions each. </li>
-            <li className={tab.p}>Final Round contains 5 questions.</li>
+            <li className={tab.p}>There will be 3 rounds : Preliminary..... Ath same.. </li>
+            <li className={tab.p}> First Round comprises of General Knowledge & Current Affairs in the form of identification of images as well as question & answer type. </li>
+            <li className={tab.p}>Second Round contains the aptitude section of MCQ type. </li>
+            <li className={tab.p}>Final Round is of Rapid Fire Round comprising of the Technical Basics in the form of face to face challenge. </li>
+            <li className={tab.p}>Team Participation is only allowed with each of 2 members in each team. </li>
+            <li className={tab.p}>In Final Round, Each team will be asked for 5 questions and the team which answers the questions in shortest time will be rewarded.</li>
             <li className={tab.p}>Enter the venue at least 15 minutes before the scheduled time in order to
 reduce the last minute rush. </li>
             <li className={tab.p}>Uses of Mobile phones & other electronic gadgets such as smart watches,
