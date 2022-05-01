@@ -112,7 +112,7 @@ function Listothers(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>PUPG Tournament</h3>
+                <h3>PUBG Tournament</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/PUBGtourniment' class={Listt.btn}>DETAILS </Link>
