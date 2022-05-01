@@ -64,7 +64,7 @@ function Other4() {
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
-              <p>15</p>
+              <p>20</p>
             </div>
           </div>
         </div>
