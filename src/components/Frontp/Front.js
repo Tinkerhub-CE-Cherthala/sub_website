@@ -34,7 +34,7 @@ export default function Front() {
               </div>
 
               <div id='desc'>
-                <p id='desc1'>Every improvement or innovation begin with an idea.But an idea is a only possibility - a small beginning that must be nurtured, developed ,engineer, tinkered with, championed,tested, implemented and checked ideas have no value until they are implemented</p>
+                <p id='desc1'>Every improvement or innovation begin with an idea. But an idea is an only possibility - a small beginning that must be nurtured, developed, engineered, tinkered with, championed, tested, implemented & checked. Ideas have no value until they are implemented..</p>
               </div>
               </Fade>
               <div className='bottom'>

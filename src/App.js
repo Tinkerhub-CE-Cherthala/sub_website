@@ -83,8 +83,8 @@ function App() {
       <Route path="/Risus" element={<Other2 />} />
       <Route path="/QuizOPhile" element={<Other3 />} />
       <Route path="/TECH-TODAY" element={<Other4 />} />
-      <Route path="/Photography" element={<Other6 />} />
-      <Route path="/SpotPhotography" element={<Other7 />} />
+      <Route path="/SpotPhotography" element={<Other6 />} />
+      <Route path="/Photography" element={<Other7 />} />
       <Route path="/VirtualGames" element={<Other8 />} />
       <Route path="/StarOfZealous" element={<Other9 />} />
       <Route path="/SellnWill" element={<Other10 />} />

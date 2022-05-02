@@ -77,7 +77,7 @@ function Other3() {
             Rules
           </p>
           <ul>
-            <li className={tab.p}>There will be 3 rounds : Preliminary..... Ath same.. </li>
+            <li className={tab.p}>There will be 3 rounds : Preliminary, Secondary and the Final round. </li>
             <li className={tab.p}> First Round comprises of General Knowledge & Current Affairs in the form of identification of images as well as question & answer type. </li>
             <li className={tab.p}>Second Round contains the aptitude section of MCQ type. </li>
             <li className={tab.p}>Final Round is of Rapid Fire Round comprising of the Technical Basics in the form of face to face challenge. </li>
