@@ -72,7 +72,7 @@ function Listothers(){
                 </div>
 
                 <div class={Listt.box} data-aos="fade-up">
-                <h3>Fotograpia</h3>
+                <h3>Fotographia</h3>
                     <div class={Listt.info}>
                         
                     <Link to='/SpotPhotography' class={Listt.btn}>DETAILS </Link>
