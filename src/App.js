@@ -6,7 +6,7 @@ import List from './components/general/List';
 import Listee from './components/eee/Listee';
 
 // import Index from "./components/Index";
-import Days from "./components/Schedule/Days";
+import Day from "./components/Schedule/Day";
 
 import Listcomp from "./components/Competitions/Listcomp";
 
@@ -63,7 +63,7 @@ function App() {
       <Route path="/workshops" element={<List />} />
       <Route path="/competitions" element={<Listcomp />} />
       <Route path="/general" element={<Listothers />} />
-      <Route path="/schedule" element={<Days />} />
+      <Route path="/schedule" element={<Day />} />
       
       <Route path="/racezilla" element={<Set1 />} />
       <Route path="/TurnARound" element={<Set2 />} />

@@ -51,14 +51,14 @@ export default function Index() {
         
 ======= */}
           <Navbar /> 
-{/* 
+ 
+
           <div >
           
->>>>>>> new_features
+{/* >>>>>>> new_features */}
             <img src={pin} alt='map' className='themap' />
           
-        </a>  
-
+        </div>  
           
       
         
@@ -67,13 +67,13 @@ export default function Index() {
          </div> 
         <div className='main'>
           <Event /> 
-            {/* <Schedule />   */}
+           {/* <Schedule />    */}
           <About /> 
           <Footer /> 
         </div>   
        
-          {/* </div> */}
-        //  </StrictMode>
+          </div>
+        </StrictMode>
          )
 }
         
