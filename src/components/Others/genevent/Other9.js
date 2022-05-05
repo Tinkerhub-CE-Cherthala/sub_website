@@ -73,7 +73,7 @@ And be there at 6th & 7th of May at College Of Engineering Cherthala.         </
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Date</p>
-              <p>6 May</p>
+              <p>7 May</p>
             </div>
             <div className={tab.highlightdiv}>
               <p className={tab.highlightheading}>Entry fee</p>
