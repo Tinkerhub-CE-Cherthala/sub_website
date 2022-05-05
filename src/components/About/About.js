@@ -56,7 +56,7 @@ function About() {
           <img class={Aboutcss.imgfluid} src={staff} alt='profile'/>
         </div>
         <div class={Aboutcss.teamcontent}>
-          <h3 class={Aboutcss.name}>Anitha devadas</h3>
+          <h3 class={Aboutcss.name}>Anitha M A</h3>
           <h4 class={Aboutcss.title}>Staff coordinator</h4>
         </div>
         <ul class={Aboutcss.social}>
