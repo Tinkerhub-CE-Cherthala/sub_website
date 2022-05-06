@@ -16,7 +16,7 @@ function Ws6() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Solder spin</p>
-      <a href="https://rzp.io/l/kG1YtwRMM2" className={tab.regbutton}>register</a>
+      {/* <a href="https://rzp.io/l/kG1YtwRMM2" className={tab.regbutton}>register</a> */}
       <div className={tab.bloctabs}>
         <button
           className={toggleState === 1 ? `${tab.tabs} ${tab.activetabs}` : tab.tabs}

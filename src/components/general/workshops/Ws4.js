@@ -16,7 +16,7 @@ function Ws4() {
       <Navbar />
     <div className={tab.container}>
       <p className={tab.eventname}>Managerial Workshop</p>
-      <a href="https://rzp.io/l/Ima2Bnw" rel="noopener noreferrer" target="_blank" className={tab.regbutton}>register</a>
+      {/* <a href="https://rzp.io/l/Ima2Bnw" rel="noopener noreferrer" target="_blank" className={tab.regbutton}>register</a> */}
       <div className={tab.toplights}>
         <div className={tab.toplightdiv}>
           
