@@ -25,7 +25,7 @@ function Set5() {
         </div>
       </div>
 
-      <a href="https://rzp.io/l/vOnYlRE7O0" rel="noopener noreferrer" target="_blank"  className={tab.regbutton}>register</a>
+      {/* <a href="https://rzp.io/l/vOnYlRE7O0" rel="noopener noreferrer" target="_blank"  className={tab.regbutton}>register</a> */}
 
       <div className={tab.bloctabs}>
         <button
