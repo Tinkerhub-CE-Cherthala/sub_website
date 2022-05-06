@@ -45,13 +45,7 @@ function List(){
                     </div>
                 </div>
 
-                <div class={Listt.box} data-aos="fade-up">
-                <h3>Electric Vehicles</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/ElectricVehicles' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+                
 
                 <div class={Listt.box} data-aos="fade-up">
                 <h3>Managerial Workshop</h3>

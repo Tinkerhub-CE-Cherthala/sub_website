@@ -41,21 +41,9 @@ function Listcomp(){
                     </div>
                 </div> */}
 
-                <div class={Listt.box} data-aos="fade-up">
-                    <h3>Turn a' round Z5.0</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/TurnARound' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+                
 
-                <div class={Listt.box} data-aos="fade-up">
-                    <h3>Short circuit Z5.0</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/ShortCircuit' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+                
 
                 <div class={Listt.box} data-aos="fade-up">
                     <h3>Prison Break</h3>
@@ -82,21 +70,9 @@ function Listcomp(){
                     </div>
                 </div>
                 
-                <div class={Listt.box} data-aos="fade-up">
-                <h3>Crypto-Busters</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/Crypto-Busters' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+                
 
-                <div class={Listt.box} data-aos="fade-up">
-                <h3>ZEA-MAD</h3>
-                    <div class={Listt.info}>
-                        
-                    <Link to='/ZEA-MAD' class={Listt.btn}>DETAILS </Link>
-                    </div>
-                </div>
+           
 
                 <div class={Listt.box} data-aos="fade-up">
                 <h3>Mindspark</h3>
